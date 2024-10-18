@@ -78,10 +78,7 @@
 				"Can I know your name?",
 				"What should I call you?",
 				"Do you have a name?",
-				"What's your name?",
-				"How should I address you?",
-				"Name please?",
-				"Who am I talking to?"
+				"What's your name?"
 			],
 			"responses": [
 				"My name is Bili.",

@@ -12,14 +12,21 @@ function updateStatus() {
             // Add the wave effect when listening, remove it otherwise
             if (data.status === 'Listening') {
                 circleElement.classList.add('pulse-wave');
+                circleElement.classList.remove('speaking-wave'); // Ensure speaking wave is removed
+            } else if (data.status === 'Speaking') {
+                circleElement.classList.add('speaking-wave');
+                circleElement.classList.remove('pulse-wave'); // Ensure pulse wave is removed
             } else {
+                // If neither, remove both classes
                 circleElement.classList.remove('pulse-wave');
+                circleElement.classList.remove('speaking-wave');
             }
         });
 }
 
 // Update the status every second
 setInterval(updateStatus, 1000);
+
 
 
 
