@@ -89,53 +89,51 @@
 				"Just call me Bili!"
 			]
 		},
-		[
-			{
-				"tag": "nakib",
-				"patterns": [
-					"who is nakib",
-					"nakibul islam",
-					"tell me about nakib",
-					"who is Nakibul Islam",
-					"nakib"
-				],
-				"responses": [
-					"Md. Nakibul Islam is a dedicated student at IUB, passionate about technology and innovation. He is the creative mind behind my development!",
-					"Nakibul Islam is an ambitious individual studying at IUB, where he explores new ideas and builds fascinating projects like me.",
-					"Meet Md. Nakibul Islam, a student at IUB who loves to learn and create. He played a significant role in bringing me to life!"
-				]
-			},
-			{
-				"tag": "hana_sultan",
-				"patterns": [
-					"who is Hana Sultan",
-					"tell me about Hana",
-					"Hana Sultan information",
-					"what can you tell me about Hana Sultan",
-					"Hana"
-				],
-				"responses": [
-					"Hana Sultan is an inspiring individual known for her creativity and leadership. She is always eager to help and motivate others!",
-					"Meet Hana Sultan, a remarkable person with a passion for art and community service. Her positivity is contagious!",
-					"Hana Sultan is a talented and driven individual, always looking for ways to make a difference and inspire those around her."
-				]
-			},
-			{
-				"tag": "umme_aiman",
-				"patterns": [
-					"who is Umme Aiman",
-					"tell me about Aiman",
-					"Umme Aiman information",
-					"what can you tell me about Umme Aiman",
-					"Aiman"
-				],
-				"responses": [
-					"Umme Aiman is a dynamic individual known for her intelligence and determination. She is dedicated to her studies and personal growth.",
-					"Meet Umme Aiman, a bright and ambitious student with a passion for learning. She is always seeking new challenges and opportunities!",
-					"Umme Aiman is an impressive individual who balances her academic pursuits with her love for community engagement and innovation."
-				]
-			}
-		],
+		{
+			"tag": "nakib",
+			"patterns": [
+				"who is nakib",
+				"nakibul islam",
+				"tell me about nakib",
+				"who is Nakibul Islam",
+				"nakib"
+			],
+			"responses": [
+				"Md. Nakibul Islam is a dedicated student at IUB, passionate about technology and innovation. He is the creative mind behind my development!",
+				"Nakibul Islam is an ambitious individual studying at IUB, where he explores new ideas and builds fascinating projects like me.",
+				"Meet Md. Nakibul Islam, a student at IUB who loves to learn and create. He played a significant role in bringing me to life!"
+			]
+		},
+		{
+			"tag": "hana_sultan",
+			"patterns": [
+				"who is Hana Sultan",
+				"tell me about Hana",
+				"Hana Sultan information",
+				"what can you tell me about Hana Sultan",
+				"Hana"
+			],
+			"responses": [
+				"Hana Sultan is an inspiring individual known for her creativity and leadership. She is always eager to help and motivate others!",
+				"Meet Hana Sultan, a remarkable person with a passion for art and community service. Her positivity is contagious!",
+				"Hana Sultan is a talented and driven individual, always looking for ways to make a difference and inspire those around her."
+			]
+		},
+		{
+			"tag": "umme_aiman",
+			"patterns": [
+				"who is Umme Aiman",
+				"tell me about Aiman",
+				"Umme Aiman information",
+				"what can you tell me about Umme Aiman",
+				"Aiman"
+			],
+			"responses": [
+				"Umme Aiman is a dynamic individual known for her intelligence and determination. She is dedicated to her studies and personal growth.",
+				"Meet Umme Aiman, a bright and ambitious student with a passion for learning. She is always seeking new challenges and opportunities!",
+				"Umme Aiman is an impressive individual who balances her academic pursuits with her love for community engagement and innovation."
+			]
+		},
 		{
 			"tag": "iubnfo",
 			"patterns": [

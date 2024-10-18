@@ -51,12 +51,12 @@ def predict_class(sentence):
 
 # Function to get a response based on the predicted intent (tag)
 def get_response(predicted_tag):
-    for intent in intents['intents']:
-        if intent['tag'] == predicted_tag:
-            return random.choice(intent['responses'])  # Return a random response from the list of responses
+    for intent in intents['intents']:  # Ensure this is a list of dictionaries
+        print(f"Checking intent: {intent['tag']} against {predicted_tag}")  # Debugging line
+        if intent['tag'] == predicted_tag:  
+            return random.choice(intent['responses'])
     return "Sorry, I didn't quite understand that. Can you please rephrase?"
 
-# Enhanced error handling and better responses
 def handle_response(predicted_classes):
     if predicted_classes:
         # Check confidence of the top class
@@ -64,15 +64,16 @@ def handle_response(predicted_classes):
         
         # If the top intent confidence is strong enough, return the corresponding response
         if top_confidence > 0.75:
+            print(f"Top class: {top_class}, Confidence: {top_confidence}")  # Debugging line
             return get_response(top_class)
         elif len(predicted_classes) > 1:
-            # If the confidence is lower but there are other close matches, suggest clarification
             second_class, second_confidence = predicted_classes[1]
             return f"Did you mean '{top_class}' or '{second_class}'?"
         else:
             return f"I'm not very sure. Did you mean '{top_class}'?"
     else:
         return "Sorry, I didn't understand that. Can you please try again?"
+
 
 # Test the model with an input sentence
 while True:
