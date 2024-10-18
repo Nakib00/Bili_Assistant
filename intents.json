@@ -4,15 +4,23 @@
 			"tag": "greeting",
 			"patterns": [
 				"Hi",
-				"How are you",
+				"How are you?",
 				"Is anyone there?",
 				"Hello",
-				"Good day"
+				"Good day",
+				"Hey",
+				"What's up?",
+				"Greetings",
+				"Howdy",
+				"Salutations"
 			],
 			"responses": [
-				"Hello, thanks for visiting",
-				"Good to see you",
-				"Hi dear, how can I help?"
+				"Hello, thanks for visiting!",
+				"Good to see you!",
+				"Hi dear, how can I help you?",
+				"Hey there! What can I do for you?",
+				"Welcome! How may I assist you today?",
+				"Greetings! How can I help you today?"
 			]
 		},
 		{
@@ -21,12 +29,21 @@
 				"Bye",
 				"See you later",
 				"Goodbye",
-				"tata"
+				"Tata",
+				"Catch you later",
+				"Have a nice day",
+				"Take care",
+				"Until next time",
+				"Farewell",
+				"See you soon"
 			],
 			"responses": [
-				"See you later, thanks for visiting",
-				"Have a nice day",
-				"Bye! Come back again soon."
+				"See you later, thanks for visiting!",
+				"Have a nice day!",
+				"Bye! Come back again soon.",
+				"Take care! Looking forward to our next chat.",
+				"Goodbye! Stay safe!",
+				"Until next time! It was great chatting with you."
 			]
 		},
 		{
@@ -35,12 +52,21 @@
 				"Thanks",
 				"Thank you",
 				"That's helpful",
-				"Thanks for the help"
+				"Thanks for the help",
+				"I appreciate it",
+				"You're great",
+				"Thank you very much",
+				"Thanks a lot",
+				"Thanks for your assistance",
+				"You are awesome"
 			],
 			"responses": [
 				"Happy to help!",
 				"Any time!",
-				"My pleasure"
+				"My pleasure!",
+				"Glad I could assist!",
+				"You're welcome!",
+				"No problem at all! I'm here to help."
 			]
 		},
 		{
@@ -48,14 +74,71 @@
 			"patterns": [
 				"What is your name?",
 				"Who are you?",
-				"Tell me your name"
+				"Tell me your name",
+				"Can I know your name?",
+				"What should I call you?",
+				"Do you have a name?",
+				"What's your name?",
+				"How should I address you?",
+				"Name please?",
+				"Who am I talking to?"
 			],
 			"responses": [
-				"Bili",
-				" My name is Bili",
-				"i'm Bili"
+				"My name is Bili.",
+				"You can call me Bili.",
+				"I'm Bili, your virtual assistant.",
+				"I'm known as Bili.",
+				"Bili is the name I go by.",
+				"Just call me Bili!"
 			]
 		},
+		[
+			{
+				"tag": "nakib",
+				"patterns": [
+					"who is nakib",
+					"nakibul islam",
+					"tell me about nakib",
+					"who is Nakibul Islam",
+					"nakib"
+				],
+				"responses": [
+					"Md. Nakibul Islam is a dedicated student at IUB, passionate about technology and innovation. He is the creative mind behind my development!",
+					"Nakibul Islam is an ambitious individual studying at IUB, where he explores new ideas and builds fascinating projects like me.",
+					"Meet Md. Nakibul Islam, a student at IUB who loves to learn and create. He played a significant role in bringing me to life!"
+				]
+			},
+			{
+				"tag": "hana_sultan",
+				"patterns": [
+					"who is Hana Sultan",
+					"tell me about Hana",
+					"Hana Sultan information",
+					"what can you tell me about Hana Sultan",
+					"Hana"
+				],
+				"responses": [
+					"Hana Sultan is an inspiring individual known for her creativity and leadership. She is always eager to help and motivate others!",
+					"Meet Hana Sultan, a remarkable person with a passion for art and community service. Her positivity is contagious!",
+					"Hana Sultan is a talented and driven individual, always looking for ways to make a difference and inspire those around her."
+				]
+			},
+			{
+				"tag": "umme_aiman",
+				"patterns": [
+					"who is Umme Aiman",
+					"tell me about Aiman",
+					"Umme Aiman information",
+					"what can you tell me about Umme Aiman",
+					"Aiman"
+				],
+				"responses": [
+					"Umme Aiman is a dynamic individual known for her intelligence and determination. She is dedicated to her studies and personal growth.",
+					"Meet Umme Aiman, a bright and ambitious student with a passion for learning. She is always seeking new challenges and opportunities!",
+					"Umme Aiman is an impressive individual who balances her academic pursuits with her love for community engagement and innovation."
+				]
+			}
+		],
 		{
 			"tag": "iubnfo",
 			"patterns": [
