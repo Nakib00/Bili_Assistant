@@ -111,7 +111,7 @@ optimizer = Adam(learning_rate=0.001)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 
 # Train the model
-hist = model.fit(train_x, train_y, epochs=10000, batch_size=8, verbose=1, validation_split=0.2)
+hist = model.fit(train_x, train_y, epochs=3000, batch_size=8, verbose=1, validation_split=0.2)
 
 # Save the trained model
 model.save('model_combined.h5')
