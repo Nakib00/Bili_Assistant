@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BILI Robot</title>
+    <!-- Link to the CSS file -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4"
+  >
+    <h1 class="text-3xl font-bold mb-4">Talking to Bili!</h1>
+    <p id="status" class="mb-8 text-xl">Go ahead, I'm listening...</p>
+
+    <p id="bot_reply" class="mb-8 text-xl"></p>
+
+    <div
+      id="listeningCircle"
+      class="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 mb-8"
+    ></div>
+
+    <p id="user_input" class="mb-4 text-lg"></p>
+
+    <!-- Link to the JavaScript file -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

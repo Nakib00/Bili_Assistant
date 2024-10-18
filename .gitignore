@@ -1,0 +1,11 @@
+# Ignore the .env file
+.env
+
+# Ignore the env/ folder
+.venv/
+
+# Ignore specific model and data files
+model_combined.h5
+model.h5
+words.pkl
+classes.pkl
