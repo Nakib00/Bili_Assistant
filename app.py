@@ -10,20 +10,13 @@ lemmatizer = WordNetLemmatizer()
 import speech_recognition as sr
 import pyttsx3
 from gtts import gTTS
+import torch
+from model import NeuralNet
+from nltk_utils import bag_of_words, tokenize
 
 
 # Initialize Flask app
 app = Flask(__name__)
-
-# Global variables to store the "You said" and "Bot" responses
-user_input_data = ""
-bot_reply_data = ""
-
-# Set the console to use UTF-8 encoding for Unicode characters
-sys.stdout.reconfigure(encoding='utf-8')
-
-# Load environment variables from .env file
-load_dotenv()
 
 # Initialize the speech recognizer and text-to-speech engine
 recognizer = sr.Recognizer()
@@ -167,67 +160,87 @@ def handle_special_cases(user_input):
     return None  # No special case detected
 
 
-# Load model
-model = load_model("model_combined.h5")
+# Global variables to store the "You said" and "Bot" responses
+user_input_data = ""
+bot_reply_data = ""
 
-# Load data files
-intents_json = json.load(open("intents.json"))
-intents_bangali_json = json.load(open("intents_bengali.json", encoding="utf-8"))
-words = pickle.load(open("words.pkl", "rb"))
-classes = pickle.load(open("classes.pkl", "rb"))
+# Set the console to use UTF-8 encoding for Unicode characters
+sys.stdout.reconfigure(encoding='utf-8')
 
-# Clean up sentence
-def clean_up_sentence(sentence):
-    sentence_words = nltk.word_tokenize(sentence)
-    sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
-    return sentence_words
+# Load environment variables from .env file
+load_dotenv()
 
-# Create bag of words
-def bow(sentence, words, show_details=True):
-    sentence_words = clean_up_sentence(sentence)
-    bag = [0] * len(words)
-    for s in sentence_words:
-        for i, w in enumerate(words):
-            if w == s:
-                bag[i] = 1
-                if show_details:
-                    print("found in bag: %s" % w)
-    return np.array(bag)
+# Check for available device (GPU or CPU)
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# Predict class
-def predict_class(sentence, model):
-    p = bow(sentence, words, show_details=False)
-    res = model.predict(np.array([p]))[0]
-    ERROR_THRESHOLD = 0.25
-    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-    results.sort(key=lambda x: x[1], reverse=True)
-    return_list = []
-    for r in results:
-        return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
-    return return_list
+# Load intents from both JSON files with utf-8 encoding
+intents = []
+with open('intents.json', 'r', encoding='utf-8') as json_data:
+    intents += json.load(json_data)['intents']  # Use += to add list elements
 
-# Get response
-def getResponse(ints, intents_json, intents_bangali_json):
-    tag = ints[0]["intent"]
-    list_of_intents = intents_json["intents"] + intents_bangali_json["intents"]
-    for i in list_of_intents:
-        if i["tag"] == tag:
-            result = random.choice(i["responses"])
-            break
-    return result
+with open('intents_bengali.json', 'r', encoding='utf-8') as json_data:
+    intents += json.load(json_data)['intents']  # Use += to add list elements
+
+# Load the model
+FILE = "data.pth"
+data = torch.load(FILE, weights_only=True)
+
+input_size = data["input_size"]
+hidden_size = data["hidden_size"]
+output_size = data["output_size"]
+all_words = data['all_words']
+tags = data['tags']
+model_state = data["model_state"]
+
+# Initialize the neural network model
+model = NeuralNet(input_size, hidden_size, output_size).to(device)
+model.load_state_dict(model_state)
+model.eval()
+
+bot_name = "bili"
+current_context = None  # Initialize current_context variable
 
 # Get  response
 def get_model_response(user_input):
     """Get a response from the custom intent model only."""
     
-    # Predict the class of the user input
-    predicted_intents = predict_class(user_input, model)
+    global current_context  # Use the global variable
 
-    if predicted_intents:  # If we have predictions
-        # Get the custom response based on the predicted intent
-        custom_response = getResponse(predicted_intents, intents_json, intents_bangali_json)
-        if custom_response:
-            return custom_response
+    # Check for context and update it
+    if current_context and not any(context in user_input for context in current_context):
+        user_input = f"{current_context[0]} {user_input}"
+
+    sentence = tokenize(user_input)
+
+    X = bag_of_words(sentence, all_words)
+    X = X.reshape(1, X.shape[0])
+    X = torch.from_numpy(X).to(device)
+
+    output = model(X)
+    _, predicted = torch.max(output, dim=1)
+
+    tag = tags[predicted.item()]
+
+    probs = torch.softmax(output, dim=1)
+    prob = probs[0][predicted.item()]
+
+    # Check if the confidence is high and handle context
+    if prob.item() > 0.75:
+        response = None  # Initialize response variable
+
+        # Check the type of intents variable to debug
+        print(f"Type of intents: {type(intents)}")  # Debugging: check the type
+
+        for intent in intents:  # Iterate through intents
+            if isinstance(intent, dict) and tag == intent["tag"]:  # Ensure intent is a dictionary
+                response = random.choice(intent['responses'])
+
+                # Check if the intent has a context set
+                if "context_set" in intent:
+                    current_context = intent["context_set"]
+                    break  # Break the loop after finding a matching intent
+
+        return response
 
     # Handle special cases like map or video
     special_response = handle_special_cases(user_input)

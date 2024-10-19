@@ -1,123 +1,126 @@
-import random
 import numpy as np
 import json
-import nltk
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout
-from tensorflow.keras.optimizers import Adam
-import pickle
+import torch
+import torch.nn as nn
+from torch.utils.data import Dataset, DataLoader
+from nltk_utils import bag_of_words, tokenize, stem
+from model import NeuralNet
 
-# Download necessary NLTK resources
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('stopwords')
+intents_files = ['intents.json', 'intents_bengali.json']
+intents = []
 
-# Initialize the lemmatizer
-lemmatizer = WordNetLemmatizer()
+for file in intents_files:
+    with open(file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        print(f"Loaded data from {file}:", data)  # Debugging line
+        intents.extend(data['intents'])  # Ensure data['intents'] is a list of intents
 
-# Initialize stopwords
-stop_words = set(stopwords.words('english'))
+# Process each intent
+all_words = []
+tags = []
+xy = []
+for intent in intents:
+    if isinstance(intent, dict):  # Check if intent is a dict
+        tag = intent['tag']
+        tags.append(tag)
+        for pattern in intent['patterns']:
+            w = tokenize(pattern)  # Ensure tokenize function is defined
+            all_words.extend(w)
+            context_set = intent.get('context_set', [])
+            xy.append((w, tag, context_set))
 
-# Initialize lists to store data
-words = []
-classes = []
-documents = []
-ignore_words = ['?', '!', '.']
+# Stem and lower each word
+ignore_words = ['?', '.', '!']
+all_words = [stem(w) for w in all_words if w not in ignore_words]
+# Remove duplicates and sort
+all_words = sorted(set(all_words))
+tags = sorted(set(tags))
 
-# Function to load and preprocess intents data
-def load_intents(file_path):
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            intents = json.load(file)
-        for intent in intents['intents']:
-            for pattern in intent['patterns']:
-                # Tokenize each word in the sentence
-                word_list = word_tokenize(pattern)
-                word_list = [w for w in word_list if w not in stop_words]  # Remove stopwords
-                words.extend(word_list)
-                # Add the tokenized sentence and the intent tag to documents
-                documents.append((word_list, intent['tag']))
-                # Add to classes if the tag is not already present
-                if intent['tag'] not in classes:
-                    classes.append(intent['tag'])
-    except Exception as e:
-        print(f"Error loading intents from {file_path}: {e}")
+print(len(xy), "patterns")
+print(len(tags), "tags:", tags)
+print(len(all_words), "unique stemmed words:", all_words)
 
-# Load intents from both JSON files
-load_intents('intents.json')
-load_intents('intents_bengali.json')
+# Create training data
+X_train = []
+y_train = []
+for (pattern_sentence, tag, context_set) in xy:
+    # X: bag of words for each pattern_sentence
+    bag = bag_of_words(pattern_sentence, all_words)
+    X_train.append(bag)
+    # y: PyTorch CrossEntropyLoss needs only class labels, not one-hot
+    label = tags.index(tag)
+    y_train.append(label)
 
-# Lemmatize and lower each word, and remove duplicates
-words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
-words = sorted(list(set(words)))
+X_train = np.array(X_train)
+y_train = np.array(y_train)
 
-# Sort classes alphabetically
-classes = sorted(list(set(classes)))
+# Hyper-parameters
+num_epochs = 5000
+batch_size = 8
+learning_rate = 0.001
+input_size = len(X_train[0])
+hidden_size = 8
+output_size = len(tags)
+print(input_size, output_size)
 
-# Print basic information
-print(f"{len(documents)} documents")
-print(f"{len(classes)} classes: {classes}")
-print(f"{len(words)} unique lemmatized words: {words}")
+class ChatDataset(Dataset):
+    def __init__(self):
+        self.n_samples = len(X_train)
+        self.x_data = X_train
+        self.y_data = y_train
 
-# Save words and classes to files
-pickle.dump(words, open('words.pkl', 'wb'))
-pickle.dump(classes, open('classes.pkl', 'wb'))
+    # Support indexing such that dataset[i] can be used to get i-th sample
+    def __getitem__(self, index):
+        return self.x_data[index], self.y_data[index]
 
-# Create the training data
-training = []
-output_empty = [0] * len(classes)
+    # We can call len(dataset) to return the size
+    def __len__(self):
+        return self.n_samples
 
-# Create the training set: bag of words for each sentence
-for doc in documents:
-    bag = []
-    pattern_words = doc[0]
-    # Lemmatize the words in the current pattern
-    pattern_words = [lemmatizer.lemmatize(word.lower()) for word in pattern_words]
-    # Create the bag of words array with 1 if word is present in the pattern, otherwise 0
-    for word in words:
-        bag.append(1) if word in pattern_words else bag.append(0)
-    
-    # Output is a '0' for each tag and '1' for the current tag
-    output_row = list(output_empty)
-    output_row[classes.index(doc[1])] = 1
+dataset = ChatDataset()
+train_loader = DataLoader(dataset=dataset,
+                          batch_size=batch_size,
+                          shuffle=True,
+                          num_workers=0)
 
-    training.append([bag, output_row])
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# Shuffle the training data
-random.shuffle(training)
+model = NeuralNet(input_size, hidden_size, output_size).to(device)
 
-# Split the data into X (patterns) and Y (intents)
-train_x = np.array([item[0] for item in training], dtype=np.float32)  # Bags of words (input data)
-train_y = np.array([item[1] for item in training], dtype=np.float32)  # One-hot encoded intents (labels)
-
-# Print the size of the training data
-print(f"Training data created with shapes: train_x: {train_x.shape}, train_y: {train_y.shape}")
-
-# Build the Sequential model
-model = Sequential()
-model.add(Dense(256, input_shape=(len(train_x[0]),), activation='relu'))  # Increased number of neurons
-model.add(Dropout(0.5))
-model.add(Dense(128, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(len(train_y[0]), activation='softmax'))
-
-# Compile the model with Adam optimizer
-optimizer = Adam(learning_rate=0.001)
-model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
+# Loss and optimizer
+criterion = nn.CrossEntropyLoss()
+optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 # Train the model
-hist = model.fit(train_x, train_y, epochs=3000, batch_size=8, verbose=1, validation_split=0.2)
+for epoch in range(num_epochs):
+    for (words, labels) in train_loader:
+        words = words.to(device)
+        labels = labels.to(dtype=torch.long).to(device)
 
-# Save the trained model
-model.save('model_combined.h5')
+        # Forward pass
+        outputs = model(words)
+        loss = criterion(outputs, labels)
 
-# Save training history to a file for analysis
-with open('training_history.json', 'w') as file:
-    json.dump(hist.history, file)
+        # Backward and optimize
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
 
-print("Model trained and saved as model_combined.h5")
+    if (epoch + 1) % 100 == 0:
+        print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {loss.item():.4f}')
+
+print(f'final loss: {loss.item():.4f}')
+
+data = {
+    "model_state": model.state_dict(),
+    "input_size": input_size,
+    "hidden_size": hidden_size,
+    "output_size": output_size,
+    "all_words": all_words,
+    "tags": tags
+}
+
+FILE = "data.pth"
+torch.save(data, FILE)
+
+print(f'training complete. file saved to {FILE}')

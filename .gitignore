@@ -6,6 +6,6 @@
 
 # Ignore specific model and data files
 model_combined.h5
-model.h5
+data.pth
 words.pkl
 classes.pkl

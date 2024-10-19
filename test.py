@@ -1,92 +1,94 @@
-import json
-import numpy as np
-import pickle
-from keras.models import load_model
-import nltk
-from nltk.tokenize import word_tokenize
 import random
+import json
+import torch
+from model import NeuralNet
+from nltk_utils import bag_of_words, tokenize
 
-# Load the trained combined model
-model = load_model("model_combined.h5")
+# Check for available device (GPU or CPU)
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# Load words and classes
-words = pickle.load(open("words.pkl", "rb"))
-classes = pickle.load(open("classes.pkl", "rb"))
+# Load intents from both JSON files with utf-8 encoding
+intents = []
+with open('intents.json', 'r', encoding='utf-8') as json_data:
+    intents += json.load(json_data)['intents']  # Use += to add list elements
 
-# Load intents JSON files for both languages
-with open("intents.json") as file_en:
-    intents_en = json.load(file_en)
+with open('intents_bengali.json', 'r', encoding='utf-8') as json_data:
+    intents += json.load(json_data)['intents']  # Use += to add list elements
 
-with open("intents_bengali.json", encoding="utf-8") as file_bn:
-    intents_bn = json.load(file_bn)
+# Debugging: Print the structure of loaded intents
+print(f"Loaded intents: {intents}")  # Add this line to check structure
 
-# Combine intents from both languages
-intents = {'intents': intents_en['intents'] + intents_bn['intents']}
+# Load the model
+FILE = "data.pth"
+data = torch.load(FILE, weights_only=True)
 
-# Function to clean up the input sentence and convert it into a bag of words
-def clean_up_sentence(sentence):
-    sentence_words = word_tokenize(sentence.lower())  # Tokenize the sentence
-    bag = [0] * len(words)  # Create a bag of words of the same length as the vocabulary
+input_size = data["input_size"]
+hidden_size = data["hidden_size"]
+output_size = data["output_size"]
+all_words = data['all_words']
+tags = data['tags']
+model_state = data["model_state"]
 
-    for word in sentence_words:
-        if word in words:
-            bag[words.index(word)] = 1  # Mark 1 if the word exists in the vocabulary
-    return np.array(bag)
+# Initialize the neural network model
+model = NeuralNet(input_size, hidden_size, output_size).to(device)
+model.load_state_dict(model_state)
+model.eval()
 
-# Function to predict the intent of the input sentence
-def predict_class(sentence):
-    bag_of_words = clean_up_sentence(sentence)
-    res = model.predict(np.array([bag_of_words]))[0]  # Predict the class
+bot_name = "bili"
+current_context = None  # Initialize current_context variable
 
-    # Get the index of the highest probability class
-    threshold = 0.25  # Only consider predictions above a certain probability threshold
-    results = [[i, r] for i, r in enumerate(res) if r > threshold]
+def get_response(msg):
+    global current_context  # Use the global variable
 
-    if results:
-        results.sort(key=lambda x: x[1], reverse=True)  # Sort by highest probability
-        predicted_classes = [(classes[i], prob) for i, prob in results]
-        return predicted_classes  # Return list of predicted classes with their probabilities
-    else:
-        return None  # Return None if no intent is predicted with sufficient confidence
+    # Check for context and update it
+    if current_context and not any(context in msg for context in current_context):
+        msg = f"{current_context[0]} {msg}"
 
-# Function to get a response based on the predicted intent (tag)
-def get_response(predicted_tag):
-    for intent in intents['intents']:  # Ensure this is a list of dictionaries
-        print(f"Checking intent: {intent['tag']} against {predicted_tag}")  # Debugging line
-        if intent['tag'] == predicted_tag:  
-            return random.choice(intent['responses'])
-    return "Sorry, I didn't quite understand that. Can you please rephrase?"
+    sentence = tokenize(msg)
 
-def handle_response(predicted_classes):
-    if predicted_classes:
-        # Check confidence of the top class
-        top_class, top_confidence = predicted_classes[0]
-        
-        # If the top intent confidence is strong enough, return the corresponding response
-        if top_confidence > 0.75:
-            print(f"Top class: {top_class}, Confidence: {top_confidence}")  # Debugging line
-            return get_response(top_class)
-        elif len(predicted_classes) > 1:
-            second_class, second_confidence = predicted_classes[1]
-            return f"Did you mean '{top_class}' or '{second_class}'?"
-        else:
-            return f"I'm not very sure. Did you mean '{top_class}'?"
-    else:
-        return "Sorry, I didn't understand that. Can you please try again?"
+    X = bag_of_words(sentence, all_words)
+    X = X.reshape(1, X.shape[0])
+    X = torch.from_numpy(X).to(device)
 
+    output = model(X)
+    _, predicted = torch.max(output, dim=1)
 
-# Test the model with an input sentence
-while True:
-    user_input = input("Enter a sentence in English or Bengali (type 'exit' to quit): ")
-    if user_input.lower() == 'exit':
-        break
+    tag = tags[predicted.item()]
 
-    # Predict the intent(s) with their confidence scores
-    predicted_intents = predict_class(user_input)
+    probs = torch.softmax(output, dim=1)
+    prob = probs[0][predicted.item()]
+
+    # Check if the confidence is high and handle context
+    if prob.item() > 0.75:
+        response = None  # Initialize response variable
+
+        # Check the type of intents variable to debug
+        print(f"Type of intents: {type(intents)}")  # Debugging: check the type
+
+        for intent in intents:  # Iterate through intents
+            if isinstance(intent, dict) and tag == intent["tag"]:  # Ensure intent is a dictionary
+                response = random.choice(intent['responses'])
+
+                # Check if the intent has a context set
+                if "context_set" in intent:
+                    current_context = intent["context_set"]
+                    break  # Break the loop after finding a matching intent
+
+        return response
+
+    return "I do not understand..."
+
+def run_chatbot():
+    print(f"{bot_name}: Hello! I am here to assist you. Type 'exit' to quit the chat.")
     
-    # Handle response based on predictions
-    if predicted_intents:
-        response = handle_response(predicted_intents)
-        print(f"Bot response: {response}")
-    else:
-        print("Sorry, I couldn't find an appropriate response.")
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() == 'exit':
+            print(f"{bot_name}: Goodbye!")
+            break
+
+        response = get_response(user_input)
+        print(f"{bot_name}: {response}")
+
+if __name__ == "__main__":
+    run_chatbot()
