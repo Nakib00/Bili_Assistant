@@ -4298,6 +4298,64 @@
 			]
 		},
 		{
+			"tag": "jokes",
+			"patterns": [
+				"Tell me some jokes",
+				"Do you have any jokes?",
+				"Can you make me laugh?",
+				"I want to hear a joke",
+				"Give me a joke",
+				"joke"
+			],
+			"responses": [
+				"Why don't scientists trust atoms? Because they make up everything!",
+				"What do you call fake spaghetti? An impasta!",
+				"Why did the scarecrow win an award? Because he was outstanding in his field!",
+				"I'm reading a book on anti-gravity. It's impossible to put down!",
+				"Why did the math book look sad? Because it had too many problems.",
+				"Why don’t skeletons fight each other? They don’t have the guts!",
+				"What do you call cheese that isn't yours? Nacho cheese!",
+				"Why couldn't the bicycle stand up by itself? It was two-tired!",
+				"What do you get when you cross a snowman and a vampire? Frostbite!",
+				"Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+				"What did one wall say to the other wall? I'll meet you at the corner!",
+				"Why was the math teacher suspicious of prime numbers? Because they were acting odd!"
+			]
+		},
+		{
+			"tag": "sing_song",
+			"patterns": [
+				"Sing a song",
+				"Can you sing something?",
+				"I want to hear a song",
+				"Do you know any songs?",
+				"Please sing for me",
+				"song"
+			],
+			"responses": [
+				"🎵 Twinkle, twinkle, little star, how I wonder what you are! 🎵",
+				"🎶 Row, row, row your boat, gently down the stream. Merrily, merrily, merrily, merrily, life is but a dream. 🎶",
+				"🎵 If you're happy and you know it, clap your hands! 👏 🎵",
+				"🎶 The wheels on the bus go round and round, round and round, round and round. 🎶",
+				"🎵 You are my sunshine, my only sunshine. You make me happy when skies are gray. 🎵",
+				"🎶 Old MacDonald had a farm, E-I-E-I-O, and on that farm he had a cow. 🎶",
+				"🎵 This old man, he played one, he played knick-knack on my thumb. 🎵",
+				"🎶 London Bridge is falling down, falling down, falling down. 🎶",
+				"🎵 Head, shoulders, knees, and toes, knees and toes! 🎵",
+				"🎶 Mary had a little lamb, little lamb, little lamb. 🎶",
+				"🎵 The itsy bitsy spider climbed up the waterspout. Down came the rain and washed the spider out. 🎵",
+				"🎶 Hickory dickory dock, the mouse ran up the clock. The clock struck one, the mouse ran down, hickory dickory dock. 🎶",
+				"🎵 Baa, baa, black sheep, have you any wool? Yes sir, yes sir, three bags full! 🎵",
+				"🎶 Five little ducks went out one day, over the hills and far away. 🎶",
+				"🎵 I'm a little teapot, short and stout. Here is my handle, here is my spout. 🎵",
+				"🎶 This little piggy went to market, this little piggy stayed home. 🎶",
+				"🎵 You put your right foot in, you take your right foot out, you do the hokey pokey and you turn yourself about! 🎵",
+				"🎶 Ring a ring o' roses, a pocket full of posies. A-tishoo! A-tishoo! We all fall down. 🎶",
+				"🎵 Hey diddle diddle, the cat and the fiddle, the cow jumped over the moon. 🎵",
+				"🎶 Little Bo Peep has lost her sheep, and doesn't know where to find them. 🎶"
+			]
+		},
+		{
 			"tag": "insults_english",
 			"patterns": [
 				"motherfucker",

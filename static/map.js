@@ -6,7 +6,7 @@ var map = L.map('map', {
     zoom: 50
 });
 
-// Load the house floor plan as an image layer
+// Load the house floor plan as an image layer 
 var bounds = [
     [0, 0],
     [500, 500]
