@@ -1,12 +1,6 @@
-# Standard library imports
-import os, sys, time, webbrowser, requests, pygame,pickle, random, numpy as np, nltk, re, json
-
+import os, sys, time, webbrowser, requests, pygame, pickle, random, numpy as np, nltk, re, json
 from dotenv import load_dotenv
 from flask import Flask, render_template, jsonify
-from tensorflow.keras.models import load_model
-from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer()
-# Third-party library imports
 import speech_recognition as sr
 import pyttsx3
 from gtts import gTTS
@@ -14,13 +8,54 @@ import torch
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
+from nltk.stem import WordNetLemmatizer
+from nltk.stem import PorterStemmer
 
-# Initialize Flask app
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from fuzzywuzzy import fuzz
+import gensim.downloader as api
+
 app = Flask(__name__)
 
-# Initialize the speech recognizer and text-to-speech engine
+lemmatizer = WordNetLemmatizer()
+stemmer = PorterStemmer()
+
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
+
+# Set the initial language for recognition and response
+language = 'en-US'  
+use_gtts = False
+
+# Flag to manage whether the system is speaking
+speaking = False
+
+# Load intents from both JSON files with utf-8 encoding
+intents = []
+with open('intents.json', 'r', encoding='utf-8') as json_data:
+    intents += json.load(json_data)['intents']  # Use += to add list elements
+
+with open('intents_bengali.json', 'r', encoding='utf-8') as json_data:
+    intents += json.load(json_data)['intents']  # Use += to add list elements
+
+# Load pre-trained word embeddings
+print("Loading word embeddings...")
+word_vectors = api.load("glove-wiki-gigaword-100")
+print("Word embeddings loaded.")
+
+# Initialize TF-IDF vectorizer
+tfidf_vectorizer = TfidfVectorizer()
+
+# Prepare corpus for TF-IDF
+corpus = []
+for intent in intents:
+    if isinstance(intent, dict):
+        corpus.extend(intent['patterns'])
+
+# Fit TF-IDF vectorizer
+tfidf_matrix = tfidf_vectorizer.fit_transform(corpus)
+
 
 # Set the initial language for recognition and response
 language = 'en-US'  # Default to English
@@ -32,37 +67,40 @@ speaking = False
 def listen():
     """Capture and recognize speech, returning the recognized text."""
     global language, use_gtts, speaking, user_input_data
-    while speaking:  # Wait until speaking is finished before listening
-        time.sleep(0.1)  # Slight delay to prevent high CPU usage
+    
+    # Wait until speaking is finished before listening
+    while speaking:
+        time.sleep(0.1)
     
     with sr.Microphone() as source:
         print("Listening...")
-        recognizer.adjust_for_ambient_noise(source)  # Adjust for ambient noise based on the environment
-        audio = recognizer.listen(source, phrase_time_limit=15)  # No timeout, just a phrase time limit of 15 seconds
+        recognizer.adjust_for_ambient_noise(source, duration=0.5)
         try:
+            audio = recognizer.listen(source, timeout=5, phrase_time_limit=15)
             text = recognizer.recognize_google(audio, language=language)
             print(f"You said: {text}")
             user_input_data = text  # Store user input for Flask display
 
-            # Switch to Bengali if the word "Bangla" is spoken
+            # Language switching logic
             if 'bangla' in text.lower() or 'Bangla' in text:
                 language = 'bn-BD'
                 use_gtts = True
-                print("Switched to Bengali language for recognition and response")
-
-            # Switch back to English if the word "English" or "ইংলিশ" is spoken
+                reply("Switched to Bengali language for recognition and response")
             elif 'english' in text.lower() or 'ইংলিশ' in text:
                 language = 'en-US'
                 use_gtts = False
-                print("Switched to English language for recognition and response")
+                reply("Switched to English language for recognition and response")
 
             return text
+        except sr.WaitTimeoutError:
+            print("Listening timed out. Please try again.")
         except sr.UnknownValueError:
             print("Google Speech Recognition could not understand audio")
-            return None
         except sr.RequestError as e:
             print(f"Error from Google Speech Recognition service: {e}")
-            return None
+    
+    return None
+
 
 def reply(response):
     """Use Google Text-to-Speech to reply with the first 10 lines of the given response."""
@@ -98,6 +136,11 @@ def reply(response):
     os.remove("response.mp3")  # Now it is safe to delete the file
 
     speaking = False
+# Example function to play the audio (you can modify this part)
+
+def play_audio(filename):
+    # Add your audio playing logic here
+    print(f"Playing {filename}...")
 
 def handle_special_cases(user_input):
     """Handle special cases like opening a specific location map or responding to a general map request."""
@@ -157,8 +200,7 @@ def handle_special_cases(user_input):
             webbrowser.open(f"http://127.0.0.1:5000/map?destination={dropdown_value}")
             return f"Redirecting to the map for {keyword.capitalize()}."
 
-    return None  # No special case detected
-
+    return None
 
 # Global variables to store the "You said" and "Bot" responses
 user_input_data = ""
@@ -172,14 +214,6 @@ load_dotenv()
 
 # Check for available device (GPU or CPU)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
-# Load intents from both JSON files with utf-8 encoding
-intents = []
-with open('intents.json', 'r', encoding='utf-8') as json_data:
-    intents += json.load(json_data)['intents']  # Use += to add list elements
-
-with open('intents_bengali.json', 'r', encoding='utf-8') as json_data:
-    intents += json.load(json_data)['intents']  # Use += to add list elements
 
 # Load the model
 FILE = "data.pth"
@@ -200,55 +234,86 @@ model.eval()
 bot_name = "bili"
 current_context = None  # Initialize current_context variable
 
-# Get  response
+def preprocess_sentence(sentence):
+    """Tokenizes, stems, and lemmatizes the input sentence."""
+    tokens = tokenize(sentence)
+    stemmed_words = [stemmer.stem(word.lower()) for word in tokens]
+    lemmatized_words = [lemmatizer.lemmatize(word.lower()) for word in tokens]
+    return set(stemmed_words), set(lemmatized_words)
+
+def get_sentence_vector(sentence):
+    """Get the average word vector for a sentence."""
+    words = sentence.lower().split()
+    word_vectors_list = [word_vectors[word] for word in words if word in word_vectors]
+    if not word_vectors_list:
+        return None
+    return np.mean(word_vectors_list, axis=0)
+
+def match_intent(user_input):
+    """Match user input to the best intent using TF-IDF, cosine similarity, and word embeddings."""
+    stemmed_input, lemmatized_input = preprocess_sentence(user_input)
+    input_vector = tfidf_vectorizer.transform([user_input])
+    input_embedding = get_sentence_vector(user_input)
+
+    best_match_tag = None
+    best_match_score = 0
+
+    for intent in intents:
+        if isinstance(intent, dict):
+            tag = intent['tag']
+            for pattern in intent['patterns']:
+                pattern_vector = tfidf_vectorizer.transform([pattern])
+                cosine_score = cosine_similarity(input_vector, pattern_vector)[0][0]
+
+                stemmed_pattern, lemmatized_pattern = preprocess_sentence(pattern)
+                fuzzy_score = max(
+                    fuzz.ratio(user_input.lower(), pattern.lower()),
+                    fuzz.partial_ratio(user_input.lower(), pattern.lower())
+                ) / 100
+
+                pattern_embedding = get_sentence_vector(pattern)
+                embedding_score = 0
+                if input_embedding is not None and pattern_embedding is not None:
+                    embedding_score = cosine_similarity([input_embedding], [pattern_embedding])[0][0]
+
+                score = (cosine_score + fuzzy_score + embedding_score) / 3
+
+                if score > best_match_score:
+                    best_match_score = score
+                    best_match_tag = tag
+
+    return best_match_tag, best_match_score
+
 def get_model_response(user_input):
-    """Get a response from the custom intent model only."""
+    """Get a response from the custom intent model."""
     
-    global current_context  # Use the global variable
+    # Get the predicted intent and probability
+    tag, prob = match_intent(user_input)
 
-    # Check for context and update it
-    if current_context and not any(context in user_input for context in current_context):
-        user_input = f"{current_context[0]} {user_input}"
+    # Confidence threshold
+    if prob > 0.6:
+        for intent in intents:
+            if intent['tag'] == tag:
+                # Pick a random response from the intent's responses
+                model_response = random.choice(intent['responses'])
+                
+                # Check if the model's response needs to be overridden by a special case
+                special_response = handle_special_cases(user_input)
+                
+                # If there is a special case response, return that; otherwise, return the model's response
+                return special_response if special_response else model_response
 
-    sentence = tokenize(user_input)
-
-    X = bag_of_words(sentence, all_words)
-    X = X.reshape(1, X.shape[0])
-    X = torch.from_numpy(X).to(device)
-
-    output = model(X)
-    _, predicted = torch.max(output, dim=1)
-
-    tag = tags[predicted.item()]
-
-    probs = torch.softmax(output, dim=1)
-    prob = probs[0][predicted.item()]
-
-    # Check if the confidence is high and handle context
-    if prob.item() > 0.75:
-        response = None  # Initialize response variable
-
-        # Check the type of intents variable to debug
-        print(f"Type of intents: {type(intents)}")  # Debugging: check the type
-
-        for intent in intents:  # Iterate through intents
-            if isinstance(intent, dict) and tag == intent["tag"]:  # Ensure intent is a dictionary
-                response = random.choice(intent['responses'])
-
-                # Check if the intent has a context set
-                if "context_set" in intent:
-                    current_context = intent["context_set"]
-                    break  # Break the loop after finding a matching intent
-
-        return response
-
-    # Handle special cases like map or video
-    special_response = handle_special_cases(user_input)
-    if special_response:
-        return special_response
-
-    # If no special cases or intent matches, return a fallback response
-    return "I'm sorry, I didn't understand that. Can you please rephrase?"
+    # If no valid intent is found, or the confidence is too low, use fallback responses
+    fallback_responses = [
+        "I'm sorry, I didn't quite understand that. Could you please rephrase?",
+        "I'm not sure I follow. Can you explain that in a different way?",
+        "I'm having trouble understanding. Could you provide more context?",
+        "I apologize, but I'm not familiar with that. Can you try asking something else?",
+        "I'm still learning and that's a bit unclear to me. Can you try rephrasing your question?"
+    ]
+    
+    # Return a random fallback response if no valid intent or special case is found
+    return random.choice(fallback_responses)
 
 
 # Flask route to show the current user input and bot reply
@@ -268,13 +333,11 @@ def get_data():
         'bot_reply': bot_reply_data
     })
 
-
 @app.route("/get_system_status", methods=["GET"])
 def get_system_status():
     global system_status
     return jsonify({"status": system_status})
 
-# Main loop: Update to use the new model-based response
 if __name__ == "__main__":
     # Initialize pygame (important to do this before using mixer)
     pygame.init()
