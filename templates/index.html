@@ -11,10 +11,16 @@
 <body class="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4">
     <h1 class="text-3xl font-bold mb-4 pb-8">Talking to Bili!</h1>
 
-    <!-- circle -->
-    <div id="listeningCircle" class="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 mb-8"></div>
+    <!-- Circle with mascot -->
+    <div id="listeningCircle" class="w-64 h-64 rounded-full bg-colour mb-8 flex items-center justify-center relative pulse-wave">
+    <img id="mascot" src="/static/images/listening.svg" alt="Mascot" class="mascot-image"> <!-- Use class for styling -->
+</div>
 
-    <!-- status -->
+    
+
+
+
+    <!-- Status -->
     <p id="status" class="mb-8 text-xl pt-4">Go ahead, I'm listening...</p>
 
     <!-- Chat container -->
@@ -29,6 +35,8 @@
     </div>
 
     <!-- Link to the JavaScript file -->
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="/static/script.js"></script>
 </body>
+
+
 </html>

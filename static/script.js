@@ -5,27 +5,38 @@ function updateStatus() {
         .then((data) => {
             const statusElement = document.getElementById('status');
             const circleElement = document.getElementById('listeningCircle');
+            const mascotElement = document.getElementById('mascot'); // Reference to the mascot image
 
             // Update the status text
             statusElement.innerText = data.status;
 
-            // Add the wave effect when listening, remove it otherwise
+            // Change the mascot image based on the current status
             if (data.status === 'Listening') {
                 circleElement.classList.add('pulse-wave');
                 circleElement.classList.remove('speaking-wave'); // Ensure speaking wave is removed
+                mascotElement.src = "/static/images/listening.svg"; // Change mascot to listening
             } else if (data.status === 'Speaking') {
                 circleElement.classList.add('speaking-wave');
                 circleElement.classList.remove('pulse-wave'); // Ensure pulse wave is removed
-            } else {
-                // If neither, remove both classes
+                mascotElement.src = "/static/images/speaking.svg"; // Change mascot to speaking
+            } else if (data.status === 'Processing') {
                 circleElement.classList.remove('pulse-wave');
                 circleElement.classList.remove('speaking-wave');
+                mascotElement.src = "/static/images/process.svg"; // Change mascot to processing
+            } else {
+                // If neither, set a default image if needed
+                circleElement.classList.remove('pulse-wave');
+                circleElement.classList.remove('speaking-wave');
+                mascotElement.src = "/static/images/listening.svg"; // Optional default image
             }
         });
 }
 
 // Update the status every second
 setInterval(updateStatus, 1000);
+
+
+
 
 
 
