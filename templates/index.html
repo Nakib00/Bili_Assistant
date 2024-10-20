@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BILI Robot</title>
     <!-- Link to the CSS file -->
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='style.css') }}"
-    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
     <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body
-    class="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4"
-  >
-    <h1 class="text-3xl font-bold mb-4">Talking to Bili!</h1>
-    <p id="status" class="mb-8 text-xl">Go ahead, I'm listening...</p>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4">
+    <h1 class="text-3xl font-bold mb-4 pb-8">Talking to Bili!</h1>
 
-    <p id="bot_reply" class="mb-8 text-xl"></p>
+    <!-- circle -->
+    <div id="listeningCircle" class="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 mb-8"></div>
 
-    <div
-      id="listeningCircle"
-      class="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 mb-8"
-    ></div>
+    <!-- status -->
+    <p id="status" class="mb-8 text-xl pt-4">Go ahead, I'm listening...</p>
 
-    <p id="user_input" class="mb-4 text-lg"></p>
+    <!-- Chat container -->
+    <div class="w-full max-w-lg bg-gray-800 rounded-lg shadow-lg p-4 overflow-y-auto" style="max-height: 400px;">
+        <div id="chat" class="flex flex-col space-y-4">
+            <!-- User input -->
+            <div id="user_input" class="self-end p-2 bg-blue-600 rounded-lg text-white max-w-xs"></div>
+
+            <!-- Reply -->
+            <div id="bot_reply" class="self-start p-2 bg-purple-600 rounded-lg text-white max-w-xs"></div>
+        </div>
+    </div>
 
     <!-- Link to the JavaScript file -->
     <script src="{{ url_for('static', filename='script.js') }}"></script>
-  </body>
+</body>
 </html>

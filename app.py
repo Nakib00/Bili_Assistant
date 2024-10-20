@@ -142,66 +142,6 @@ def play_audio(filename):
     # Add your audio playing logic here
     print(f"Playing {filename}...")
 
-def handle_special_cases(user_input):
-    """Handle special cases like opening a specific location map or responding to a general map request."""
-
-    # Mapping of keywords to dropdown values
-    location_mapping = {
-    'auditorium': 'auditorium',
-    'multipurpose': 'multipurposeHall',
-    'information': 'informationDesk',
-    'lobby': 'lobby',
-    'admission': 'admissionOffice',
-    'canteen': 'helloCenter',
-    'dosa': 'dosaOffice',
-    'souvenir': 'souvenirShop',
-    'jolil': 'jolilShop',
-    'proctor': 'proctorOffice',
-    'washroom': 'washroom',
-    'food': 'foodCourt',
-    'swimming': 'swimmingPool',
-    'dmk': 'dmkBuilding',
-    'jubilee': 'jubileeBuilding',
-    'security': 'securityBox',
-    'health': 'HealthCenter',
-
-    # Bangla translations
-    'অডিটোরিয়াম': 'auditorium',
-    'মাল্টিপারপাস হল': 'multipurposeHall',
-    'তথ্য ডেস্ক': 'informationDesk',
-    'লবি': 'lobby',
-    'ভর্তি অফিস': 'admissionOffice',
-    'ক্যান্টিন': 'helloCenter',
-    'ডসা অফিস': 'dosaOffice',
-    'স্মারক দোকান': 'souvenirShop',
-    'জলিল দোকান': 'jolilShop',
-    'প্রক্টর অফিস': 'proctorOffice',
-    'প্রসাধন কক্ষ': 'washroom',
-    'খাবার আদালত': 'foodCourt',
-    'সুইমিং পুল': 'swimmingPool',
-    'ডিএমকে বিল্ডিং': 'dmkBuilding',
-    'জুবিলী বিল্ডিং': 'jubileeBuilding',
-    'নিরাপত্তা বাক্স': 'securityBox',
-    'স্বাস্থ্য কেন্দ্র': 'HealthCenter'
-}
-
-
-    # Normalize user input for comparison
-    normalized_input = user_input.lower()
-
-    # Check for general map request (e.g., "map" or "ম্যাপ")
-    if 'map' in normalized_input or 'ম্যাপ' in normalized_input:
-        return "Opening the map page."
-
-    # Check for specific location requests
-    for keyword, dropdown_value in location_mapping.items():
-        if keyword in normalized_input or dropdown_value.replace(" ", "") in normalized_input:
-            # Redirect to the Indoor Navigation website with the query parameter
-            webbrowser.open(f"http://127.0.0.1:5000/map?destination={dropdown_value}")
-            return f"Redirecting to the map for {keyword.capitalize()}."
-
-    return None
-
 # Global variables to store the "You said" and "Bot" responses
 user_input_data = ""
 bot_reply_data = ""
@@ -315,6 +255,66 @@ def get_model_response(user_input):
     # Return a random fallback response if no valid intent or special case is found
     return random.choice(fallback_responses)
 
+
+def handle_special_cases(user_input):
+    """Handle special cases like opening a specific location map or responding to a general map request."""
+
+    # Mapping of keywords to dropdown values
+    location_mapping = {
+    'auditorium': 'auditorium',
+    'multipurpose': 'multipurposeHall',
+    'information': 'informationDesk',
+    'lobby': 'lobby',
+    'admission': 'admissionOffice',
+    'canteen': 'helloCenter',
+    'dosa': 'dosaOffice',
+    'souvenir': 'souvenirShop',
+    'jolil': 'jolilShop',
+    'proctor': 'proctorOffice',
+    'washroom': 'washroom',
+    'food': 'foodCourt',
+    'swimming': 'swimmingPool',
+    'dmk': 'dmkBuilding',
+    'jubilee': 'jubileeBuilding',
+    'security': 'securityBox',
+    'health': 'HealthCenter',
+
+    # Bangla translations
+    'অডিটোরিয়াম': 'auditorium',
+    'মাল্টিপারপাস হল': 'multipurposeHall',
+    'তথ্য ডেস্ক': 'informationDesk',
+    'লবি': 'lobby',
+    'ভর্তি অফিস': 'admissionOffice',
+    'ক্যান্টিন': 'helloCenter',
+    'ডসা অফিস': 'dosaOffice',
+    'স্মারক দোকান': 'souvenirShop',
+    'জলিল দোকান': 'jolilShop',
+    'প্রক্টর অফিস': 'proctorOffice',
+    'প্রসাধন কক্ষ': 'washroom',
+    'খাবার আদালত': 'foodCourt',
+    'সুইমিং পুল': 'swimmingPool',
+    'ডিএমকে বিল্ডিং': 'dmkBuilding',
+    'জুবিলী বিল্ডিং': 'jubileeBuilding',
+    'নিরাপত্তা বাক্স': 'securityBox',
+    'স্বাস্থ্য কেন্দ্র': 'HealthCenter'
+}
+
+
+    # Normalize user input for comparison
+    normalized_input = user_input.lower()
+
+    # Check for general map request (e.g., "map" or "ম্যাপ")
+    if 'map' in normalized_input or 'ম্যাপ' in normalized_input:
+        return "Opening the map page."
+
+    # Check for specific location requests
+    for keyword, dropdown_value in location_mapping.items():
+        if keyword in normalized_input or dropdown_value.replace(" ", "") in normalized_input:
+            # Redirect to the Indoor Navigation website with the query parameter
+            webbrowser.open(f"http://127.0.0.1:5000/map?destination={dropdown_value}")
+            return f"Redirecting to the map for {keyword.capitalize()}."
+
+    return None
 
 # Flask route to show the current user input and bot reply
 @app.route("/")

@@ -4333,26 +4333,50 @@
 				"song"
 			],
 			"responses": [
-				"🎵 Twinkle, twinkle, little star, how I wonder what you are! 🎵",
-				"🎶 Row, row, row your boat, gently down the stream. Merrily, merrily, merrily, merrily, life is but a dream. 🎶",
-				"🎵 If you're happy and you know it, clap your hands! 👏 🎵",
-				"🎶 The wheels on the bus go round and round, round and round, round and round. 🎶",
-				"🎵 You are my sunshine, my only sunshine. You make me happy when skies are gray. 🎵",
-				"🎶 Old MacDonald had a farm, E-I-E-I-O, and on that farm he had a cow. 🎶",
-				"🎵 This old man, he played one, he played knick-knack on my thumb. 🎵",
-				"🎶 London Bridge is falling down, falling down, falling down. 🎶",
-				"🎵 Head, shoulders, knees, and toes, knees and toes! 🎵",
-				"🎶 Mary had a little lamb, little lamb, little lamb. 🎶",
-				"🎵 The itsy bitsy spider climbed up the waterspout. Down came the rain and washed the spider out. 🎵",
-				"🎶 Hickory dickory dock, the mouse ran up the clock. The clock struck one, the mouse ran down, hickory dickory dock. 🎶",
-				"🎵 Baa, baa, black sheep, have you any wool? Yes sir, yes sir, three bags full! 🎵",
-				"🎶 Five little ducks went out one day, over the hills and far away. 🎶",
-				"🎵 I'm a little teapot, short and stout. Here is my handle, here is my spout. 🎵",
-				"🎶 This little piggy went to market, this little piggy stayed home. 🎶",
-				"🎵 You put your right foot in, you take your right foot out, you do the hokey pokey and you turn yourself about! 🎵",
-				"🎶 Ring a ring o' roses, a pocket full of posies. A-tishoo! A-tishoo! We all fall down. 🎶",
-				"🎵 Hey diddle diddle, the cat and the fiddle, the cow jumped over the moon. 🎵",
-				"🎶 Little Bo Peep has lost her sheep, and doesn't know where to find them. 🎶"
+				"Twinkle, twinkle, little star, how I wonder what you are!",
+				"Row, row, row your boat, gently down the stream. Merrily, merrily, merrily, merrily, life is but a dream.",
+				"If you're happy and you know it, clap your hands!",
+				"The wheels on the bus go round and round, round and round, round and round.",
+				"You are my sunshine, my only sunshine. You make me happy when skies are gray.",
+				"Old MacDonald had a farm, E-I-E-I-O, and on that farm he had a cow.",
+				"This old man, he played one, he played knick-knack on my thumb.",
+				"London Bridge is falling down, falling down, falling down.",
+				"Head, shoulders, knees, and toes, knees and toes!",
+				"Mary had a little lamb, little lamb, little lamb.",
+				"The itsy bitsy spider climbed up the waterspout. Down came the rain and washed the spider out.",
+				"Hickory dickory dock, the mouse ran up the clock. The clock struck one, the mouse ran down, hickory dickory dock.",
+				"Baa, baa, black sheep, have you any wool? Yes sir, yes sir, three bags full!",
+				"Five little ducks went out one day, over the hills and far away.",
+				"I'm a little teapot, short and stout. Here is my handle, here is my spout.",
+				"This little piggy went to market, this little piggy stayed home.",
+				"You put your right foot in, you take your right foot out, you do the hokey pokey and you turn yourself about!",
+				"Ring a ring o' roses, a pocket full of posies. A-tishoo! A-tishoo! We all fall down.",
+				"Hey diddle diddle, the cat and the fiddle, the cow jumped over the moon.",
+				"Little Bo Peep has lost her sheep, and doesn't know where to find them."
+			]
+		},
+		{
+			"tag": "about_self",
+			"patterns": [
+				"Tell me about yourself",
+				"Who are you?",
+				"What are you?",
+				"Give me some information about you",
+				"Describe yourself",
+				"yourself"
+			],
+			"responses": [
+				"I am BILI, a voice assistant made by a group of IUB students: Nakibul Islam, Hana Sultan, and Umme Aiman."
+			]
+		},
+		{
+			"tag": "bangla",
+			"patterns": [
+				"switch to bangla",
+				"bangla"
+			],
+			"responses": [
+				"আমি আপনার সাথে বাংলায় কথা বলতে প্রস্তুত"
 			]
 		},
 		{

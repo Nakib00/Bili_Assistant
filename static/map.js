@@ -1,3 +1,8 @@
+     // Close the current tab after 10 seconds
+     setTimeout(function () {
+        window.close(); // Attempt to close the current tab
+    }, 10000); // 10 seconds (10,000 milliseconds)
+  
 // Initialize the map
 var map = L.map('map', {
     minZoom: -5,

@@ -4889,6 +4889,17 @@
             ]
         },
         {
+			"tag": "english",
+			"patterns": [
+				"সুইচ টু ইংলিশ",
+                "সুইচটু ইংলিশ",
+				"ইংলিশ"
+			],
+			"responses": [
+				"I am ready to talk with you in English"
+			]
+		},
+        {
             "tag": "insults",
             "patterns": [
                 "শুয়র",
