@@ -35,12 +35,6 @@ function updateStatus() {
 // Update the status every second
 setInterval(updateStatus, 1000);
 
-
-
-
-
-
-
 // Continuously update the user input and bot reply every second
 setInterval(() => {
     fetch("/get_data")
