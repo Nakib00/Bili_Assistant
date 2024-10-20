@@ -28,6 +28,10 @@ This is the main application file responsible for initializing the Flask web ser
 
 ![Home Interface](https://github.com/Nakib00/Bili_Assistant/blob/main/assets/home.png?raw=true)
 
+![Home Interface](https://github.com/Nakib00/Bili_Assistant/blob/main/assets/Processing.png?raw=true)
+
+![Home Interface](https://github.com/Nakib00/Bili_Assistant/blob/main/assets/reply.png?raw=true)
+
 ![Map Interface](https://github.com/Nakib00/Bili_Assistant/blob/main/assets/map.png?raw=true)
 
 
