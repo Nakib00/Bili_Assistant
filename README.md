@@ -48,8 +48,7 @@ When recognized, the chatbot opens a browser tab showing the route to the desire
 ## Speech and Text Synthesis
 
 The system can use two text-to-speech libraries:
-- **pyttsx3**: For English responses.
-- **gTTS**: For Bengali responses.
+- **gTTS**: For responses.
 
 
 
