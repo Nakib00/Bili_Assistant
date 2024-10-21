@@ -23,6 +23,18 @@
             ]
         },
         {
+			"tag": "english",
+			"patterns": [
+				"ইংরেজিতে সুইচ করুন",
+				"সুইচটু ইংলিশ",
+                "সুইচ ইংলিশ",
+                "ইংলিশ"
+			],
+			"responses": [
+				"I am ready to talk to you in English"
+			]
+		},
+        {
             "tag": "goodbye_bn",
             "patterns": [
                 "বিদায়",
