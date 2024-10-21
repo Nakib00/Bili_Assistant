@@ -26,6 +26,32 @@ To run the project, ensure you have the following dependencies installed:
 - NLTK
 - dotenv
 
+## Indoor Navigation
+
+The chatbot supports indoor navigation through a map feature. You can trigger it by asking about specific locations, such as:
+
+- "Where is the DMK Building?"
+- "Map of the Canteen"
+- "ম্যাপ খুলুন"
+
+When recognized, the chatbot opens a browser tab showing the route to the desired destination on a custom indoor map.
+
+## Voice Commands
+
+### Change Language:
+- Say **"Switch to Bengali"** or **"বাংলা ভাষায়"** to switch to Bengali.
+- Say **"Switch to English"** or **"ইংলিশ"** to switch to English.
+
+### General Map Command:
+- Say **"Open the map"** or **"ম্যাপ খুলুন"** to display the indoor map interface.
+
+## Speech and Text Synthesis
+
+The system can use two text-to-speech libraries:
+- **pyttsx3**: For English responses.
+- **gTTS**: For Bengali responses.
+
+
 
 ### start install
 To create a `.venv` (virtual environment) and install dependencies from a `requirements.txt` file using Git Bash, follow these steps:
@@ -130,4 +156,13 @@ The `NeuralNet` class defines a simple feedforward neural network, which include
 - **Output Layer**: Outputs raw scores (logits) for each intent class, without applying softmax.
 
 ---
+
+
+
+## Conclusion
+
+Bili AI Chatbot with Indoor Navigation is a powerful tool designed to enhance user experience through voice interaction and real-time indoor mapping. By combining speech recognition, natural language processing, and custom navigation, this project offers a versatile platform for both English and Bengali speakers. Whether you're looking for specific locations or engaging in a conversation, Bili is equipped to handle multiple intents and provide seamless responses.
+
+Future enhancements could include expanding the language model for more complex conversations, integrating additional locations on the map, or adding support for more languages. Bili AI Chatbot serves as a foundation for creating intelligent, interactive systems that cater to the needs of diverse users.
+
 
