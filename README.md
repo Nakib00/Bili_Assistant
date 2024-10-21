@@ -1,26 +1,30 @@
-﻿# Bili-Assistant
+# Bili AI Chatbot with Indoor Navigation
 
-Overview
---------
+This is a chatbot application with speech recognition, response synthesis, and indoor navigation functionality. It supports both English and Bengali languages for voice recognition and responses, and can direct users to specific locations via an indoor map.
 
-This application is a voice assistant built using Flask and various libraries that facilitate speech recognition, text-to-speech, and machine learning for natural language processing. The assistant can understand user commands, switch between languages (English and Bengali), and respond appropriately, including opening specific maps or providing predefined responses.
+## Features
 
-### Key Features
+- **Speech Recognition**: Captures user input through voice using Google Speech Recognition (supports English and Bengali).
+- **Text-to-Speech Responses**: Provides voice responses using either `pyttsx3` for English or `gTTS` for Bengali.
+- **Intent Matching**: Matches user input to predefined intents using TF-IDF, cosine similarity, fuzzy matching, and word embeddings (`GloVe`).
+- **Indoor Navigation**: Opens a web-based indoor map with route guidance to various locations.
+- **Language Switching**: Users can switch between English and Bengali during conversation.
 
-*   Speech recognition using Google Speech Recognition.
-    
-*   Text-to-speech responses using gTTS (Google Text-to-Speech) and pyttsx3.
-    
-*   Language switching capability between English and Bengali.
-    
-*   Custom intent classification using a trained TensorFlow model.
-    
-*   Dynamic response generation based on user input.
-    
-*   Integration with a web interface using Flask.
-    
+## Requirements
 
-File Structure
+To run the project, ensure you have the following dependencies installed:
+
+- Python 3.x
+- Flask
+- Pygame
+- Google Text-to-Speech (gTTS)
+- SpeechRecognition
+- PyTorch
+- FuzzyWuzzy
+- Gensim (GloVe word embeddings)
+- Scikit-learn
+- NLTK
+- dotenv
 
 
 ### start install
