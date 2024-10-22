@@ -1,4 +1,4 @@
-# Bili AI Chatbot with Indoor Navigation
+# Bili AI Multilanguage voice assistant with Indoor Navigation
 
 This is a chatbot application with speech recognition, response synthesis, and indoor navigation functionality. It supports both English and Bengali languages for voice recognition and responses, and can direct users to specific locations via an indoor map.
 
