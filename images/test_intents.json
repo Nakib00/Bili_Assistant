@@ -1,0 +1,4578 @@
+{
+    "intents": [
+        {
+            "tag": "InstitutesCenters_Cells_bn",
+            "patterns": [
+                "আইইউবি ইনস্টিটিউট এবং কেন্দ্র সম্পর্কে তথ্য দিন",
+                "প্রতিষ্ঠান সম্পর্কে বলুন",
+                "IUB তে কেন্দ্র ও সেল গুলোর তালিকা দিন",
+                "IUB এর কেন্দ্র ও সেল সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "IUBEsportsClub",
+            "patterns": [
+                "What is the IUB Esports Club ?"
+            ]
+        },
+        {
+            "tag": "MohammadShahnawazKarim",
+            "patterns": [
+                "Can you tell me details about Mohammad Shahnawaz Karim ?"
+            ]
+        },
+        {
+            "tag": "NahinSultana",
+            "patterns": [
+                "Nahin Sultana"
+            ]
+        },
+        {
+            "tag": "Center_Computational_Data_Sciences",
+            "patterns": [
+                "Center for Computational and Data Sciences",
+                "Center for Computational and Data Sciences in iub"
+            ]
+        },
+        {
+            "tag": "Abu_Hasnat_Md_Rased",
+            "patterns": [
+                "Hasnat Rased"
+            ]
+        },
+        {
+            "tag": "MdAlIfranHossainMollah_bn",
+            "patterns": [
+                "আল ইফরান হোসেন মোল্লা সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "raiyanarahman_bn",
+            "patterns": [
+                "রাইয়ানা রহমান সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MohammadSorowarHossain",
+            "patterns": [
+                "Tell me information about Mohammad Sorowar Hossain of ESM Department ?"
+            ]
+        },
+        {
+            "tag": "opentoday",
+            "patterns": [
+                "What are your hours today ?"
+            ]
+        },
+        {
+            "tag": "rezwanulalam_bn",
+            "patterns": [
+                "রেজওয়ানুল আলম কে ?"
+            ]
+        },
+        {
+            "tag": "nakib_bn",
+            "patterns": [
+                "নকিব"
+            ]
+        },
+        {
+            "tag": "sajedimtenanulhaque",
+            "patterns": [
+                "Info of Sajed Imtenanul Haque",
+                "Tell me about Sajed Imtenanul Haque from CSE"
+            ]
+        },
+        {
+            "tag": "noornabi_bn",
+            "patterns": [
+                "সিএসই বিভাগের নূর নবী সম্পর্কে তথ্য দিন",
+                "নূর নবী সম্পর্কে বলুন যিনি সিএসই থেকে ?"
+            ]
+        },
+        {
+            "tag": "MohammadAbdulBaten",
+            "patterns": [
+                "Abdul Baten"
+            ]
+        },
+        {
+            "tag": "aminahsanali",
+            "patterns": [
+                "Info of Amin Ahsan Ali",
+                "Can you please tell me details of Dr. Amin Ahsan Ali ?"
+            ]
+        },
+        {
+            "tag": "tanvirislam",
+            "patterns": [
+                "Please provide information on Tanvir Islam from Accounting ?"
+            ]
+        },
+        {
+            "tag": "NabilaMaruf",
+            "patterns": [
+                "Please provide information on Nabila Maruf from Economics ?"
+            ]
+        },
+        {
+            "tag": "MdKamrulIslam_bn",
+            "patterns": [
+                "অর্থনীতির বিভাগ থেকে এমডি কামরুল ইসলাম সম্পর্কে তথ্য দিন ?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Take care",
+                "See you soon"
+            ]
+        },
+        {
+            "tag": "mohiulislam",
+            "patterns": [
+                "Please provide information on Mohiul Islam from the Media and Communication Department"
+            ]
+        },
+        {
+            "tag": "SharminMushtariKhan_bn",
+            "patterns": [
+                "শারমিন মুস্তারি খানের যোগাযোগের তথ্য কি ?",
+                "শারমিন মুস্তারি খানের যোগাযোগের তথ্য কি ?"
+            ]
+        },
+        {
+            "tag": "emranulhaque",
+            "patterns": [
+                "Please provide information on Emranul Haque from the eee Department"
+            ]
+        },
+        {
+            "tag": "BorhanUddinKhan_bn",
+            "patterns": [
+                "বোরহান উদ্দিন খান কে ?"
+            ]
+        },
+        {
+            "tag": "ParisaAlam",
+            "patterns": [
+                "What is Parisa Alam 's contact information ?"
+            ]
+        },
+        {
+            "tag": "tanvirislam_bn",
+            "patterns": [
+                "অ্যাকাউন্টিং বিভাগের তানভীর ইসলাম সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "Meemnaz_Meem_bn",
+            "patterns": [
+                "আপনি মীমনাজ মীম সম্পর্কে আমাকে বলবেন ?"
+            ]
+        },
+        {
+            "tag": "mohammadmanirhossainmollah",
+            "patterns": [
+                "Mohammad Manir Hossain Mollah"
+            ]
+        },
+        {
+            "tag": "abmrezwanulkabir_bn",
+            "patterns": [
+                "এ বি এম রেজওয়ানুল কবিরের বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "AshrafusSafa",
+            "patterns": [
+                "Tell me information about Ashrafus Safa of Life Sciences Department ?"
+            ]
+        },
+        {
+            "tag": "MdToriqulIslam",
+            "patterns": [
+                "Tell me information about Md . Toriqul Islam of Law Department ?"
+            ]
+        },
+        {
+            "tag": "fahadmonir",
+            "patterns": [
+                "Please provide information on Fahad Monir from the CSE Department",
+                "Info of Fahad Monir"
+            ]
+        },
+        {
+            "tag": "ShahnazNasrinIla_bn",
+            "patterns": [
+                "শাহনাজ নাসরিন ইলা কে ?"
+            ]
+        },
+        {
+            "tag": "mahmudhasankhan",
+            "patterns": [
+                "Can you please tell me details of Mahmud Hasan Khan ?"
+            ]
+        },
+        {
+            "tag": "departmentheadoffinance_bn",
+            "patterns": [
+                "ফাইন্যান্স বিভাগের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "ShejutiNureMaksurat",
+            "patterns": [
+                "Shejuti Nure Maksurat"
+            ]
+        },
+        {
+            "tag": "farzanarahman_bn",
+            "patterns": [
+                "ফারজানা রহমান",
+                "ফারজানা রহমান এর তথ্য"
+            ]
+        },
+        {
+            "tag": "hafizanilofarkhan",
+            "patterns": [
+                "Tell me about Hafiza Nilofar Khan from English"
+            ]
+        },
+        {
+            "tag": "israttaslim",
+            "patterns": [
+                "Can you please tell me details of Israt Taslim ?"
+            ]
+        },
+        {
+            "tag": "mohammadalitaklim_bn",
+            "patterns": [
+                "অর্থনীতির বিভাগের ড . মোহাম্মদ আলী তাসলিম সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "FarzanaChowdhury_bn",
+            "patterns": [
+                "জেনারেল ম্যানেজমেন্টের ফারজানা চৌধুরী সম্পর্কে তথ্য দিন ?"
+            ]
+        },
+        {
+            "tag": "NasrinAkhter_bn",
+            "patterns": [
+                "ফার্মেসি বিভাগের নাসরিন আক্তার সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MahmudaNargis_bn",
+            "patterns": [
+                "মাহমুদা নারগিস"
+            ]
+        },
+        {
+            "tag": "RezwanulAlam",
+            "patterns": [
+                "Rezwanul Alam"
+            ]
+        },
+        {
+            "tag": "FirozaAshravee",
+            "patterns": [
+                "Can you tell me details about Firoza Ashravee ?"
+            ]
+        },
+        {
+            "tag": "MdAhsanUlBari",
+            "patterns": [
+                "Tell me information about Md Ahsan Ul Bari of Life Sciences Department ?"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are your hours ?"
+            ]
+        },
+        {
+            "tag": "AlNuman_bn",
+            "patterns": [
+                "আল নুমান কে ?",
+                "আইইউবির আল নুমান সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "departmentheadofM&C",
+            "patterns": [
+                "What is the name of the department head of M & C Department ?"
+            ]
+        },
+        {
+            "tag": "naveedadnansiddiquee_bn",
+            "patterns": [
+                "নবীদ আদনান সিদ্দিকী কে ?"
+            ]
+        },
+        {
+            "tag": "AminaAlamKotha_bn",
+            "patterns": [
+                "আমিনা আলম কথা কে ?"
+            ]
+        },
+        {
+            "tag": "ShahinaAnsary",
+            "patterns": [
+                "Tell me about Shahina Ansary from IUB ."
+            ]
+        },
+        {
+            "tag": "Salsabil_Shama",
+            "patterns": [
+                "What is the role of Salsabil Shama in the EEE department ?"
+            ]
+        },
+        {
+            "tag": "umme_aiman",
+            "patterns": [
+                "who is Umme Aiman"
+            ]
+        },
+        {
+            "tag": "IkramulHasan_bn",
+            "patterns": [
+                "ইকরামুল হাসান কে ?"
+            ]
+        },
+        {
+            "tag": "afrozasultana_bn",
+            "patterns": [
+                "আফরোজা সুলতানা কে ?",
+                "ইলেকট্রিক্যাল এবং ইলেকট্রনিক ইঞ্জিনিয়ারিং বিভাগের আফরোজা সুলতানা সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "purobiranikundu_bn",
+            "patterns": [
+                "পুরবী রানি সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you ?"
+            ]
+        },
+        {
+            "tag": "janinaislamabir",
+            "patterns": [
+                "Who is Janina Islam ?"
+            ]
+        },
+        {
+            "tag": "JMAHannan",
+            "patterns": [
+                "Could you please tell me details of J M A Hannan ?"
+            ]
+        },
+        {
+            "tag": "Nazmus_Sakib_bn",
+            "patterns": [
+                "নাজমুস সাকিব কে ?"
+            ]
+        },
+        {
+            "tag": "NafisaRawshan_bn",
+            "patterns": [
+                "নাফিসা রাওশান"
+            ]
+        },
+        {
+            "tag": "zakirhossainraju_bn",
+            "patterns": [
+                "জাকির হোসেন রাজু কে ?"
+            ]
+        },
+        {
+            "tag": "mdahsanulbari_bn",
+            "patterns": [
+                "আহসান উল বারীর বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "fariyahossainkhan_bn",
+            "patterns": [
+                "মিডিয়া এবং কমিউনিকেশন বিভাগের ফারিয়া হোসেন খান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "IUBChessClub_bn",
+            "patterns": [
+                "IUB চেস ক্লাব সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "departmentheadofmanagement_bn",
+            "patterns": [
+                "জেনারেল ম্যানেজমেন্ট বিভাগের বিভাগীয় প্রধানের নাম কি ?"
+            ]
+        },
+        {
+            "tag": "MAMatin",
+            "patterns": [
+                "M A Matin"
+            ]
+        },
+        {
+            "tag": "zoharahman_bn",
+            "patterns": [
+                "জোহা রহমান কে ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofinternationalbusiness",
+            "patterns": [
+                "Who is the department head of International Business Department ?"
+            ]
+        },
+        {
+            "tag": "ShafiqulAlam",
+            "patterns": [
+                "Please provide information on Shafiqul Alam from Human Resource Management ?"
+            ]
+        },
+        {
+            "tag": "RafiaRokaiyaHossain",
+            "patterns": [
+                "Could you please tell me details of Rafia Rokaiya Hossain ?"
+            ]
+        },
+        {
+            "tag": "SadiaNazneenKarobi",
+            "patterns": [
+                "Sadia Nazneen Karobi"
+            ]
+        },
+        {
+            "tag": "IUBChessClub",
+            "patterns": [
+                "Tell me about the IUB Chess Club ."
+            ]
+        },
+        {
+            "tag": "mdashrafulbabu",
+            "patterns": [
+                "Ashraful Babu from the Physical Sciences Department"
+            ]
+        },
+        {
+            "tag": "IUBArtClub_bn",
+            "patterns": [
+                "আর্ট ক্লাব কোন ধরনের কার্যক্রম পরিচালনা করে ?"
+            ]
+        },
+        {
+            "tag": "IUBACMStudentChapter",
+            "patterns": [
+                "Tell me about the ACM Student Chapter ."
+            ]
+        },
+        {
+            "tag": "MdJosimUddin",
+            "patterns": [
+                "Josim Uddin"
+            ]
+        },
+        {
+            "tag": "marufaakter",
+            "patterns": [
+                "Marufa Akter"
+            ]
+        },
+        {
+            "tag": "ObydullahAlMarjuk_bn",
+            "patterns": [
+                "অবায়দুল্লাহ আল মারজুক কে ?"
+            ]
+        },
+        {
+            "tag": "JMAHannan_bn",
+            "patterns": [
+                "ফার্মেসি বিভাগের জে এম এ হান্নান সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "saadiabintealam_bn",
+            "patterns": [
+                "সাদিয়া বিনতে আলম কে ?",
+                "সাদিয়া বিনতে আলমের তথ্য"
+            ]
+        },
+        {
+            "tag": "muhammadzakaria",
+            "patterns": [
+                "Can you please tell me details of Muhammad Zakaria ?"
+            ]
+        },
+        {
+            "tag": "BokhtiarAhmed_bn",
+            "patterns": [
+                "বখতিয়ার আহমেদ কে ?"
+            ]
+        },
+        {
+            "tag": "tawhidmonzur_bn",
+            "patterns": [
+                "তাওহীদ মনজুর সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "Institutional_Quality_Assurance_Cell_bn",
+            "patterns": [
+                "আইকিউএসসি"
+            ]
+        },
+        {
+            "tag": "mohammadmanirhossainmollah_bn",
+            "patterns": [
+                "ফিজিক্যাল সায়েন্সেস বিভাগের মোহাম্মদ মানির হোসেন মোল্লা"
+            ]
+        },
+        {
+            "tag": "IUBBasketballClub_bn",
+            "patterns": [
+                "IUB বাস্কেটবল ক্লাব কী ?"
+            ]
+        },
+        {
+            "tag": "bangla",
+            "patterns": [
+                "bangla"
+            ]
+        },
+        {
+            "tag": "opentoday_bn",
+            "patterns": [
+                "আজ আপনারা কতোটা সময় খোলা ?"
+            ]
+        },
+        {
+            "tag": "Md_Ahad_Khan",
+            "patterns": [
+                "What role does Md . Ahad Khan play in the CSE department ?"
+            ]
+        },
+        {
+            "tag": "NushratJahan",
+            "patterns": [
+                "Please provide information on Dr Nushrat Jahan from Accounting ?",
+                "Could you please tell me details of Nushrat Jahan ?"
+            ]
+        },
+        {
+            "tag": "rumaparvin",
+            "patterns": [
+                "Can you please tell me details of Ruma Parvin ?"
+            ]
+        },
+        {
+            "tag": "arshadmomen",
+            "patterns": [
+                "Tell me about Arshad Momen from Physical Sciences"
+            ]
+        },
+        {
+            "tag": "sanzaradnanalam_bn",
+            "patterns": [
+                "সাঞ্জার আলম কে ?",
+                "সাঞ্জার আলম সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "Center_Green_Energy_Research_bn",
+            "patterns": [
+                "জিইআরসি"
+            ]
+        },
+        {
+            "tag": "mohammadshidujaman",
+            "patterns": [
+                "Tell me about Shidujaman from CSE",
+                "Shidujaman"
+            ]
+        },
+        {
+            "tag": "MohammadNazmuzzamanBhuian",
+            "patterns": [
+                "Nazmuzzaman Bhuian"
+            ]
+        },
+        {
+            "tag": "NaimaNusratJahan_bn",
+            "patterns": [
+                "নাইমা নুসরাত জাহান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "asifmahmud",
+            "patterns": [
+                "Please provide information on Asif Mahmud from the CSE Department",
+                "Asif Mahmud"
+            ]
+        },
+        {
+            "tag": "English_Language_Resource_Center",
+            "patterns": [
+                "elrc"
+            ]
+        },
+        {
+            "tag": "RushdiMdRezaurRazzaque",
+            "patterns": [
+                "Can you tell me details about Rushdi Md Rezaur Razzaque ?"
+            ]
+        },
+        {
+            "tag": "IUBDanceClub_bn",
+            "patterns": [
+                "IUB এর ড্যান্স ক্লাব সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "rezinanazneenrimi",
+            "patterns": [
+                "Please provide information on Rezina Nazneen Rimi from the English Department"
+            ]
+        },
+        {
+            "tag": "DEA_IUB",
+            "patterns": [
+                "DEA IUB"
+            ]
+        },
+        {
+            "tag": "name_bn",
+            "patterns": [
+                "আপনার পরিচয় কি ?",
+                "আমাকে তোমার নাম বলুন"
+            ]
+        },
+        {
+            "tag": "ShakibShadman",
+            "patterns": [
+                "Tell me about Shakib Shadman from IUB ."
+            ]
+        },
+        {
+            "tag": "sayeedasharminchowdhury_bn",
+            "patterns": [
+                "সায়েদা শারমিন চৌধুরী সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "fahmidaalam_bn",
+            "patterns": [
+                "লাইফ সায়েন্স বিভাগের ফাহমিদা আলম সম্পর্কে বলুন ?"
+            ]
+        },
+        {
+            "tag": "mamundinibnereaz",
+            "patterns": [
+                "Can you please tell me details of Mamun Bin Ibne Reaz ?"
+            ]
+        },
+        {
+            "tag": "IUBDanceClub",
+            "patterns": [
+                "IUB Dance Club"
+            ]
+        },
+        {
+            "tag": "MehdiBinSamad_bn",
+            "patterns": [
+                "মেহেদী বিন সামাদ"
+            ]
+        },
+        {
+            "tag": "MohammadAbbasGani_bn",
+            "patterns": [
+                "ফার্মেসি বিভাগের মোহাম্মদ আব্বাস গানি সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "mdmehiramin",
+            "patterns": [
+                "Mehir Amin from the Physical Sciences Department"
+            ]
+        },
+        {
+            "tag": "IndependentManagementEntrepreneurshipClub_bn",
+            "patterns": [
+                "IMEC কী ?"
+            ]
+        },
+        {
+            "tag": "saminaprodhan_bn",
+            "patterns": [
+                "ফিজিক্যাল সায়েন্সেস বিভাগের সামিনা প্রধান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "MdOhidujjaman_bn",
+            "patterns": [
+                "মোঃ ওহিদুজ্জামান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "Center_Multilingual_Excellence",
+            "patterns": [
+                "what is Center for Multilingual Excellence"
+            ]
+        },
+        {
+            "tag": "nazrulislam_bn",
+            "patterns": [
+                "আইবি বিভাগের নজরুল ইসলাম সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "rezinanazneenrimi_bn",
+            "patterns": [
+                "রেজিনা নাজনীণ রিমি সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "ajmirisabrinakhan_bn",
+            "patterns": [
+                "অজমিরী কে ?",
+                "অজমিরী খান সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MdAbdulAziz_bn",
+            "patterns": [
+                "ফার্মেসি বিভাগের মোঃ আবদুল আজিজ সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "departmentheadofpharmacy",
+            "patterns": [
+                "What is the name of the department head of Pharmacy Department ?"
+            ]
+        },
+        {
+            "tag": "IUBClubs_bn",
+            "patterns": [
+                "আইইউবিতে ক্লাবের সংখ্যা কত ?",
+                "আইইউবিতে ক্লাবের সংখ্যা কত ?"
+            ]
+        },
+        {
+            "tag": "MdKamrulIslam",
+            "patterns": [
+                "Please provide information on Md Kamrul Islam from Economics ?"
+            ]
+        },
+        {
+            "tag": "NahidaAkhterNaiema_bn",
+            "patterns": [
+                "জেনারেল ম্যানেজমেন্টের নাহিদা আখতার নাইমা সম্পর্কে তথ্য দিন ?"
+            ]
+        },
+        {
+            "tag": "IUBMusicClub",
+            "patterns": [
+                "Tell me about the IUB Music Club ."
+            ]
+        },
+        {
+            "tag": "TanvirAhmedHaroon_bn",
+            "patterns": [
+                "এলএফই প্রোগ্রামের সমন্বয়ক কে ?"
+            ]
+        },
+        {
+            "tag": "kanizfatema_bn",
+            "patterns": [
+                "কানিজ ফাতেমা",
+                "কানিজ ফাতেমা কে ?"
+            ]
+        },
+        {
+            "tag": "israttaslim_bn",
+            "patterns": [
+                "ইসরাত তাসলিম সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "IUBBasketballClub",
+            "patterns": [
+                "What is the IUB Basketball Club ?"
+            ]
+        },
+        {
+            "tag": "Mahmudul_Islam",
+            "patterns": [
+                "Tell me about Mahmudul Islam ."
+            ]
+        },
+        {
+            "tag": "HassanFarukAlImran_bn",
+            "patterns": [
+                "আইন বিভাগের হাসান ফারুক আল ইমরান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "Office_Graduate_Studies_Research_Industrial_Relations",
+            "patterns": [
+                "GSRIR"
+            ]
+        },
+        {
+            "tag": "ashrafulislam_bn",
+            "patterns": [
+                "আশরাফুল ইসলাম কে ?",
+                "CSE বিভাগের আশরাফুল ইসলাম সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MehdiBinSamad",
+            "patterns": [
+                "Could you please tell me details of Mehdi Bin Samad ?"
+            ]
+        },
+        {
+            "tag": "ShafiqulAlam_bn",
+            "patterns": [
+                "শফিকুল আলম"
+            ]
+        },
+        {
+            "tag": "MdAzzajurRahman",
+            "patterns": [
+                "Tell me information about Md Azzajur Rahman of Marketing Department ?"
+            ]
+        },
+        {
+            "tag": "MashmumShababaShahid_bn",
+            "patterns": [
+                "মশমুম শাবাব শাহিদ সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "raisarasheeka",
+            "patterns": [
+                "Can you please tell me details of Raisa Rasheeka ?"
+            ]
+        },
+        {
+            "tag": "jebunnaharkhandakar_bn",
+            "patterns": [
+                "লাইফ সায়েন্স বিভাগের জেবুননাহার খন্দকরের সম্পর্কে বলুন ?"
+            ]
+        },
+        {
+            "tag": "MdHafizurRahman_bn",
+            "patterns": [
+                "এমডি হাফিজুর রহমান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofMarketing",
+            "patterns": [
+                "Who is the department head of Marketing Department ?"
+            ]
+        },
+        {
+            "tag": "TauhidulIslamTanin",
+            "patterns": [
+                "Please provide information on Dr Tauhidul Islam Tanin from Finance ?"
+            ]
+        },
+        {
+            "tag": "xingkuiwang_bn",
+            "patterns": [
+                "সিংকুই ওয়াং সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MdAbdulAwalKhan_bn",
+            "patterns": [
+                "মো . আব্দুল আওয়াল খান কে ?"
+            ]
+        },
+        {
+            "tag": "adilurrahman_bn",
+            "patterns": [
+                "ইংরেজি বিভাগের আদিলুর রহমান সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MdShanawezHossain_bn",
+            "patterns": [
+                "শানাওয়েজ হোসেন"
+            ]
+        },
+        {
+            "tag": "TarannumAzim_bn",
+            "patterns": [
+                "আইবি বিভাগের তারান্নুম আজিম সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "shahriarkhan_bn",
+            "patterns": [
+                "ইলেকট্রিক্যাল এবং ইলেকট্রনিক ইঞ্জিনিয়ারিং থেকে শহরিয়ার খান সম্পর্কে বলুন",
+                "ইলেকট্রিক্যাল এবং ইলেকট্রনিক ইঞ্জিনিয়ারিং বিভাগের শহরিয়ার খান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "IndependentPhotographyClub",
+            "patterns": [
+                "Photography Club"
+            ]
+        },
+        {
+            "tag": "departmentheadofMarketing_bn",
+            "patterns": [
+                "মার্কেটিং সিস্টেমের বিভাগীয় প্রধানের নাম কি ?"
+            ]
+        },
+        {
+            "tag": "afianowshen_bn",
+            "patterns": [
+                "আফিয়া নওশেনের বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "dilshadhossaindodul_bn",
+            "patterns": [
+                "দিলশাদ হোসেন কে ?"
+            ]
+        },
+        {
+            "tag": "MohammadFahadNoor_bn",
+            "patterns": [
+                "ফাহাদ নূর"
+            ]
+        },
+        {
+            "tag": "IUBCricketClub_bn",
+            "patterns": [
+                "IUB ক্রিকেট ক্লাব কী করে ?"
+            ]
+        },
+        {
+            "tag": "NazninAkterBanu",
+            "patterns": [
+                "Please provide information on Dr Naznin Akter Banu from Social Sciences and Humanities ?"
+            ]
+        },
+        {
+            "tag": "NaveedAdnanSiddiquee",
+            "patterns": [
+                "Please provide information on Naveed Adnan Siddiquee from Accounting ?"
+            ]
+        },
+        {
+            "tag": "taremahmed",
+            "patterns": [
+                "Can you please tell me details of Dr. Tarem Ahmed ?",
+                "Tell me about Tarem Ahmed from CSE"
+            ]
+        },
+        {
+            "tag": "Shoaib_Mirza",
+            "patterns": [
+                "Who is Shoaib Mirza ?"
+            ]
+        },
+        {
+            "tag": "departments",
+            "patterns": [
+                "Number of departments"
+            ]
+        },
+        {
+            "tag": "rifatararouf",
+            "patterns": [
+                "Rifat Ara Rouf from the Physical Sciences Department"
+            ]
+        },
+        {
+            "tag": "MdRezaHabib_bn",
+            "patterns": [
+                "মোহাম্মদ রেজা হাবিব সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "khosrumohammadsalim_bn",
+            "patterns": [
+                "খসরু মোহাম্মদ সেলিম কে ?",
+                "খসরু মোহাম্মদ সেলিম সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "SharmeenIslam",
+            "patterns": [
+                "Sharmeen Islam"
+            ]
+        },
+        {
+            "tag": "jewelkumarghosh_bn",
+            "patterns": [
+                "জুয়েল কুমার ঘোষ সম্পর্কে বলুন পদার্থবিজ্ঞানের বিভাগ থেকে"
+            ]
+        },
+        {
+            "tag": "ShahriarKabir",
+            "patterns": [
+                "Please provide information on Dr Shahriar Kabir from Economics ?"
+            ]
+        },
+        {
+            "tag": "RunaAkter",
+            "patterns": [
+                "Could you please tell me details of Runa Akter ?"
+            ]
+        },
+        {
+            "tag": "RIoT_Research_Center_bn",
+            "patterns": [
+                "রায়ট গবেষণা কেন্দ্র কী ?",
+                "রিওট গবেষণা কেন্দ্র কি ?"
+            ]
+        },
+        {
+            "tag": "CGP&AR",
+            "patterns": [
+                "What does Career Guidance Placement and Alumni Relations do ?"
+            ]
+        },
+        {
+            "tag": "habibbinmuzaffar",
+            "patterns": [
+                "Habib Bin Muzaffar"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Can you make me laugh ?",
+                "Give me a joke"
+            ]
+        },
+        {
+            "tag": "departmentheadofenv_bn",
+            "patterns": [
+                "এনভায়রনমেন্ট বিজ্ঞান এবং ব্যবস্থাপনা বিভাগের বিভাগ প্রধান কে ?",
+                "পরিবেশ বিজ্ঞান ও ব্যবস্থাপনা বিভাগের বিভাগীয় প্রধানের নাম কি ?"
+            ]
+        },
+        {
+            "tag": "towhidbinmuzaffar_bn",
+            "patterns": [
+                "ইংরেজি বিভাগের তাওহিদ বিন মুজাফফর সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "Samrat_Tonmoy_Sarkar",
+            "patterns": [
+                "What role does Samrat Tonmoy Sarkar play in the Physical Sciences department ?"
+            ]
+        },
+        {
+            "tag": "lab_bn",
+            "patterns": [
+                "CSE ল্যাব GPL কোথায় ?",
+                "CSE ল্যাব ২ কোথায় ?"
+            ]
+        },
+        {
+            "tag": "NabilaKamalPromy_bn",
+            "patterns": [
+                "নাবিলা কামাল প্রমী কে ?"
+            ]
+        },
+        {
+            "tag": "bijoyalala_bn",
+            "patterns": [
+                "বিজয়া লালা সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "readulmahmud_bn",
+            "patterns": [
+                "রেদুল মাহমুদ সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "NaziaMahmood_bn",
+            "patterns": [
+                "নাজিয়া মাহমুদ কে ?"
+            ]
+        },
+        {
+            "tag": "IEEEStudentBranch",
+            "patterns": [
+                "IEEE Student Branch"
+            ]
+        },
+        {
+            "tag": "md_azharul_islam_bn",
+            "patterns": [
+                "ফিজিক্যাল সায়েন্সেস বিভাগের এমডি আযহারুল ইসলামের পদ কি ?"
+            ]
+        },
+        {
+            "tag": "sheikhmohammadfauzulazim_bn",
+            "patterns": [
+                "শেখ মোহাম্মদ ফজলুল আজিম কে ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofinformation_systems_bn",
+            "patterns": [
+                "তথ্য সিস্টেম বিভাগের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "SultanaRazia_bn",
+            "patterns": [
+                "গ্লোবাল স্টাডিজ এবং গভর্নেন্স বিভাগের ড . সুলতানা রেজিয়া সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofsocialsciences_humanities_bn",
+            "patterns": [
+                "সামাজিক বিজ্ঞান এবং মানবিক বিভাগের বিভাগ প্রধান কে ?",
+                "সোশ্যাল সাইন্স বিভাগের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "ashrafulamin_bn",
+            "patterns": [
+                "CSE থেকে ড . মোঃ আশরাফুল আমিন সম্পর্কে বলুন",
+                "আশরাফুল আমিন কে ?"
+            ]
+        },
+        {
+            "tag": "ahmadmostofakamal_bn",
+            "patterns": [
+                "ফিজিক্যাল সায়েন্সেস বিভাগ থেকে মোস্তফা কামাল সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "Fab_Lab_IUB_bn",
+            "patterns": [
+                "ফ্যাব ল্যাব IUB",
+                "ফ্যাব ল্যাব"
+            ]
+        },
+        {
+            "tag": "mohammedsohelislam_bn",
+            "patterns": [
+                "মোহাম্মদ সোহেল ইসলামের বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "khanmuhammadbinasad_bn",
+            "patterns": [
+                "খান মুহাম্মদ বিন আসাদ পদার্থবিজ্ঞানের বিভাগ থেকে"
+            ]
+        },
+        {
+            "tag": "dilshadhossaindodul",
+            "patterns": [
+                "Who is Dilshad Hossain ?"
+            ]
+        },
+        {
+            "tag": "MdSafiuddin",
+            "patterns": [
+                "Safiuddin"
+            ]
+        },
+        {
+            "tag": "Green_Energy_Research_Center",
+            "patterns": [
+                "Green Energy Research Center"
+            ]
+        },
+        {
+            "tag": "departmentheadofenglish_bn",
+            "patterns": [
+                "ইংরেজি বিভাগের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "nageshrao",
+            "patterns": [
+                "Please provide information on Nagesh Rao from the English Department"
+            ]
+        },
+        {
+            "tag": "RIoT_Research_Center",
+            "patterns": [
+                "riot research center"
+            ]
+        },
+        {
+            "tag": "ashrafussafa_bn",
+            "patterns": [
+                "লাইফ সায়েন্স বিভাগের আশরাফুস সাফা সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "IndependentAccountingAssociation_bn",
+            "patterns": [
+                "স্বতন্ত্র অ্যাকাউন্টিং অ্যাসোসিয়েশন সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "Md_Rubayed_Mehedi_bn",
+            "patterns": [
+                "রুবায়েদ মেহেদী CSE বিভাগে কি কাজ করেন ?"
+            ]
+        },
+        {
+            "tag": "NahidaAkhterNaiema",
+            "patterns": [
+                "Please provide information on Nahida Akhter Naiema from General Management ?"
+            ]
+        },
+        {
+            "tag": "IUBTableTennisClub_bn",
+            "patterns": [
+                "IUB এ টেবিল টেনিস কার্যক্রম সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "Md_Shirazul_Islam",
+            "patterns": [
+                "What is the role of Md Shirazul Islam in the EEE department ?"
+            ]
+        },
+        {
+            "tag": "SumanProsadSaha",
+            "patterns": [
+                "Tell me information about Suman Prosad Saha of Marketing Department ?"
+            ]
+        },
+        {
+            "tag": "istiakahmed",
+            "patterns": [
+                "Please provide information on Istiak Ahmed from the eee Department"
+            ]
+        },
+        {
+            "tag": "SMRaysulHaque",
+            "patterns": [
+                "Raysul Haque"
+            ]
+        },
+        {
+            "tag": "rifatararouf_bn",
+            "patterns": [
+                "রিফাত আরা রৌফ সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "Nahida_Akhtar",
+            "patterns": [
+                "Who is Nahida Akhtar ?"
+            ]
+        },
+        {
+            "tag": "ZakiaBinteJamal",
+            "patterns": [
+                "Could you please tell me details of Zakia Binte Jamal ?"
+            ]
+        },
+        {
+            "tag": "tahminasultana_bn",
+            "patterns": [
+                "তাহমিনা সুলতানা কে ?"
+            ]
+        },
+        {
+            "tag": "ImtiazAhmedNevin",
+            "patterns": [
+                "Please provide information on Dr Imtiaz Ahmed Nevin from Finance ?"
+            ]
+        },
+        {
+            "tag": "departmentheadoflaw_bn",
+            "patterns": [
+                "আইন বিভাগের বিভাগ প্রধানের নাম কী ?",
+                "আইন বিভাগের বিভাগীয় প্রধানের নাম কি ?"
+            ]
+        },
+        {
+            "tag": "MdAbdulKhaleque_bn",
+            "patterns": [
+                "ইএসএম বিভাগের এমডি আবদুল খালেক সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "IUBJournalismClub",
+            "patterns": [
+                "Tell me about the IUB Journalism Club ."
+            ]
+        },
+        {
+            "tag": "RashedaKhan_bn",
+            "patterns": [
+                "রাশেদা খানের যোগাযোগের তথ্য কি ?",
+                "রাশেদা খানের যোগাযোগের তথ্য কি ?"
+            ]
+        },
+        {
+            "tag": "NafisaHuq",
+            "patterns": [
+                "Tell me information about Nafisa Huq of Public Health Department ?"
+            ]
+        },
+        {
+            "tag": "ShahinaAnsary_bn",
+            "patterns": [
+                "লাইফ সায়েন্সের বিভাগের প্রোগ্রাম ম্যানেজার কে ?",
+                "শাহিনা আনসারি কে ?"
+            ]
+        },
+        {
+            "tag": "BorhanUddinKhan",
+            "patterns": [
+                "Tell me information about Borhan Uddin Khan of Law Department ?"
+            ]
+        },
+        {
+            "tag": "BokhtiarAhmed",
+            "patterns": [
+                "Bokhtiar Ahmed"
+            ]
+        },
+        {
+            "tag": "Mahmuda",
+            "patterns": [
+                "Who is Mahmuda ?"
+            ]
+        },
+        {
+            "tag": "rumanasultana_bn",
+            "patterns": [
+                "রুমানা সুলতানা সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "bangla_greeting",
+            "patterns": [
+                "স্বাগতম",
+                "তুমি কেমন আছ ?"
+            ]
+        },
+        {
+            "tag": "mithilamahfuz_bn",
+            "patterns": [
+                "ইংরেজি বিভাগের মিথিলা মাহফুজ সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "IUBCricketClub",
+            "patterns": [
+                "Cricket Club"
+            ]
+        },
+        {
+            "tag": "mohammadabdulbaten_bn",
+            "patterns": [
+                "আব্দুল বাতেন সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "SultanaRazia",
+            "patterns": [
+                "Can you tell me details about Sultana Razia ?"
+            ]
+        },
+        {
+            "tag": "mdsafiuddin_bn",
+            "patterns": [
+                "এমডি সফিউদ্দিন কে ?"
+            ]
+        },
+        {
+            "tag": "ZenatZebinHossain",
+            "patterns": [
+                "Zenat Zebin Hossain"
+            ]
+        },
+        {
+            "tag": "abulhasnatmsalimullah_bn",
+            "patterns": [
+                "আবুল হাসনাত এম সেলিমুল্লাহ কে ?"
+            ]
+        },
+        {
+            "tag": "IndependentManagementEntrepreneurshipClub",
+            "patterns": [
+                "Tell me about the Independent Management and Entrepreneurship Club ."
+            ]
+        },
+        {
+            "tag": "IndependentHRSociety_bn",
+            "patterns": [
+                "IUB-এ HR সমাজ সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "AbulHasnatMSalimullah",
+            "patterns": [
+                "Please provide information on Dr Abul Hasnat M Salimullah from Economics ?"
+            ]
+        },
+        {
+            "tag": "CGP&AR_bn",
+            "patterns": [
+                "সিজিপি অ্যান্ড এআর সম্পর্কে বলুন ?"
+            ]
+        },
+        {
+            "tag": "mustafahabibchowdhury",
+            "patterns": [
+                "Can you please tell me details of Mustafa Habib Chowdhury ?"
+            ]
+        },
+        {
+            "tag": "ahmadmostofakamal",
+            "patterns": [
+                "Mostofa Kamal from the Physical Sciences Department"
+            ]
+        },
+        {
+            "tag": "hanifmahtab_bn",
+            "patterns": [
+                "আইবি বিভাগের হানিফ মহতাব সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "nayemaislamnima_bn",
+            "patterns": [
+                "নায়েমা ইসলাম নীমা সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "IUBDebateClub",
+            "patterns": [
+                "IUB Debate Club"
+            ]
+        },
+        {
+            "tag": "hours_bn",
+            "patterns": [
+                "আপনারা কখন খোলা ?"
+            ]
+        },
+        {
+            "tag": "HasiburRahmanAbir",
+            "patterns": [
+                "Please provide information on Hasibur Rahman Abir from General Management ?"
+            ]
+        },
+        {
+            "tag": "ObydullahAlMarjuk",
+            "patterns": [
+                "Please provide information on Obydullah Al Marjuk from Social Sciences and Humanities ?"
+            ]
+        },
+        {
+            "tag": "mohammadshahnawazkarim_bn",
+            "patterns": [
+                "মোহাম্মদ শাহনাওয়াজ কারিম সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "jannatulferdous_bn",
+            "patterns": [
+                "লাইফ সায়েন্স বিভাগের জান্নাতুল ফেরদৌস সম্পর্কে বলুন ?"
+            ]
+        },
+        {
+            "tag": "MdRezaHabib",
+            "patterns": [
+                "Reza Habib"
+            ]
+        },
+        {
+            "tag": "AfrozaBilkis_bn",
+            "patterns": [
+                "আফরোজা বিলকিস সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "IUBEnglishLanguageClub_bn",
+            "patterns": [
+                "ইংরেজি ক্লাব"
+            ]
+        },
+        {
+            "tag": "md_rashid_abid_monir_bn",
+            "patterns": [
+                "ফিজিক্যাল সায়েন্সেস বিভাগের এমডি রাশিদ আবিদ মনি কি ভূমিকা পালন করেন ?"
+            ]
+        },
+        {
+            "tag": "ParisaAlam_bn",
+            "patterns": [
+                "আইইউবির প্যারিসা আলম সম্পর্কে বলুন।",
+                "প্যারিসা আলম কে ?"
+            ]
+        },
+        {
+            "tag": "departments_bn",
+            "patterns": [
+                "আইইউবি তে কয়টি ডিপার্টমেন্ট আছে ?"
+            ]
+        },
+        {
+            "tag": "mohammadfaisaluddin_bn",
+            "patterns": [
+                "ফয়সাল উদ্দিন কে ?",
+                "ফয়সাল উদ্দিন"
+            ]
+        },
+        {
+            "tag": "SMRaysulHaque_bn",
+            "patterns": [
+                "এস এম রায়সুল হক কে ?"
+            ]
+        },
+        {
+            "tag": "marizsintaha_bn",
+            "patterns": [
+                "মারিজ সিন্থার বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "sabrinamoriomelias_bn",
+            "patterns": [
+                "লাইফ সায়েন্স বিভাগের সাবরিনা মোরিয়ম এলিয়াস সম্পর্কে বলুন ?"
+            ]
+        },
+        {
+            "tag": "nayemaislamnima",
+            "patterns": [
+                "Nayema Islam Nima"
+            ]
+        },
+        {
+            "tag": "BushraSanjana",
+            "patterns": [
+                "Please provide information on Bushra Sanjana from Human Resource Management ?"
+            ]
+        },
+        {
+            "tag": "LFE",
+            "patterns": [
+                "What does Live-in-Field Experience mean ?"
+            ]
+        },
+        {
+            "tag": "Sarwar_Shahidi_bn",
+            "patterns": [
+                "সারোয়ার শহীদী CSE বিভাগে কি ভূমিকা পালন করেন ?"
+            ]
+        },
+        {
+            "tag": "Scholarship_bn",
+            "patterns": [
+                "বৃত্তির বিস্তারিত বলুন",
+                "বৃত্তির বিস্তারিত বলুন"
+            ]
+        },
+        {
+            "tag": "departmentheadoffinance",
+            "patterns": [
+                "What is the name of the department head of finance Department ?"
+            ]
+        },
+        {
+            "tag": "IUBToastmastersClub_bn",
+            "patterns": [
+                "IUB টোস্টমাস্টার্স ক্লাব সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "Mahfuzur_Rahman",
+            "patterns": [
+                "What is Mahfuzur Rahman 's position in the EEE department ?"
+            ]
+        },
+        {
+            "tag": "FAB_Lab_bn",
+            "patterns": [
+                "ফ্যাব ল্যাব"
+            ]
+        },
+        {
+            "tag": "departmentheadofhr_bn",
+            "patterns": [
+                "হিউম্যান রিসোর্স ম্যানেজমেন্ট বিভাগের বিভাগীয় প্রধানের নাম কি ?"
+            ]
+        },
+        {
+            "tag": "IUBEsportsClub_bn",
+            "patterns": [
+                "IUB ইস্পোর্টস ক্লাব কি ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofEEE_bn",
+            "patterns": [
+                "EEE বিভাগের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "Md_Rashid_Abid_Monir",
+            "patterns": [
+                "Rashid Monir"
+            ]
+        },
+        {
+            "tag": "mahfuzur_rahman_bn",
+            "patterns": [
+                "মাহফুজুর রহমান সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "King_Sejong_Institute_bn",
+            "patterns": [
+                "কিং সেজং ইনস্টিটিউট",
+                "কিং সেজং ইনস্টিটিউট কি ?"
+            ]
+        },
+        {
+            "tag": "AbulBashar",
+            "patterns": [
+                "Please provide information on Dr Abul Bashar from General Management ?"
+            ]
+        },
+        {
+            "tag": "khosrumohammadsalim",
+            "patterns": [
+                "Khosru Mohammad Salim"
+            ]
+        },
+        {
+            "tag": "SharmeenAhmed",
+            "patterns": [
+                "Can you tell me details about Sharmeen Ahmed ?"
+            ]
+        },
+        {
+            "tag": "taremahmed_bn",
+            "patterns": [
+                "তারেম আহমেদ",
+                "CSE বিভাগের তারেম আহমেদ সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "tasneemshahrukh_bn",
+            "patterns": [
+                "তাসনিম শাহরুখ সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "adilurrahman",
+            "patterns": [
+                "Tell me about Adilur Rahman from English"
+            ]
+        },
+        {
+            "tag": "AnwarZahid",
+            "patterns": [
+                "Anwar Zahid"
+            ]
+        },
+        {
+            "tag": "khadizaaktereme",
+            "patterns": [
+                "Can you please tell me details of Khadiza Akter Eme ?"
+            ]
+        },
+        {
+            "tag": "naureenrahnuma_bn",
+            "patterns": [
+                "নওরীন রাহনুমা সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "IUBBadmintonClub_bn",
+            "patterns": [
+                "IUB ব্যাডমিন্টন ক্লাব কী করে ?"
+            ]
+        },
+        {
+            "tag": "TajminaAzmeri",
+            "patterns": [
+                "Could you tell me about Tajmina Azmeri ?"
+            ]
+        },
+        {
+            "tag": "sayyedatunnoorsameera",
+            "patterns": [
+                "Tell me about Sayyeda Tun Noor Sameera from English"
+            ]
+        },
+        {
+            "tag": "RehnumaBinteMamun_bn",
+            "patterns": [
+                "আইন বিভাগের রেহনুমা বিনতে মামুন সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "RafiuddinAhmed",
+            "patterns": [
+                "Rafiuddin Ahmed"
+            ]
+        },
+        {
+            "tag": "MdEkhtekharulIslam",
+            "patterns": [
+                "Could you please tell me details of Md Ekhtekharul Islam ?"
+            ]
+        },
+        {
+            "tag": "MdTaslimUddin_bn",
+            "patterns": [
+                "তাসলিম উদ্দিন"
+            ]
+        },
+        {
+            "tag": "raisarasheeka_bn",
+            "patterns": [
+                "মিডিয়া এবং কমিউনিকেশন বিভাগের রাইসা রাশিকা সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "fahadmonir_bn",
+            "patterns": [
+                "ফাহাদ মনির সম্পর্কে বলুন যিনি সিএসই থেকে ?",
+                "ফাহাদ মনির সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "Jukti",
+            "patterns": [
+                "Tell me about the Jukti club at IUB ."
+            ]
+        },
+        {
+            "tag": "MahbubaDewan",
+            "patterns": [
+                "Mahbuba Dewan"
+            ]
+        },
+        {
+            "tag": "Mahmudul_Islam_bn",
+            "patterns": [
+                "মাহমুদুল ইসলাম কে ?"
+            ]
+        },
+        {
+            "tag": "IUBJournalismClub_bn",
+            "patterns": [
+                "IUB সাংবাদিকতা ক্লাব সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "RaisulAwalMahmood",
+            "patterns": [
+                "Raisul Awal"
+            ]
+        },
+        {
+            "tag": "ShabareenTisha",
+            "patterns": [
+                "Could you please tell me details of Shabareen Tisha ?"
+            ]
+        },
+        {
+            "tag": "razibhayatkhan_bn",
+            "patterns": [
+                "রজিব হায়াৎ খান এর তথ্য",
+                "ড . রজিব হায়াৎ খান সম্পর্কে তথ্য দিন ?"
+            ]
+        },
+        {
+            "tag": "kanizfatema",
+            "patterns": [
+                "Info of Kaniz Fatema",
+                "Who is Kaniz Fatema ?"
+            ]
+        },
+        {
+            "tag": "safayetrahman_bn",
+            "patterns": [
+                "সাফায়েত রহমান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "Can I know your name ?",
+                "Do you have a name ?"
+            ]
+        },
+        {
+            "tag": "MdMahmodulHasanSohel",
+            "patterns": [
+                "Tell me information about Md Mahmodul Hasan Sohel of Life Sciences Department ?"
+            ]
+        },
+        {
+            "tag": "bijoyrahmanarif_bn",
+            "patterns": [
+                "বিজয় রহমান আরিফ সম্পর্কে বলুন যিনি সিএসই থেকে ?",
+                "বিজয় আরিফ"
+            ]
+        },
+        {
+            "tag": "dubratakumardey_bn",
+            "patterns": [
+                "সুব্রত কুমার দে সম্পর্কে বলুন যিনি সিএসই থেকে ?",
+                "স্কেড কে ?"
+            ]
+        },
+        {
+            "tag": "khaledsaifullah",
+            "patterns": [
+                "Khaled Saifullah"
+            ]
+        },
+        {
+            "tag": "asifmahmud_bn",
+            "patterns": [
+                "আসিফ মাহমুদ সম্পর্কে বলুন যিনি সিএসই থেকে ?",
+                "সিএসই বিভাগের আসিফ মাহমুদ সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "shahriyazaman_bn",
+            "patterns": [
+                "ইলেকট্রিক্যাল এবং ইলেকট্রনিক ইঞ্জিনিয়ারিং বিভাগের শাহরিয়া জামান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "rafiuddinahmed_bn",
+            "patterns": [
+                "ফিউদ্দিন আহমেদ"
+            ]
+        },
+        {
+            "tag": "motiurrahman_bn",
+            "patterns": [
+                "মতিউর রহমান সম্পর্কে বলুন যিনি সিএসই থেকে ?",
+                "মতিউর রহমান"
+            ]
+        },
+        {
+            "tag": "nazratunnayeemchoudhury_bn",
+            "patterns": [
+                "নাজরাতুন নায়ীম"
+            ]
+        },
+        {
+            "tag": "imranfirdaus",
+            "patterns": [
+                "Who is Imran Firdaus ?"
+            ]
+        },
+        {
+            "tag": "DEA_IUB_bn",
+            "patterns": [
+                "DEA IUB কি ?"
+            ]
+        },
+        {
+            "tag": "momtazparvin",
+            "patterns": [
+                "Who is Momtaz Parvin ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofinformation_systems",
+            "patterns": [
+                "Who is the department head of Information Systems Department ?"
+            ]
+        },
+        {
+            "tag": "mohammadshidujaman_bn",
+            "patterns": [
+                "CSE বিভাগের শিদুজামান সম্পর্কে তথ্য দিন",
+                "শিদুজামান"
+            ]
+        },
+        {
+            "tag": "TarannumAzim",
+            "patterns": [
+                "Tarannum Azim"
+            ]
+        },
+        {
+            "tag": "MdAbdulKhaleque",
+            "patterns": [
+                "Could you please tell me details of Md Abdul Khaleque ?"
+            ]
+        },
+        {
+            "tag": "KamranulBaset_bn",
+            "patterns": [
+                "পাবলিক হেলথ বিভাগের কামরান উল বাসেত সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "AbdullahAlAhad",
+            "patterns": [
+                "Please provide information on Abdullah Al Ahad from Human Resource Management ?"
+            ]
+        },
+        {
+            "tag": "KamranulBaset",
+            "patterns": [
+                "Kamran ul Baset"
+            ]
+        },
+        {
+            "tag": "Fab_Lab_IUB",
+            "patterns": [
+                "FabLab"
+            ]
+        },
+        {
+            "tag": "farhadalam",
+            "patterns": [
+                "Tell me about Farhad Alam from Physical Sciences"
+            ]
+        },
+        {
+            "tag": "zahangiralam_bn",
+            "patterns": [
+                "CSE বিভাগের জাহাঙ্গীর আলম সম্পর্কে তথ্য দিন",
+                "জাহাঙ্গীর আলম এর তথ্য"
+            ]
+        },
+        {
+            "tag": "Md_Siddik_bn",
+            "patterns": [
+                "সিদ্দিককে ?"
+            ]
+        },
+        {
+            "tag": "phylab",
+            "patterns": [
+                "Where is the Physics lab ?"
+            ]
+        },
+        {
+            "tag": "RumanaSultana",
+            "patterns": [
+                "Rumana Sultana"
+            ]
+        },
+        {
+            "tag": "departmentheadofpublichealth_bn",
+            "patterns": [
+                "পাবলিক হেলথ বিভাগের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "AfnanYusuf",
+            "patterns": [
+                "Please provide information on Afnan Yusuf from General Management ?"
+            ]
+        },
+        {
+            "tag": "LitonChandraBiswas_bn",
+            "patterns": [
+                "লিটন চন্দ্র বিশ্বাস সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "arkaroy_bn",
+            "patterns": [
+                "লাইফ সায়েন্স বিভাগের আর্কা রয় সম্পর্কে বলুন ?"
+            ]
+        },
+        {
+            "tag": "shejutinuremaksurat_bn",
+            "patterns": [
+                "সোশ্যাল সায়েন্সেস এবং হিউমেনিটিজ বিভাগের শেজুতি নূরে মাকসুরাত সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "meherunahmed_bn",
+            "patterns": [
+                "ড . মেহেরুন আহমেদ সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "arifurrahmankhan_bn",
+            "patterns": [
+                "আরিফুর রহমান খান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "King_Sejong_Institute",
+            "patterns": [
+                "ksi"
+            ]
+        },
+        {
+            "tag": "Centre_Bay_Bengal_Studies_bn",
+            "patterns": [
+                "বঙ্গোপসাগর অধ্যয়ন কেন্দ্র",
+                "বে অব বেঙ্গল স্টাডিজ"
+            ]
+        },
+        {
+            "tag": "English_Language_Resource_Center_bn",
+            "patterns": [
+                "ইংরেজি ভাষা রিসোর্স কেন্দ্র"
+            ]
+        },
+        {
+            "tag": "EffatBinteKabir",
+            "patterns": [
+                "Effat Binte Kabir"
+            ]
+        },
+        {
+            "tag": "saquibahmadkhan_bn",
+            "patterns": [
+                "ইএসএম বিভাগের সাকিব আহমদ খান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "Office_Graduate_Studies_Research_Industrial_Relations_bn",
+            "patterns": [
+                "গ্র্যাজুয়েট স্টাডিজ , গবেষণা এবং শিল্প সম্পর্ক"
+            ]
+        },
+        {
+            "tag": "asifmahmood",
+            "patterns": [
+                "Info of Asif Mahmood",
+                "Asif Mahmood"
+            ]
+        },
+        {
+            "tag": "IUBKClub_bn",
+            "patterns": [
+                "IUB K ক্লাব কি ?"
+            ]
+        },
+        {
+            "tag": "BushraSanjana_bn",
+            "patterns": [
+                "বুশরা সঞ্জানা কে ?"
+            ]
+        },
+        {
+            "tag": "Multilingual_Excellence_Centre_bn",
+            "patterns": [
+                "বহুভাষিক উৎকর্ষ কেন্দ্র"
+            ]
+        },
+        {
+            "tag": "departmentheadoffecnomics_bn",
+            "patterns": [
+                "অর্থনীতির বিভাগের বিভাগীয় প্রধানের নাম কি ?"
+            ]
+        },
+        {
+            "tag": "abusayed",
+            "patterns": [
+                "Info of Abu Sayed",
+                "Can you please tell me details of Abu Sayed ?"
+            ]
+        },
+        {
+            "tag": "zakiabintejamal_bn",
+            "patterns": [
+                "মার্কেটিং বিভাগের জাকিয়া বিনতে জামাল সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "shiprabanik_bn",
+            "patterns": [
+                "শিপ্রা বানিক সম্পর্কে বলুন পদার্থবিজ্ঞানের বিভাগ থেকে"
+            ]
+        },
+        {
+            "tag": "Nazrul_Islam_Abbasuddin_Ahmed_Research_Study Center",
+            "patterns": [
+                "KNIAARSC"
+            ]
+        },
+        {
+            "tag": "MaimunaSyedAhmed",
+            "patterns": [
+                "Syed Ahmed"
+            ]
+        },
+        {
+            "tag": "departmentheadofsocialsciences_humanities",
+            "patterns": [
+                "Who is the department head of Humanities department ?"
+            ]
+        },
+        {
+            "tag": "kaiserunisha_bn",
+            "patterns": [
+                "কাইসার ইউনিশা সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "ShahMFaruque",
+            "patterns": [
+                "Could you please tell me details of Shah M Faruque ?"
+            ]
+        },
+        {
+            "tag": "AfnanYusuf_bn",
+            "patterns": [
+                "জেনারেল ম্যানেজমেন্টের আফনান ইউসুফ সম্পর্কে তথ্য দিন ?"
+            ]
+        },
+        {
+            "tag": "NafisaRawshan",
+            "patterns": [
+                "Tell me information about Nafisa Rawshan of Pharmacy Department ?"
+            ]
+        },
+        {
+            "tag": "EffatBinteKabir_bn",
+            "patterns": [
+                "মানব সম্পদ ব্যবস্থাপনা বিভাগের এফফাত বিনতে কবির সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "mdaminulislam_bn",
+            "patterns": [
+                "মোঃ আমিনুল ইসলাম সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "departmentheadofM&C_bn",
+            "patterns": [
+                "এম অ্যান্ড সি বিভাগের প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "TanjimaHoqueTrisha_bn",
+            "patterns": [
+                "তানজিমা হক তৃষার যোগাযোগের তথ্য কি ?",
+                "আইইউবির তানজিমা হক তৃষা সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "Md_Ahad_Khan_bn",
+            "patterns": [
+                "আহাদ খান CSE বিভাগে কি ভূমিকা পালন করেন ?"
+            ]
+        },
+        {
+            "tag": "ZahidulIslam",
+            "patterns": [
+                "Tell me information about Zahidul Islam of Law Department ?"
+            ]
+        },
+        {
+            "tag": "JannatulFerdous",
+            "patterns": [
+                "Could you please tell me details of Jannatul Ferdous ?"
+            ]
+        },
+        {
+            "tag": "ShahnazNasrinIla",
+            "patterns": [
+                "Can you tell me details about Shahnaz Nasrin Ila ?"
+            ]
+        },
+        {
+            "tag": "dubratakumardey",
+            "patterns": [
+                "Info of Subrata Kumar Dey",
+                "Tell me about Subrata Kumar Dey from CSE"
+            ]
+        },
+        {
+            "tag": "raziasultanakhan",
+            "patterns": [
+                "Tell me about Razia Sultana Khan from English"
+            ]
+        },
+        {
+            "tag": "MdIliasKamalRisat_bn",
+            "patterns": [
+                "মোহাম্মদ ইলিয়াস কামাল রিসাত সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "departmentheadofglobalstudies",
+            "patterns": [
+                "Who is the department head of GSG department ?"
+            ]
+        },
+        {
+            "tag": "sarkerhasanalzayed",
+            "patterns": [
+                "Who is Sarker Hasan ?"
+            ]
+        },
+        {
+            "tag": "asmabegum",
+            "patterns": [
+                "Asma Begum"
+            ]
+        },
+        {
+            "tag": "momtazparvin_bn",
+            "patterns": [
+                "মিডিয়া এবং কমিউনিকেশন বিভাগের মমতাজ পারভিন সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "md_rakibul_islam_bn",
+            "patterns": [
+                "কম্পিউটার সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং বিভাগের এমডি রাকিবুল ইসলাম কি করেন ?"
+            ]
+        },
+        {
+            "tag": "andaleebnavinchoudhury",
+            "patterns": [
+                "Andaleeb Navin Choudhury"
+            ]
+        },
+        {
+            "tag": "KAyazRabbani",
+            "patterns": [
+                "Ayaz Rabbani"
+            ]
+        },
+        {
+            "tag": "MuhammadMahbuburRahman_bn",
+            "patterns": [
+                "আইন বিভাগের মুহাম্মদ মাহবুবুর রহমান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofhr",
+            "patterns": [
+                "Who is the department head of hr Department ?"
+            ]
+        },
+        {
+            "tag": "Sarwar_Shahidi",
+            "patterns": [
+                "Sarwar Shahidi"
+            ]
+        },
+        {
+            "tag": "QudrateKhoda_bn",
+            "patterns": [
+                "সোশ্যাল সায়েন্সেস অ্যান্ড হিউম্যানিটিজ বিভাগের কুদরত খোদা সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "AfiaNowshen",
+            "patterns": [
+                "Could you please tell me details of Afia Nowshen ?"
+            ]
+        },
+        {
+            "tag": "ArkaRoy",
+            "patterns": [
+                "Tell me information about Arka Roy of Life Sciences Department ?"
+            ]
+        },
+        {
+            "tag": "IndependentEconomicSociety",
+            "patterns": [
+                "Economic Society"
+            ]
+        },
+        {
+            "tag": "departmentheadofpharmacy_bn",
+            "patterns": [
+                "ফার্মেসি বিভাগের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "nadimahmed_bn",
+            "patterns": [
+                "ফিজিক্যাল সায়েন্সেস বিভাগের নাদিম আহমেদ সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "saarazabeen_bn",
+            "patterns": [
+                "ইংরেজি বিভাগের সারা জাবিন সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "Quality_Assurance_Cell_bn",
+            "patterns": [
+                "গুণমান নিশ্চয়তা সেল"
+            ]
+        },
+        {
+            "tag": "KarishmaSinha",
+            "patterns": [
+                "Tell me information about Karishma Sinha of ESM Department ?"
+            ]
+        },
+        {
+            "tag": "about_self",
+            "patterns": [
+                "Who are you ?",
+                "What are you ?"
+            ]
+        },
+        {
+            "tag": "bijoyalala",
+            "patterns": [
+                "Tell me about boutBijoya Lala from Electrical and Electronic Engineering"
+            ]
+        },
+        {
+            "tag": "IUBArtClub",
+            "patterns": [
+                "Tell me about the IUB Art Club ."
+            ]
+        },
+        {
+            "tag": "Salsabil_Shama_bn",
+            "patterns": [
+                "সালসাবিল শামা কে ?"
+            ]
+        },
+        {
+            "tag": "karishmasinha_bn",
+            "patterns": [
+                "ইএসএম বিভাগের কারিশমা সিনহা সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "SMYusufMallick",
+            "patterns": [
+                "Tell me information about S. M. Yusuf Mallick of IB Department ?"
+            ]
+        },
+        {
+            "tag": "zoharahman",
+            "patterns": [
+                "Can you please tell me details of Zoha Rahman ?"
+            ]
+        },
+        {
+            "tag": "NasrinAkhter",
+            "patterns": [
+                "Tell me information about Nasrin Akhter of Pharmacy Department ?"
+            ]
+        },
+        {
+            "tag": "library_bn",
+            "patterns": [
+                "লাইব্রেরির অবস্থান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "hana_sultan_bn",
+            "patterns": [
+                "হানা সুলতানের তথ্য"
+            ]
+        },
+        {
+            "tag": "navilarahmannadi_bn",
+            "patterns": [
+                "ইলেকট্রিক্যাল এবং ইলেকট্রনিক ইঞ্জিনিয়ারিং থেকে নাভিলা রহমান নাদি সম্পর্কে বলুন",
+                "নাভিলা রহমান নাদী সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "insults",
+            "patterns": [
+                "ফুনগা",
+                "হারামখোর",
+                "হাউয়া",
+                "নিগ্রো",
+                "ভোদাই",
+                "বোকাচোদা",
+                "বানচোত",
+                "তালেবান",
+                "নস্টা",
+                "বাইনচোদ",
+                "মিরজাফর",
+                "গাউড়া",
+                "গুশখোর",
+                "বেক্কল",
+                "সুদখোর",
+                "ফকিন্নির-পুত",
+                "মাদারি",
+                "গরুচোর",
+                "কাইল্লা",
+                "হারামি",
+                "চামছা",
+                "শুয়র",
+                "চুদা-খা"
+            ]
+        },
+        {
+            "tag": "shaifulislam_bn",
+            "patterns": [
+                "শাইফুল ইসলাম কে ?"
+            ]
+        },
+        {
+            "tag": "nahinsultana_bn",
+            "patterns": [
+                "মার্কেটিং বিভাগের নাহিন সুলতানা সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "ajmirisabrinakhan",
+            "patterns": [
+                "Who is Ajmiri ?",
+                "Info of Ajmiri Khan"
+            ]
+        },
+        {
+            "tag": "MaimunaSyedAhmed_bn",
+            "patterns": [
+                "মাইমুনা সায়েদ আহমেদ কে ?"
+            ]
+        },
+        {
+            "tag": "samrat_tonmoy_sarkar_bn",
+            "patterns": [
+                "ফিজিক্যাল সায়েন্সেস বিভাগের সাম্রাট টনময় সরকারের ভূমিকা কি ?"
+            ]
+        },
+        {
+            "tag": "sabrinaalam",
+            "patterns": [
+                "Can you please tell me details of Sabrina Alam ?",
+                "Please provide information on Sabrina Alam from the CSE Department"
+            ]
+        },
+        {
+            "tag": "Green_Energy_Research_Center_bn",
+            "patterns": [
+                "গ্রিন এনার্জি রিসার্চ সেন্টার কি ?"
+            ]
+        },
+        {
+            "tag": "MdIliasKamalRisat",
+            "patterns": [
+                "Can you tell me details about Md Ilias Kamal Risat ?"
+            ]
+        },
+        {
+            "tag": "raiyanarahman",
+            "patterns": [
+                "Raiyana Rahman"
+            ]
+        },
+        {
+            "tag": "mdmehiramin_bn",
+            "patterns": [
+                "মেহির আমিন সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "Social_Science_Research_bn",
+            "patterns": [
+                "সামাজিক বিজ্ঞান গবেষণা সম্পর্কে বলুন",
+                "সামাজিক বিজ্ঞান গবেষণা"
+            ]
+        },
+        {
+            "tag": "MohammedSohelIslam",
+            "patterns": [
+                "Tell me information about Mohammed Sohel Islam of Marketing Department ?"
+            ]
+        },
+        {
+            "tag": "AbdullahAlAhad_bn",
+            "patterns": [
+                "আবদুল্লাহ আল আহাদ কে ?"
+            ]
+        },
+        {
+            "tag": "ahbubulsyeed_bn",
+            "patterns": [
+                "ড . মাহবুবুল সয়েদের বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "FarzanaChowdhury",
+            "patterns": [
+                "Can you tell me details about Farzana Chowdhury ?"
+            ]
+        },
+        {
+            "tag": "IUBKClub",
+            "patterns": [
+                "Tell me about K Club activities at IUB ."
+            ]
+        },
+        {
+            "tag": "thanks_bn",
+            "patterns": [
+                "আপনি অসাধারণ",
+                "আপনাকে ধন্যবাদ"
+            ]
+        },
+        {
+            "tag": "IUBACMStudentChapter_bn",
+            "patterns": [
+                "ACM ছাত্র শাখা সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "IUBPharmaClub_bn",
+            "patterns": [
+                "IUB ফার্মা ক্লাব কি ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofpublichealth",
+            "patterns": [
+                "Who is the department head of Public Health department ?"
+            ]
+        },
+        {
+            "tag": "English_Language_Resource_Centre_bn",
+            "patterns": [
+                "ইংরেজি ভাষা রিসোর্স কেন্দ্র"
+            ]
+        },
+        {
+            "tag": "khaledsaifullah_bn",
+            "patterns": [
+                "খোয়াজা সাইফুর রহমান সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MdHafizurRahman",
+            "patterns": [
+                "Hafizur Rahman"
+            ]
+        },
+        {
+            "tag": "MdAminulIslam",
+            "patterns": [
+                "Could you please tell me details of Md Aminul Islam ?"
+            ]
+        },
+        {
+            "tag": "MdEmrulArefin",
+            "patterns": [
+                "Emrul Arefin"
+            ]
+        },
+        {
+            "tag": "NazninAkterBanu_bn",
+            "patterns": [
+                "সোশ্যাল সায়েন্সেস অ্যান্ড হিউম্যানিটিজ বিভাগের নাজনীন আক্তার বাণু সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "asmabegum_bn",
+            "patterns": [
+                "আসমা বেগম সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "international_Centre_Climate_Change_Development",
+            "patterns": [
+                "icccad",
+                "Climate Change and Development"
+            ]
+        },
+        {
+            "tag": "mahmudhasankayesh_bn",
+            "patterns": [
+                "মাহমুদ হাসান কায়েশ সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "Nazmus_Sakib",
+            "patterns": [
+                "Tell me about Nazmus Sakib ."
+            ]
+        },
+        {
+            "tag": "marufaakter_bn",
+            "patterns": [
+                "মারুফা আক্তার সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "mdmahbubalam",
+            "patterns": [
+                "Mahbub Alam"
+            ]
+        },
+        {
+            "tag": "ZahidulIslam_bn",
+            "patterns": [
+                "আইন বিভাগের জাহিদুল ইসলাম সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "FaqihaMustafaAnannya",
+            "patterns": [
+                "Faqiha Mustafa Anannya",
+                "Could you tell me about Faqiha Ta-Seen Mustafa Anannya ?"
+            ]
+        },
+        {
+            "tag": "arshadmomen_bn",
+            "patterns": [
+                "আর্শাদ মোমেন সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "abdurrazzak",
+            "patterns": [
+                "Tell me about Abdur Razzak from Electrical and Electronic Engineering"
+            ]
+        },
+        {
+            "tag": "AssaduzzamanKhan",
+            "patterns": [
+                "Assaduzzaman Khan"
+            ]
+        },
+        {
+            "tag": "raisulawalmahmood_bn",
+            "patterns": [
+                "রায়সুল আওয়াল মাহমুদ সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "HanifMahtab",
+            "patterns": [
+                "Hanif Mahtab"
+            ]
+        },
+        {
+            "tag": "IUBMusicClub_bn",
+            "patterns": [
+                "মিউজিক ক্লাব কি ধরনের কার্যক্রম করে ?"
+            ]
+        },
+        {
+            "tag": "mohammedanwer_bn",
+            "patterns": [
+                "মোহাম্মদ আনওয়ার সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "razibhayatkhan",
+            "patterns": [
+                "Please provide information on Razib Hayat Khan from the CSE Department",
+                "Can you please tell me details of Dr. Razib Hayat Khan ?"
+            ]
+        },
+        {
+            "tag": "purobiranikundu",
+            "patterns": [
+                "Who is Purobi Rani ?"
+            ]
+        },
+        {
+            "tag": "IndependentInternationalBusinessForum_bn",
+            "patterns": [
+                "IUB-এ IIBF কী করে ?"
+            ]
+        },
+        {
+            "tag": "AninditaNaha_bn",
+            "patterns": [
+                "অনিন্দিতা নাহা কে ?",
+                "আইইউবির অনিন্দিতা নাহা সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "MdJahidHossainBhuiyan",
+            "patterns": [
+                "Tell me information about Md Jahid Hossain Bhuiyan of Law Department ?"
+            ]
+        },
+        {
+            "tag": "hana_sultan",
+            "patterns": [
+                "who is Hana Sultan"
+            ]
+        },
+        {
+            "tag": "RashedaKhan",
+            "patterns": [
+                "What is Rasheda Khan 's contact information ?"
+            ]
+        },
+        {
+            "tag": "IUBPharmaClub",
+            "patterns": [
+                "Tell me about the Pharma Club at IUB ."
+            ]
+        },
+        {
+            "tag": "emranulhaque_bn",
+            "patterns": [
+                "ইমরানুল হক কে ?"
+            ]
+        },
+        {
+            "tag": "departmentheadoflifesciences_bn",
+            "patterns": [
+                "লাইফ সাইন্সেস বিভাগের বিভাগ প্রধান কে ?",
+                "লাইফ সাইন্সেস বিভাগের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "SeaguftaAfrin_bn",
+            "patterns": [
+                "সেগুফতা আফরিন"
+            ]
+        },
+        {
+            "tag": "SabrinaMoriomElias",
+            "patterns": [
+                "Could you please tell me details of Sabrina Moriom Elias ?"
+            ]
+        },
+        {
+            "tag": "MdToriqulIslam_bn",
+            "patterns": [
+                "তরিকুল ইসলাম কে ?"
+            ]
+        },
+        {
+            "tag": "SheikhMohammadFauzulAzim",
+            "patterns": [
+                "Tell me information about Sheikh Mohammad Fauzul Azim of Marketing Department ?"
+            ]
+        },
+        {
+            "tag": "khanmuhammadbinasad",
+            "patterns": [
+                "Tell me about Khan Muhammad Bin Asad from Physical Sciences"
+            ]
+        },
+        {
+            "tag": "mdmahbubalam_bn",
+            "patterns": [
+                "মাহবুব আলম সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "shiprabanik",
+            "patterns": [
+                "Tell me about Shipra Banik from Physical Sciences"
+            ]
+        },
+        {
+            "tag": "Md_Rubayed_Mehedi",
+            "patterns": [
+                "Rubayed Mehedi"
+            ]
+        },
+        {
+            "tag": "Md_Azharul_Islam",
+            "patterns": [
+                "What is Md Azharul Islam 's position in the Physical Sciences department ?"
+            ]
+        },
+        {
+            "tag": "JebunnaharKhandakar",
+            "patterns": [
+                "Jebunnahar Khandakar"
+            ]
+        },
+        {
+            "tag": "ShabareenTisha_bn",
+            "patterns": [
+                "শাবারিন তিশা"
+            ]
+        },
+        {
+            "tag": "TasnimulFerdous",
+            "patterns": [
+                "Tasnimul Ferdous"
+            ]
+        },
+        {
+            "tag": "goodbye_bn",
+            "patterns": [
+                "পরে দেখা হবে",
+                "শুভ রাত্রি"
+            ]
+        },
+        {
+            "tag": "MaqboolKaderQuraishi",
+            "patterns": [
+                "Please provide information on Dr Maqbool Kader Quraishi from Accounting ?"
+            ]
+        },
+        {
+            "tag": "tasneemshahrukh",
+            "patterns": [
+                "Tasneem Shahrukh"
+            ]
+        },
+        {
+            "tag": "MdMamunHabib_bn",
+            "patterns": [
+                "জেনারেল ম্যানেজমেন্ট বিভাগের ড . মোহাম্মদ মামুন হাবিব সম্পর্কে তথ্য দিন ?"
+            ]
+        },
+        {
+            "tag": "IUBTheatre_bn",
+            "patterns": [
+                "IUB এ থিয়েটারের কার্যক্রম সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "Mahmuda_bn",
+            "patterns": [
+                "মাহমুদা কে ?"
+            ]
+        },
+        {
+            "tag": "TajminaAzmeri_bn",
+            "patterns": [
+                "তাজমিনা আজমেরির যোগাযোগের তথ্য কি ?",
+                "পরিবেশবিজ্ঞান ও ব্যবস্থাপনার বিভাগের অফিস ম্যানেজার কে ?"
+            ]
+        },
+        {
+            "tag": "kazisunzidalisa_bn",
+            "patterns": [
+                "ইএসএম বিভাগের কাজি সুনজিদা লিসা সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "IndependentBetaElites",
+            "patterns": [
+                "Beta Elites"
+            ]
+        },
+        {
+            "tag": "mohammadsorowarhossain_bn",
+            "patterns": [
+                "মোহাম্মদ সরোয়ার হোসেন কে ?"
+            ]
+        },
+        {
+            "tag": "TariqBinSarwar_bn",
+            "patterns": [
+                "আইন বিভাগের তরিক বিন সারওয়ার সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "AninditaNaha",
+            "patterns": [
+                "Could you tell me about Anindita Naha ?"
+            ]
+        },
+        {
+            "tag": "RafiaRokaiyaHossain_bn",
+            "patterns": [
+                "রাফিয়া রোকাইয়া হোসেন"
+            ]
+        },
+        {
+            "tag": "ahmedahsanuzzaman_bn",
+            "patterns": [
+                "ইংরেজি বিভাগের আহমেদ আহসানুজ্জামান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "departmentheadofEEE",
+            "patterns": [
+                "Who is the department head of EEE Department ?"
+            ]
+        },
+        {
+            "tag": "LFE_bn",
+            "patterns": [
+                "এলএফই সম্পর্কে বলুন ?"
+            ]
+        },
+        {
+            "tag": "ahbubulsyeed",
+            "patterns": [
+                "Info of Mahbubul Syeed",
+                "Tell me about Mahbubul Syeed from CSE"
+            ]
+        },
+        {
+            "tag": "MohammadAliTaslim",
+            "patterns": [
+                "Taslim"
+            ]
+        },
+        {
+            "tag": "SeeratusSabah",
+            "patterns": [
+                "Can you tell me details about Seeratus Sabah ?"
+            ]
+        },
+        {
+            "tag": "SMSohelRana",
+            "patterns": [
+                "Could you please tell me details of S M Sohel Rana ?"
+            ]
+        },
+        {
+            "tag": "MohammadMahfuzulIslam_bn",
+            "patterns": [
+                "মোহাম্মদ মাহফুজুল ইসলাম সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "asifmahmood_bn",
+            "patterns": [
+                "আসিফ মাহমুদ এর তথ্য",
+                "আসিফ মাহমুদ কে ?"
+            ]
+        },
+        {
+            "tag": "KaziSunzidaLisa",
+            "patterns": [
+                "Could you please tell me details of Kazi Sunzida Lisa ?"
+            ]
+        },
+        {
+            "tag": "mahbuburrahman_bn",
+            "patterns": [
+                "CSE বিভাগের মাহবুবুর রহমান সম্পর্কে তথ্য দিন",
+                "মাহবুবুর রহমান কে ?"
+            ]
+        },
+        {
+            "tag": "IUBFootballClub_bn",
+            "patterns": [
+                "ফুটবল ক্লাব"
+            ]
+        },
+        {
+            "tag": "NaimaNusratJahan",
+            "patterns": [
+                "Tell me information about Naima Nusrat Jahan of Pharmacy Department ?"
+            ]
+        },
+        {
+            "tag": "OECE",
+            "patterns": [
+                "What does the OECE do ?"
+            ]
+        },
+        {
+            "tag": "saarazabeen",
+            "patterns": [
+                "Can you please tell me details of Saara Zabeen ?"
+            ]
+        },
+        {
+            "tag": "IUBTableTennisClub",
+            "patterns": [
+                "Table Tennis Club"
+            ]
+        },
+        {
+            "tag": "MdRabiulIslam",
+            "patterns": [
+                "Could you please tell me details of Md Rabiul Islam ?"
+            ]
+        },
+        {
+            "tag": "AkibBinRahman_bn",
+            "patterns": [
+                "ফার্মেসি বিভাগের আকিব বিন রহমান সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "motiurrahman",
+            "patterns": [
+                "Info of Motiur Rahman",
+                "Motiur sir"
+            ]
+        },
+        {
+            "tag": "farzanarahman",
+            "patterns": [
+                "Info of Farzana Rahman",
+                "Please provide information on Farzana Rahman from the CSE Department"
+            ]
+        },
+        {
+            "tag": "IndependentEconomicSociety_bn",
+            "patterns": [
+                "IUB-এ অর্থনীতি সমাজ সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "SamiulParvezAhmed",
+            "patterns": [
+                "Please provide information on Dr Samiul Parvez Ahmed from Finance ?"
+            ]
+        },
+        {
+            "tag": "FaqihaMustafaAnannya_bn",
+            "patterns": [
+                "সোশ্যাল সায়েন্সেস এবং হিউম্যানিটিজ বিভাগের অফিস ম্যানেজার কে ?",
+                "সোশ্যাল সায়েন্সেস এবং হিউম্যানিটিজ বিভাগের অফিস ম্যানেজার কে ?"
+            ]
+        },
+        {
+            "tag": "MuktaRaniNath",
+            "patterns": [
+                "Tell me about Mukta Rani Nath from IUB ."
+            ]
+        },
+        {
+            "tag": "kafiulislam_bn",
+            "patterns": [
+                "কাফিউল ইসলাম সম্পর্কে তথ্য",
+                "কাফিউল ইসলাম কে ?"
+            ]
+        },
+        {
+            "tag": "SharminMushtariKhan",
+            "patterns": [
+                "Could you tell me about Sharmin Mushtari Khan ?"
+            ]
+        },
+        {
+            "tag": "mdashrafulbabu_bn",
+            "patterns": [
+                "আশরাফুল বাবু সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "ferozahmed",
+            "patterns": [
+                "Please provide information on Feroz Ahmed from the eee Department"
+            ]
+        },
+        {
+            "tag": "MdAbdulAwalKhan",
+            "patterns": [
+                "Abdul Awal Khan"
+            ]
+        },
+        {
+            "tag": "InstitutesCenters_Cells",
+            "patterns": [
+                "which institutes are available at IUB",
+                "what are the institutes at IUB"
+            ]
+        },
+        {
+            "tag": "mahadyhasan",
+            "patterns": [
+                "Can you tell me about Mahadi ?",
+                "Who is Mahady ?",
+                "Give me the background of Mahady Hasan"
+            ]
+        },
+        {
+            "tag": "SafayetRahman",
+            "patterns": [
+                "Safayet Rahman"
+            ]
+        },
+        {
+            "tag": "AssaduzzamanKhan_bn",
+            "patterns": [
+                "আইন বিভাগের আসাদুজ্জামান খান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "schools_bn",
+            "patterns": [
+                "আইইউবি ক্যাম্পাসে মোট স্কুলের সংখ্যা"
+            ]
+        },
+        {
+            "tag": "IEEEComputerSociety",
+            "patterns": [
+                "Tell me about the IEEE Computer Society at IUB ."
+            ]
+        },
+        {
+            "tag": "lab",
+            "patterns": [
+                "Tell me about the computer lab location",
+                "Computer lab"
+            ]
+        },
+        {
+            "tag": "sadianazneenkarobi_bn",
+            "patterns": [
+                "সাদিয়া নজনীন করবী সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "xingkuiwang",
+            "patterns": [
+                "Tell me about Xingkui Wang from English"
+            ]
+        },
+        {
+            "tag": "FarjanaHafiz",
+            "patterns": [
+                "What is Farjana Hafiz 's contact information ?"
+            ]
+        },
+        {
+            "tag": "hafizanilofarkhan_bn",
+            "patterns": [
+                "হাফিজা নিলোফার খান কে ?"
+            ]
+        },
+        {
+            "tag": "MdShanawezHossain",
+            "patterns": [
+                "Please provide information on Dr Md Shanawez Hossain from Global Studies and Governance ?"
+            ]
+        },
+        {
+            "tag": "Centre_Bay_Bengal_Studies",
+            "patterns": [
+                "Bay of Bengal Studies"
+            ]
+        },
+        {
+            "tag": "muhammadzakaria_bn",
+            "patterns": [
+                "মুহাম্মদ জাকারিয়া কে ?"
+            ]
+        },
+        {
+            "tag": "ShamilMAlIslam",
+            "patterns": [
+                "Shamil Islam"
+            ]
+        },
+        {
+            "tag": "tasnimulferdous_bn",
+            "patterns": [
+                "তাসনিমুল ফেরদৌসের বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "sayyedatunnoorsameera_bn",
+            "patterns": [
+                "ইংরেজি বিভাগের সায়্যেদা তুন নূর সামিরা সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "umme_aiman_bn",
+            "patterns": [
+                "উম্মে আইমান সম্পর্কে কি জানাতে পারেন ?"
+            ]
+        },
+        {
+            "tag": "TanvirAhmedHaroon",
+            "patterns": [
+                "Tell me information about Tanvir Ahmed Haroon of ESM Department ?",
+                "Tanvir Ahmed",
+                "Tell me about Tanvir Ahmed Haroon from IUB ."
+            ]
+        },
+        {
+            "tag": "tarekhabib_bn",
+            "patterns": [
+                "তারেক হাবিব",
+                "CSE বিভাগের তারেক হাবিব সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "WashikMuhammodIstiaqEzaz_bn",
+            "patterns": [
+                "ওয়াশিক মুহাম্মদ ইস্তিয়াক এজাজ সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "KAyazRabbani_bn",
+            "patterns": [
+                "কে আব্দুল খালেক সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofcse_bn",
+            "patterns": [
+                "CSE এর বিভাগীয় প্রধানের নাম কি"
+            ]
+        },
+        {
+            "tag": "RehnumaBinteMamun",
+            "patterns": [
+                "Could you please tell me details of Rehnuma Binte Mamun ?"
+            ]
+        },
+        {
+            "tag": "rushdimdrezarrazzaque_bn",
+            "patterns": [
+                "রুশদি মড রেজাউর রাজ্জাক সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "sanzaradnanalam",
+            "patterns": [
+                "Who is Sanzar Alam ?",
+                "Can you please tell me details of Sanzar Alam ?"
+            ]
+        },
+        {
+            "tag": "tanvirahmedharoon_bn",
+            "patterns": [
+                "তানভীর আহমেদ হারুন সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "shakhawathossain_bn",
+            "patterns": [
+                "ড . শাখাওয়াত হোসেন সম্পর্কে তথ্য দিন ?",
+                "CSE বিভাগের শাখাওয়াত হোসেন সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "TasnuvaFaruk_bn",
+            "patterns": [
+                "তাসনুভা ফারুক"
+            ]
+        },
+        {
+            "tag": "Juned_Ahmad_Muhtaseem",
+            "patterns": [
+                "What is Juned Ahmad Muhtaseem 's position in the Physical Sciences department ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofphysics",
+            "patterns": [
+                "What is the name of the department head of Physical Sciences Department ?"
+            ]
+        },
+        {
+            "tag": "Md_Abdul_Maleq",
+            "patterns": [
+                "Abdul Maleq"
+            ]
+        },
+        {
+            "tag": "navilarahmannadi",
+            "patterns": [
+                "Can you please tell me details of Navila Rahman Nadi ?"
+            ]
+        },
+        {
+            "tag": "mithilamahfuz",
+            "patterns": [
+                "Can you please tell me details of Mithila Mahfuz ?"
+            ]
+        },
+        {
+            "tag": "aminahsanali_bn",
+            "patterns": [
+                "CSE থেকে আমিন আহসান আলী সম্পর্কে বলুন",
+                "ড . আমিন আহসান আলীর বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "asifbinkhaled_bn",
+            "patterns": [
+                "আসিফ বিন খালেদ",
+                "সিএসই বিভাগের আসিফ বিন খালেদ সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MdRabiulIslam_bn",
+            "patterns": [
+                "রাবিউল ইসলাম"
+            ]
+        },
+        {
+            "tag": "departmentheadofcse",
+            "patterns": [
+                "Who is the department head of CSE ?"
+            ]
+        },
+        {
+            "tag": "AkibBinRahman",
+            "patterns": [
+                "Could you please tell me details of Akib Bin Rahman ?"
+            ]
+        },
+        {
+            "tag": "Nahida_Akhtar_bn",
+            "patterns": [
+                "নাহিদা আক্তার কে ?"
+            ]
+        },
+        {
+            "tag": "farhadalam_bn",
+            "patterns": [
+                "ফিজিক্যাল সায়েন্সেস বিভাগের ফারহাদ আলম সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "TariqBinSarwar",
+            "patterns": [
+                "Tell me information about Tariq Bin Sarwar of Law Department ?"
+            ]
+        },
+        {
+            "tag": "mahbuburrahman",
+            "patterns": [
+                "Who is Mahbubur Rahman ?",
+                "Mahbubur Rahman"
+            ]
+        },
+        {
+            "tag": "NaziaMahmood",
+            "patterns": [
+                "Can you tell me details about Nazia Mahmood ?"
+            ]
+        },
+        {
+            "tag": "IndependentAccountingAssociation",
+            "patterns": [
+                "Tell me about the Independent Accounting Association ."
+            ]
+        },
+        {
+            "tag": "shakhawathossain",
+            "patterns": [
+                "Who is Shakhawat Hossain ?",
+                "Shakhawat Hossain"
+            ]
+        },
+        {
+            "tag": "KaziMahmudurRahman",
+            "patterns": [
+                "Can you tell me details about Kazi Mahmudur Rahman ?"
+            ]
+        },
+        {
+            "tag": "md_muhit_biswas_bn",
+            "patterns": [
+                "কম্পিউটার সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং বিভাগের এমডি মুহিত বিশ্বাসের পদ কি ?"
+            ]
+        },
+        {
+            "tag": "IUBFootballClub",
+            "patterns": [
+                "What does the IUB Football Club do ?"
+            ]
+        },
+        {
+            "tag": "SharmeenAhmed_bn",
+            "patterns": [
+                "শারমিন আহমেদ কে ?"
+            ]
+        },
+        {
+            "tag": "IftekharMahfuz_bn",
+            "patterns": [
+                "ইফতেখার মাহফুজ কে ?"
+            ]
+        },
+        {
+            "tag": "maqboolkaderquraishi_bn",
+            "patterns": [
+                "অ্যাকাউন্টিং বিভাগের ড . মাকবুল কাদের কুরাইশী সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "ABMRezwanulKabir",
+            "patterns": [
+                "Could you please tell me details of A B M Rezwanul Kabir ?"
+            ]
+        },
+        {
+            "tag": "kafiulislam",
+            "patterns": [
+                "Who is Kafiul Islam ?"
+            ]
+        },
+        {
+            "tag": "sarkerhasanalzayed_bn",
+            "patterns": [
+                "ইংরেজি বিভাগের সারকার হাসান আল জায়েদ সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MohammadNazmuzzamanBhuian_bn",
+            "patterns": [
+                "নজমুজ্জামান ভূইঁয়া"
+            ]
+        },
+        {
+            "tag": "international_Centre_Climate_Change_Development_bn",
+            "patterns": [
+                "আইসিসিসিএড কি ?",
+                "আন্তর্জাতিক জলবায়ু পরিবর্তন ও উন্নয়ন কেন্দ্র সম্পর্কে বলুন",
+                "icccad"
+            ]
+        },
+        {
+            "tag": "insults_english",
+            "patterns": [
+                "bitch",
+                "bullshit",
+                "crap",
+                "fucker",
+                "fuck",
+                "slut",
+                "bloody hell"
+            ]
+        },
+        {
+            "tag": "KaziMahmudurRahman_bn",
+            "patterns": [
+                "ড . কাজী মাহমুদুর রহমান কে ?"
+            ]
+        },
+        {
+            "tag": "MohammadFahadNoor",
+            "patterns": [
+                "Fahad Noor"
+            ]
+        },
+        {
+            "tag": "saadiabintealam",
+            "patterns": [
+                "Tell me about Dr. Saadia Binte Alam from CSE",
+                "Info of Saadia Binte Alam"
+            ]
+        },
+        {
+            "tag": "who_made_you_bn",
+            "patterns": [
+                "তোমাকে কে তৈরি করেছে ?"
+            ]
+        },
+        {
+            "tag": "mohammadzakariamansud_bn",
+            "patterns": [
+                "ড . মোহাম্মদ জাকারিয়া মাসুদ সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "TawhidMonzur",
+            "patterns": [
+                "Tell me information about Tawhid Monzur of ESM Department ?"
+            ]
+        },
+        {
+            "tag": "NabilaMaruf_bn",
+            "patterns": [
+                "নাবিলা মারুফ"
+            ]
+        },
+        {
+            "tag": "IUBToastmastersClub",
+            "patterns": [
+                "What activities does the Toastmasters Club offer ?"
+            ]
+        },
+        {
+            "tag": "iubnfo_bn",
+            "patterns": [
+                "IUB এর পূর্ণ নাম কি ?"
+            ]
+        },
+        {
+            "tag": "MdJosimUddin_bn",
+            "patterns": [
+                "জসিম উদ্দিন"
+            ]
+        },
+        {
+            "tag": "MdMonjurHasan_bn",
+            "patterns": [
+                "আইন বিভাগের এমডি মঞ্জুর হাসান সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "afrozasultana",
+            "patterns": [
+                "Who is Afroza Sultana ?"
+            ]
+        },
+        {
+            "tag": "MohammadZakariaMasud",
+            "patterns": [
+                "Can you tell me details about Mohammad Zakaria Masud ?"
+            ]
+        },
+        {
+            "tag": "WashikMuhammodIstiaqEzaz",
+            "patterns": [
+                "Washik Muhammod Istiaq Ezaz"
+            ]
+        },
+        {
+            "tag": "IEEEStudentBranch_bn",
+            "patterns": [
+                "IEEE ছাত্র শাখা সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "MohammadAbbasGani",
+            "patterns": [
+                "Could you please tell me details of Mohammad Abbas Gani ?"
+            ]
+        },
+        {
+            "tag": "nowshintarannum_bn",
+            "patterns": [
+                "লাইফ সায়েন্স বিভাগের নওশীন তারান্নাম সম্পর্কে বলুন ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofinternationalbusiness_bn",
+            "patterns": [
+                "আন্তর্জাতিক ব্যবসা বিভাগের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "smssohelrana_bn",
+            "patterns": [
+                "এস এম সোহেল রনায়ের বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "ImtiazAHussain_bn",
+            "patterns": [
+                "গ্লোবাল স্টাডিজ এবং গভর্নেন্স বিভাগের ড . ইমতিয়াজ এ হোসেন সম্পর্কে তথ্য দিন ?"
+            ]
+        },
+        {
+            "tag": "Nazrul_Islam_Abbasuddin_Ahmed_Research_Study_Center_bn",
+            "patterns": [
+                "কাজী নজরুল ইসলাম রিসার্চ অ্যান্ড স্টাডি সেন্টার"
+            ]
+        },
+        {
+            "tag": "departmentheadofmanagement",
+            "patterns": [
+                "Who is the department head of management Department ?"
+            ]
+        },
+        {
+            "tag": "refatarajerin",
+            "patterns": [
+                "Please provide information on Refat Ara Jerin from the Media and Communication Department"
+            ]
+        },
+        {
+            "tag": "Md_Muhit_Biswas",
+            "patterns": [
+                "Muhit Biswas"
+            ]
+        },
+        {
+            "tag": "FahmidaAlam",
+            "patterns": [
+                "Fahmida Alam"
+            ]
+        },
+        {
+            "tag": "shaifulislam",
+            "patterns": [
+                "Please provide information on Shaiful Islam from the English Department"
+            ]
+        },
+        {
+            "tag": "NabilaRahman",
+            "patterns": [
+                "Tell me information about Nabila Rahman of ESM Department ?"
+            ]
+        },
+        {
+            "tag": "MdAlIfranHossainMollah",
+            "patterns": [
+                "Could you please tell me details of Md Al Ifran Hossain Mollah ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofenv",
+            "patterns": [
+                "Who is the department head of Environmental Science and Management department ?"
+            ]
+        },
+        {
+            "tag": "SeaguftaAfrin",
+            "patterns": [
+                "Seagufta Afrin"
+            ]
+        },
+        {
+            "tag": "IUBBadmintonClub",
+            "patterns": [
+                "Badminton Club"
+            ]
+        },
+        {
+            "tag": "nadimahmed",
+            "patterns": [
+                "Who is Nadim Ahmed ?"
+            ]
+        },
+        {
+            "tag": "mushfeqaislam_bn",
+            "patterns": [
+                "মুশফিকা ইসলাম সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "NowshinTarannum",
+            "patterns": [
+                "Nowshin Tarannum"
+            ]
+        },
+        {
+            "tag": "GlobalGatekeepers",
+            "patterns": [
+                "What is Global Gatekeepers ?"
+            ]
+        },
+        {
+            "tag": "IndependentHRSociety",
+            "patterns": [
+                "What is the Independent HR Society ?"
+            ]
+        },
+        {
+            "tag": "habibbinmuzaffar_bn",
+            "patterns": [
+                "হাবিব বিন মুজাফ্ফর সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MdMamunHabib",
+            "patterns": [
+                "Please provide information on Dr Md Mamun Habib from General Management ?"
+            ]
+        },
+        {
+            "tag": "SaquibAhmadKhan",
+            "patterns": [
+                "Tell me information about Saquib Ahmad Khan of ESM Department ?"
+            ]
+        },
+        {
+            "tag": "andaleebnavinchoudhury_bn",
+            "patterns": [
+                "ইংরেজি বিভাগের আন্দালিব নাভিন চৌধুরী সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "mdmahmodulhasansohel_bn",
+            "patterns": [
+                "মাহমুদুল হাসান সোহেলের বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "mushfeqaislam",
+            "patterns": [
+                "Who is Mushfeqa Islam ?"
+            ]
+        },
+        {
+            "tag": "HassanFarukAlImran",
+            "patterns": [
+                "Hassan Faruk Al Imran"
+            ]
+        },
+        {
+            "tag": "sayeedasharminchowdhury",
+            "patterns": [
+                "Sayeeda Sharmin Chowdhury"
+            ]
+        },
+        {
+            "tag": "IndependentBetaElites_bn",
+            "patterns": [
+                "IUB-এ বেটা এলাইটস সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "naureenrahnuma",
+            "patterns": [
+                "Please provide information on Naureen Rahnuma from the English Department"
+            ]
+        },
+        {
+            "tag": "phylab_bn",
+            "patterns": [
+                "ফিজিক্স ল্যাবের অবস্থান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "raziasultanakhan_bn",
+            "patterns": [
+                "ইংরেজি বিভাগের রেজিয়া সুলতানা খান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "departmentheadofphysics_bn",
+            "patterns": [
+                "শারীরিক বিজ্ঞান বিভাগের বিভাগ প্রধানের নাম কী ?",
+                "ভৌত বিজ্ঞান বিভাগের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "IEEEComputerSociety_bn",
+            "patterns": [
+                "আইইউবির আইইইই কম্পিউটার সোসাইটি সম্পর্কে বলুন।",
+                "আইইইই কম্পিউটার সোসাইটি কী করে ?"
+            ]
+        },
+        {
+            "tag": "shahriyazaman",
+            "patterns": [
+                "Can you please tell me details of Shahriya Zaman ?"
+            ]
+        },
+        {
+            "tag": "janinaislamabir_bn",
+            "patterns": [
+                "জানিনা ইসলাম কে ?"
+            ]
+        },
+        {
+            "tag": "rumaparvin_bn",
+            "patterns": [
+                "রুমা পারভীন কে ?"
+            ]
+        },
+        {
+            "tag": "refatarajerin_bn",
+            "patterns": [
+                "রেফাত আরা জেরিন সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "mdekhtakharulislam_bn",
+            "patterns": [
+                "এক্তেখারুল ইসলাম সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "english",
+            "patterns": [
+                "সুইচ ইংলিশ"
+            ]
+        },
+        {
+            "tag": "Jukti_bn",
+            "patterns": [
+                "IUB এর জুক্তি ক্লাব সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "NabilaKamalPromy",
+            "patterns": [
+                "Please provide information on Nabila Kamal Promy from Human Resource Management ?"
+            ]
+        },
+        {
+            "tag": "OECE_bn",
+            "patterns": [
+                "ওইসিই কীভাবে কাজ করে ?"
+            ]
+        },
+        {
+            "tag": "MadhabiLataShuma_bn",
+            "patterns": [
+                "মাধাবী লতা"
+            ]
+        },
+        {
+            "tag": "IUBEnglishLanguageClub",
+            "patterns": [
+                "English Club"
+            ]
+        },
+        {
+            "tag": "AnwarZahid_bn",
+            "patterns": [
+                "আনওয়ার জাহিদ সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "noornabi",
+            "patterns": [
+                "Who is Noor Nabi ?",
+                "Can you please tell me details of Noor Nabi ?"
+            ]
+        },
+        {
+            "tag": "mdazzajurrahman_bn",
+            "patterns": [
+                "আজ্জাুর রহমান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "MdEmrulArefin_bn",
+            "patterns": [
+                "এমডি এমরুল আরেফিন কে ?",
+                "এমডি এমরুল আরেফিন কে ?"
+            ]
+        },
+        {
+            "tag": "ashrafulislam",
+            "patterns": [
+                "Ashraful Islam",
+                "Who is Ashraful Islam ?"
+            ]
+        },
+        {
+            "tag": "kanijfatema_eng_bn",
+            "patterns": [
+                "ইংরেজি বিভাগ থেকে কানিজ ফাতেমা সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "asifbinkhaled",
+            "patterns": [
+                "Please provide information on Asif Bin Khaled from the CSE Department",
+                "Can you please tell me details of Asif Bin Khaled ?"
+            ]
+        },
+        {
+            "tag": "abulkhairjyote_bn",
+            "patterns": [
+                "মার্কেটিং বিভাগের এবুল খায়র জ্যোতি সম্পর্কে বলুন ?"
+            ]
+        },
+        {
+            "tag": "Meemnaz_Meem",
+            "patterns": [
+                "Can you tell me about Meemnaz Meem ?"
+            ]
+        },
+        {
+            "tag": "Md_Siddik",
+            "patterns": [
+                "What does Md Siddik do in the EEE department ?"
+            ]
+        },
+        {
+            "tag": "NazratunNayeemChoudhury",
+            "patterns": [
+                "Could you please tell me details of Nazratun Nayeem Choudhury ?"
+            ]
+        },
+        {
+            "tag": "ImtiazAhmedNevin_bn",
+            "patterns": [
+                "ড . ইমতিয়াজ আহমেদ নেভিন সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "IUBDebateClub_bn",
+            "patterns": [
+                "IUB বিতর্ক ক্লাব সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "TahminaSultana",
+            "patterns": [
+                "Tell me information about Tahmina Sultana of ESM Department ?"
+            ]
+        },
+        {
+            "tag": "Center_Computational_Data_Sciences_bn",
+            "patterns": [
+                "সিডিএস",
+                "কম্পিউটেশনাল ও ডেটা সায়েন্সের কেন্দ্র আইবিতে",
+                "IUB তে গণনা ও ডেটা বিজ্ঞানের কেন্দ্র",
+                "ccds কি ?"
+            ]
+        },
+        {
+            "tag": "MarizSintaha",
+            "patterns": [
+                "Could you please tell me details of Mariz Sintaha ?"
+            ]
+        },
+        {
+            "tag": "sajedimtenanulhaque_bn",
+            "patterns": [
+                "সাজেদ ইমতিয়ানুল হক",
+                "সাজেদ ইমতিয়ানুল হক সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "iubnfo",
+            "patterns": [
+                "What is the full name of iub ?"
+            ]
+        },
+        {
+            "tag": "RunaAkter_bn",
+            "patterns": [
+                "রুনা আক্তার কে ?"
+            ]
+        },
+        {
+            "tag": "mohiulislam_bn",
+            "patterns": [
+                "মিডিয়া এবং কমিউনিকেশন বিভাগের মোহিউল ইসলাম সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "kanijfatema_eng",
+            "patterns": [
+                "Can you please tell me details of Kanij Fatema ?"
+            ]
+        },
+        {
+            "tag": "nabilarahman_bn",
+            "patterns": [
+                "ইএসএম বিভাগের নাবিলা রহমান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "IUBTheatre",
+            "patterns": [
+                "Theatre"
+            ]
+        },
+        {
+            "tag": "ferdowszahid_bn",
+            "patterns": [
+                "ড . ফেরদৌস জাহিদের বিস্তারিত বলুন ?",
+                "CSE থেকে ফেরদৌস জাহিদ সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "Social_Science_Research",
+            "patterns": [
+                "what is Social Science Research"
+            ]
+        },
+        {
+            "tag": "departmentheadoflaw",
+            "patterns": [
+                "What is the name of the department head of Law Department ?"
+            ]
+        },
+        {
+            "tag": "mahmudhasankayesh",
+            "patterns": [
+                "Can you please tell me details of Mahmud Hasan Kayesh ?"
+            ]
+        },
+        {
+            "tag": "Md_Shirazul_Islam_bn",
+            "patterns": [
+                "সিরাজুল ইসলাম কে ?"
+            ]
+        },
+        {
+            "tag": "MdAbdulAziz",
+            "patterns": [
+                "Abdul Aziz"
+            ]
+        },
+        {
+            "tag": "AnisurRahman_bn",
+            "patterns": [
+                "আইন বিভাগের আনিসুর রহমান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "MuhammadMahbuburRahman",
+            "patterns": [
+                "Tell me information about Muhammad Mahbubur Rahman of Law Department ?"
+            ]
+        },
+        {
+            "tag": "ArifurRahmanKhan",
+            "patterns": [
+                "Could you please tell me details of Arifur Rahman Khan ?"
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "Tell me about the library location"
+            ]
+        },
+        {
+            "tag": "AbulKhairJyote",
+            "patterns": [
+                "Tell me information about Abul Khair Jyote of Marketing Department ?"
+            ]
+        },
+        {
+            "tag": "schools",
+            "patterns": [
+                "Total number of school in iub campus"
+            ]
+        },
+        {
+            "tag": "TasnuvaFaruk",
+            "patterns": [
+                "Tell me information about Tasnuva Faruk of Public Health Department ?"
+            ]
+        },
+        {
+            "tag": "juned_ahmad_muhtaseem_bn",
+            "patterns": [
+                "ফিজিক্যাল সায়েন্সেস বিভাগের জুনেদ আহমেদ মুহতাসীমের পদ কি ?"
+            ]
+        },
+        {
+            "tag": "AbulBashar_bn",
+            "patterns": [
+                "ড . আবুল বাশার সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "nakib",
+            "patterns": [
+                "tell me about nakib"
+            ]
+        },
+        {
+            "tag": "IUBClubs",
+            "patterns": [
+                "How many clubs are there at IUB ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofglobalstudies_bn",
+            "patterns": [
+                "গ্লোবাল স্টাডিজের বিভাগীয় প্রধান কে ?"
+            ]
+        },
+        {
+            "tag": "QudrateKhoda",
+            "patterns": [
+                "Can you tell me details about Qudrate Khoda ?"
+            ]
+        },
+        {
+            "tag": "nageshrao_bn",
+            "patterns": [
+                "নাগেশ রাও সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "IftekharMahfuz",
+            "patterns": [
+                "Can you tell me details about Iftekhar Mahfuz ?"
+            ]
+        },
+        {
+            "tag": "nushratjahan_bn",
+            "patterns": [
+                "ড . নুসরাত জাহান সম্পর্কে বিস্তারিত বলুন ?",
+                "নুশরাত জাহান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "readulmahmud",
+            "patterns": [
+                "Tell me about Readul Mahmu from Physical Sciences"
+            ]
+        },
+        {
+            "tag": "MahmudaNargis",
+            "patterns": [
+                "Could you please tell me details of Mahmuda Nargis ?"
+            ]
+        },
+        {
+            "tag": "MadhabiLataShuma",
+            "patterns": [
+                "Could you please tell me details of Madhabi Lata Shuma ?"
+            ]
+        },
+        {
+            "tag": "ImtiazAHussain",
+            "patterns": [
+                "Imtiaz Hussain"
+            ]
+        },
+        {
+            "tag": "MohammadMahfuzulIslam",
+            "patterns": [
+                "Mahfuzul Islam"
+            ]
+        },
+        {
+            "tag": "who_made_you",
+            "patterns": [
+                "What can you tell me about your creators ?",
+                "Who designed you ?"
+            ]
+        },
+        {
+            "tag": "mahbubadewan_bn",
+            "patterns": [
+                "মাহবুবা দেওয়ান সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "bijoyrahmanarif",
+            "patterns": [
+                "Who is Bijoy Arif ?",
+                "Can you please tell me details of Bijoy Rahman Arif ?"
+            ]
+        },
+        {
+            "tag": "istiakahmed_bn",
+            "patterns": [
+                "ইস্তিয়াক আহমেদ সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "iub_about",
+            "patterns": [
+                "about iub ?",
+                "Tell me about Independent University Bangladesh",
+                "আইইউবি এর তথ্য দিন",
+                "ইন্ডিপেন্ডেন্ট ইউনিভার্সিটি বাংলাদেশ সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "MdTaslimUddin",
+            "patterns": [
+                "Please provide information on Dr Md Taslim Uddin from Finance ?"
+            ]
+        },
+        {
+            "tag": "abdurrazzak_bn",
+            "patterns": [
+                "আব্দুর রাজ্জাক সম্পর্কে তথ্য",
+                "EEE বিভাগের আবদুর রাজ্জাক সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "AlNuman",
+            "patterns": [
+                "Al Numan"
+            ]
+        },
+        {
+            "tag": "ahmedahsanuzzaman",
+            "patterns": [
+                "Please provide information on Ahmed Ahsanuzzaman from the English Department"
+            ]
+        },
+        {
+            "tag": "MdOhidujjaman",
+            "patterns": [
+                "Ohidujjaman"
+            ]
+        },
+        {
+            "tag": "departmentheadoflifesciences",
+            "patterns": [
+                "What is the name of the department head of Life Sciences Department ?"
+            ]
+        },
+        {
+            "tag": "AnisurRahman",
+            "patterns": [
+                "Anisur Rahman"
+            ]
+        },
+        {
+            "tag": "imranfirdaus_bn",
+            "patterns": [
+                "ইমরান ফিরদৌস সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "MAMatin_bn",
+            "patterns": [
+                "মাতিন"
+            ]
+        },
+        {
+            "tag": "ashrafulamin",
+            "patterns": [
+                "Tell me about Dr. Md Ashraful Amin from CSE",
+                "Can you please tell me details of Dr. Md Ashraful Amin ?"
+            ]
+        },
+        {
+            "tag": "LitonChandraBiswas",
+            "patterns": [
+                "Tell me information about Liton Chandra Biswas of Law Department ?"
+            ]
+        },
+        {
+            "tag": "GlobalGatekeepers_bn",
+            "patterns": [
+                "আইইউবির গ্লোবাল গেটকিপার্স ক্লাব সম্পর্কে বলুন।",
+                "আইইউবির গ্লোবাল গেটকিপার্স ক্লাব সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "khadizaaktereme_bn",
+            "patterns": [
+                "ফিজিক্যাল সায়েন্সেস বিভাগের খাদিজা আকতার এমে"
+            ]
+        },
+        {
+            "tag": "Institutional_Quality_Assurance_Cell",
+            "patterns": [
+                "iqac"
+            ]
+        },
+        {
+            "tag": "ShamilMAlIslam_bn",
+            "patterns": [
+                "শামিল এম আল-ইসলাম সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "IndependentPhotographyClub_bn",
+            "patterns": [
+                "স্বতন্ত্র ফটোগ্রাফি ক্লাব সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "TauhidulIslamTanin_bn",
+            "patterns": [
+                "ফাইন্যান্স বিভাগের ড . তাহউদুল ইসলাম টানিন সম্পর্কে তথ্য দিন ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofaccounting_bn",
+            "patterns": [
+                "অ্যাকাউন্টিং বিভাগের বিভাগীয় প্রধানের নাম কি ?"
+            ]
+        },
+        {
+            "tag": "SamiulParvezAhmed_bn",
+            "patterns": [
+                "সামিউল পারভেজ"
+            ]
+        },
+        {
+            "tag": "saminaprodhan",
+            "patterns": [
+                "Who is Samina Prodhan ?"
+            ]
+        },
+        {
+            "tag": "IndependentMarketersAssociation",
+            "patterns": [
+                "Tell me about the Marketers ' Association at IUB ."
+            ]
+        },
+        {
+            "tag": "IkramulHasan",
+            "patterns": [
+                "Please provide information on Dr Ikramul Hasan from Human Resource Management ?"
+            ]
+        },
+        {
+            "tag": "mahadyhasan_bn",
+            "patterns": [
+                "মাহাদী হাসান সম্পর্কে কিছু বলুন ?",
+                "মেহেদী হাসান কে ?",
+                "CSE থেকে মাহাদী হাসান সম্পর্কে বলুন"
+            ]
+        },
+        {
+            "tag": "KhwajaSaifurRahman",
+            "patterns": [
+                "Khwaja Saifur Rahman"
+            ]
+        },
+        {
+            "tag": "AfrozaBilkis",
+            "patterns": [
+                "Tell me information about Afroza Bilkis of Law Department ?"
+            ]
+        },
+        {
+            "tag": "shahmfaruque_bn",
+            "patterns": [
+                "লাইফ সায়েন্স বিভাগের শাহ এম ফারুক সম্পর্কে বলুন ?"
+            ]
+        },
+        {
+            "tag": "sing_song",
+            "patterns": [
+                "Sing a song",
+                "I want to hear a song"
+            ]
+        },
+        {
+            "tag": "FirozaAshravee_bn",
+            "patterns": [
+                "গ্লোবাল স্টাডিজ এবং গভর্নেন্স বিভাগের ফিরোজা আশ্রভী সম্পর্কে তথ্য দিন ?"
+            ]
+        },
+        {
+            "tag": "towhidbinmuzaffar",
+            "patterns": [
+                "Towhid Bin Muzaffar"
+            ]
+        },
+        {
+            "tag": "tarekhabib",
+            "patterns": [
+                "Tell me about Tarek Habib from CSE",
+                "Who is Tarek Habib ?"
+            ]
+        },
+        {
+            "tag": "NafisaHuq_bn",
+            "patterns": [
+                "নাফিসা হক"
+            ]
+        },
+        {
+            "tag": "shahriarkhan",
+            "patterns": [
+                "Can you please tell me details of Shahriar Khan ?"
+            ]
+        },
+        {
+            "tag": "MashmumShababaShahid",
+            "patterns": [
+                "Tell me information about Mashmum Shababa Shahid of Pharmacy Department ?"
+            ]
+        },
+        {
+            "tag": "Md_Abdul_Maleq_bn",
+            "patterns": [
+                "আব্দুল মালেক এর ভূমিকা EEE বিভাগে কি ?"
+            ]
+        },
+        {
+            "tag": "SeeratusSabah_bn",
+            "patterns": [
+                "সীরাতুস সাবাহ"
+            ]
+        },
+        {
+            "tag": "SMYusufMallick_bn",
+            "patterns": [
+                "আইবি বিভাগের এস . এম . ইয়াসুফ মালিক সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "mohammedanwer",
+            "patterns": [
+                "Who is Anwer ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofenglish",
+            "patterns": [
+                "Who is the department head of English and Modern Languages department ?"
+            ]
+        },
+        {
+            "tag": "Scholarship",
+            "patterns": [
+                "tell me about scholarship details"
+            ]
+        },
+        {
+            "tag": "ferdowszahid",
+            "patterns": [
+                "Tell me about Ferdows Zahid from CSE",
+                "Ferdows Zahid"
+            ]
+        },
+        {
+            "tag": "NazrulIslam",
+            "patterns": [
+                "Nazrul Islam"
+            ]
+        },
+        {
+            "tag": "SharmeenIslam_bn",
+            "patterns": [
+                "আইইউবির শারমীন ইসলাম সম্পর্কে বলুন।"
+            ]
+        },
+        {
+            "tag": "mohammadhelalshams_bn",
+            "patterns": [
+                "মোহাম্মদ হেলাল শামস সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "Md_Rakibul_Islam",
+            "patterns": [
+                "What does Md Rakibul Islam do in the CSE department ?"
+            ]
+        },
+        {
+            "tag": "mohammadfaisaluddin",
+            "patterns": [
+                "Please provide information on Faisal Uddin from the CSE Department",
+                "Faisal Uddin"
+            ]
+        },
+        {
+            "tag": "MeherunAhmed",
+            "patterns": [
+                "Can you tell me details about Meherun Ahmed ?"
+            ]
+        },
+        {
+            "tag": "sumanprosadsaha_bn",
+            "patterns": [
+                "সুমন প্রসাদ সাহা কে ?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks for the help",
+                "Thanks for your assistance"
+            ]
+        },
+        {
+            "tag": "zahangiralam",
+            "patterns": [
+                "Tell me about Zahangir Alam from CSE",
+                "Who is Zahangir Alam ?"
+            ]
+        },
+        {
+            "tag": "departmentheadofaccounting",
+            "patterns": [
+                "Who is the department head of accounting Department ?"
+            ]
+        },
+        {
+            "tag": "IndependentMarketersAssociation_bn",
+            "patterns": [
+                "স্বতন্ত্র মার্কেটার্স অ্যাসোসিয়েশন কী করে ?"
+            ]
+        },
+        {
+            "tag": "shoaib_mirza_bn",
+            "patterns": [
+                "শোয়েব মির্জা কে ?"
+            ]
+        },
+        {
+            "tag": "ZenatZebinHossain_bn",
+            "patterns": [
+                "জেনাত জেবিন হোসেন কে ?"
+            ]
+        },
+        {
+            "tag": "Abu_Hasnat_Md_Rased_bn",
+            "patterns": [
+                "আবু হাসনাত মোঃ রাসেদ এর পদবি EEE বিভাগে কি ?"
+            ]
+        },
+        {
+            "tag": "sabrinaalam_bn",
+            "patterns": [
+                "সাবরিনা আলম",
+                "সিএসই বিভাগের সাবরিনা আলম সম্পর্কে তথ্য দিন"
+            ]
+        },
+        {
+            "tag": "abusayed_bn",
+            "patterns": [
+                "আবু সায়েদ সম্পর্কে বলুন যিনি সিএসই থেকে ?",
+                "আবু সায়েদ কে ?"
+            ]
+        },
+        {
+            "tag": "Center_Multilingual_Excellence_bn",
+            "patterns": [
+                "মাল্টিলিঙ্গুয়াল এক্সেলেন্স সেন্টার কি ?"
+            ]
+        },
+        {
+            "tag": "TanjimaHoqueTrisha",
+            "patterns": [
+                "Tell me about Tanjima Hoque Trisha from IUB ."
+            ]
+        },
+        {
+            "tag": "zakirhossainraju",
+            "patterns": [
+                "Who is Zakir Hossain Raju ?"
+            ]
+        },
+        {
+            "tag": "AminaAlamKotha",
+            "patterns": [
+                "Tell me information about Amina Alam Kotha of Pharmacy Department ?"
+            ]
+        },
+        {
+            "tag": "fariyahossainkhan",
+            "patterns": [
+                "Can you please tell me details of Fariya Hossain Khan ?"
+            ]
+        },
+        {
+            "tag": "MdMonjurHasan",
+            "patterns": [
+                "Could you please tell me details of Md . Monjur Hasan ?"
+            ]
+        },
+        {
+            "tag": "IndependentInternationalBusinessForum",
+            "patterns": [
+                "What does IIBF do at IUB ?"
+            ]
+        },
+        {
+            "tag": "HasiburRahmanAbir_bn",
+            "patterns": [
+                "হাসিবুর রহমান আবির কে ?"
+            ]
+        },
+        {
+            "tag": "MdJahidHossainBhuiyan_bn",
+            "patterns": [
+                "আইন বিভাগের মো . জাহিদ হোসেন ভূইঁয়া সম্পর্কে বিস্তারিত বলুন ?"
+            ]
+        },
+        {
+            "tag": "jewelkumarghosh",
+            "patterns": [
+                "Tell me about Jewel Kumar Ghosh from Physical Sciences"
+            ]
+        },
+        {
+            "tag": "departmentheadoffecnomics",
+            "patterns": [
+                "Who is the department head of ecnomics Department ?"
+            ]
+        }
+    ]
+}
