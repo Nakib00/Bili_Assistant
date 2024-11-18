@@ -1,14 +1,16 @@
 import torch
 import numpy as np
 import json
-import matplotlib.pyplot as plt
 import os
-from sklearn.metrics import precision_score, recall_score, f1_score, roc_curve, auc, precision_recall_curve
-from model import NeuralNet
-from nltk_utils import bag_of_words, tokenize, stem
-from sklearn.preprocessing import LabelBinarizer
-from sklearn.metrics import precision_recall_fscore_support
+import pandas as pd
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from model import NeuralNet
+from nltk_utils import bag_of_words, tokenize
 
 # Load model data
 FILE = "data.pth"
@@ -53,99 +55,60 @@ for sentence, label in zip(test_sentences, test_labels):
 X_test = np.array(X_test)
 y_test = np.array(y_test)
 
-# Evaluate the model
-X_test_tensor = torch.from_numpy(X_test).float()
-y_test_tensor = torch.from_numpy(y_test).long()
+# Evaluation metrics storage
+metrics = []
 
-with torch.no_grad():
-    outputs = model(X_test_tensor)
-    _, predicted = torch.max(outputs, 1)
+# Define classifiers
+classifiers = {
+    "NeuralNet": model,
+    "LogisticRegression": LogisticRegression(max_iter=1000),
+    "RandomForest": RandomForestClassifier(n_estimators=100),
+    "SVM": SVC(probability=True),
+    "KNeighbors": KNeighborsClassifier(),
+    "NaiveBayes": GaussianNB()
+}
 
-# Accuracy
-accuracy = (predicted == y_test_tensor).sum().item() / len(y_test_tensor)
-print(f'Accuracy: {accuracy * 100:.2f}%')
+# Function to evaluate the classifier
+def evaluate_classifier(clf, X, y, classifier_name):
+    if classifier_name == "NeuralNet":
+        # NeuralNet predictions
+        X_tensor = torch.from_numpy(X).float()
+        with torch.no_grad():
+            outputs = clf(X_tensor)
+            _, predicted = torch.max(outputs, 1)
+            predicted = predicted.numpy()
+    else:
+        # Fit and predict for sklearn models
+        clf.fit(X, y)
+        predicted = clf.predict(X)
 
-# Multi-class Precision, Recall, F1 Score
-precision, recall, f1, _ = precision_recall_fscore_support(y_test, predicted, average='weighted')
-print(f'Precision: {precision:.2f}')
-print(f'Recall: {recall:.2f}')
-print(f'F1 Score: {f1:.2f}')
+    # Calculate metrics
+    accuracy = accuracy_score(y, predicted)
+    precision = precision_score(y, predicted, average='weighted')
+    recall = recall_score(y, predicted, average='weighted')
+    f1 = f1_score(y, predicted, average='weighted')
 
-# Create folder for saving diagrams if it doesn't exist
-output_dir = "evaluation_diagrams"
+    # Append results with two decimal precision
+    metrics.append({
+        'Model': classifier_name,
+        'Accuracy': round(accuracy, 2),
+        'Precision': round(precision, 2),
+        'Recall': round(recall, 2),
+        'F1 Score': round(f1, 2)
+    })
+
+# Evaluate each classifier
+for name, clf in classifiers.items():
+    evaluate_classifier(clf, X_test, y_test, name)
+
+# Convert metrics to a DataFrame and save as Excel file
+metrics_df = pd.DataFrame(metrics)
+output_dir = "evaluation_metrics"
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
-# Precision-Recall Curve (One-vs-Rest for multi-class)
-lb = LabelBinarizer()
-y_test_bin = lb.fit_transform(y_test)
+excel_path = os.path.join(output_dir, 'evaluation_metrics.xlsx')
+with pd.ExcelWriter(excel_path) as writer:
+    metrics_df.to_excel(writer, index=False, sheet_name='Metrics')
 
-precision_vals, recall_vals, _ = precision_recall_curve(y_test_bin.ravel(), outputs.numpy().ravel())
-plt.figure()
-plt.plot(recall_vals, precision_vals, color='darkorange', label=f'Precision-Recall curve (area = {precision:.2f})')
-plt.xlabel('Recall')
-plt.ylabel('Precision')
-plt.title('Precision-Recall Curve (One-vs-Rest)')
-plt.legend(loc='lower left')
-plt.savefig(os.path.join(output_dir, 'precision_recall_curve_multiclass.png'))
-plt.close()
-
-# ROC Curve (One-vs-Rest for multi-class)
-fpr, tpr, _ = roc_curve(y_test_bin.ravel(), outputs.numpy().ravel())
-roc_auc = auc(fpr, tpr)
-
-plt.figure()
-plt.plot(fpr, tpr, color='darkorange', lw=2, label=f'ROC curve (area = {roc_auc:.2f})')
-plt.plot([0, 1], [0, 1], color='navy', linestyle='--')
-plt.xlabel('False Positive Rate')
-plt.ylabel('True Positive Rate')
-plt.title('Receiver Operating Characteristic (ROC) Curve (One-vs-Rest)')
-plt.legend(loc='lower right')
-plt.savefig(os.path.join(output_dir, 'roc_curve_multiclass.png'))
-plt.close()
-
-# Save all metrics to a text file
-with open(os.path.join(output_dir, 'evaluation_metrics.txt'), 'w') as f:
-    f.write(f'Accuracy: {accuracy * 100:.2f}%\n')
-    f.write(f'Precision: {precision:.2f}\n')
-    f.write(f'Recall: {recall:.2f}\n')
-    f.write(f'F1 Score: {f1:.2f}\n')
-    f.write(f'ROC AUC: {roc_auc:.2f}\n')
-
-print("Evaluation complete. Diagrams saved in 'evaluation_diagrams'.")
-
-# **New Diagrams**
-
-# Loss Curve (assuming you have a history of loss values during training)
-# You can plot loss over training epochs
-loss_values = np.random.random(200000)  # Replace with actual training loss values
-plt.plot(range(1, 200001), loss_values)
-plt.xlabel('Epoch')
-plt.ylabel('Loss')
-plt.title('Loss Curve')
-plt.savefig(os.path.join(output_dir, 'loss_curve.png'))
-plt.close()
-
-# Accuracy vs Epochs
-accuracy_values = np.random.random(200000)  # Replace with actual training accuracy values
-plt.plot(range(1, 200001), accuracy_values)
-plt.xlabel('Epoch')
-plt.ylabel('Accuracy')
-plt.title('Accuracy vs Epochs')
-plt.savefig(os.path.join(output_dir, 'accuracy_vs_epochs.png'))
-plt.close()
-
-# Feature Importance (using RandomForestClassifier)
-rf = RandomForestClassifier(n_estimators=100)
-rf.fit(X_test, y_test)
-
-feature_importances = rf.feature_importances_
-sorted_idx = np.argsort(feature_importances)
-
-# Plot feature importances
-plt.barh(range(len(sorted_idx)), feature_importances[sorted_idx])
-plt.yticks(range(len(sorted_idx)), np.array(all_words)[sorted_idx])
-plt.xlabel('Feature Importance')
-plt.title('Feature Importance')
-plt.savefig(os.path.join(output_dir, 'feature_importance.png'))
-plt.close()
+print("Evaluation complete. Metrics saved in 'evaluation_metrics/evaluation_metrics.xlsx'.")
