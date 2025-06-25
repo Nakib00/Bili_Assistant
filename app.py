@@ -64,6 +64,11 @@ use_gtts = False  # Default to pyttsx3 for English responses
 # Flag to manage whether the system is speaking
 speaking = False
 
+# Global variables to store the "You said" and "Bot" responses
+user_input_data = ""
+bot_reply_data = ""
+system_status = "Ready"  # Initialize system status
+
 def listen():
     """Capture and recognize speech, returning the recognized text."""
     global language, use_gtts, speaking, user_input_data
@@ -115,36 +120,42 @@ def reply(response):
     sanitized_response = re.sub(r'[*\-\\\/]', '', limited_response)
 
     speaking = True
+    temp_file = "response.mp3"
 
-    # Set the language for gTTS; use 'bn' for Bangla and 'en' for English
-    lang_code = 'bn' if language == 'bn-BD' else 'bn'  # Adjust according to your language variable
+    try:
+        # Set the language for gTTS; use 'bn' for Bangla and 'en' for English
+        lang_code = 'bn' if language == 'bn-BD' else 'en'
 
-    # Create the gTTS object for the selected language
-    tts = gTTS(text=sanitized_response, lang=lang_code, slow=False)  # Set slow=False for normal speed
-    tts.save("response.mp3")
+        # Create the gTTS object for the selected language
+        tts = gTTS(text=sanitized_response, lang=lang_code, slow=False)
+        tts.save(temp_file)
 
-    # Initialize pygame mixer and play audio
-    pygame.mixer.init()
-    pygame.mixer.music.load("response.mp3")
-    pygame.mixer.music.play()
+        # Initialize pygame mixer and play audio
+        pygame.mixer.init()
+        pygame.mixer.music.load(temp_file)
+        pygame.mixer.music.play()
 
-    while pygame.mixer.music.get_busy():  # Wait for playback to finish
-        time.sleep(0.1)
+        while pygame.mixer.music.get_busy():  # Wait for playback to finish
+            time.sleep(0.1)
 
-    pygame.mixer.music.stop()  # Ensure the audio file is no longer in use
-    pygame.mixer.quit()  # Close the mixer
-    os.remove("response.mp3")  # Now it is safe to delete the file
+    except Exception as e:
+        print(f"Error in text-to-speech: {e}")
+    finally:
+        # Cleanup
+        try:
+            pygame.mixer.music.stop()
+            pygame.mixer.quit()
+            if os.path.exists(temp_file):
+                os.remove(temp_file)
+        except Exception as e:
+            print(f"Error during cleanup: {e}")
+        speaking = False
 
-    speaking = False
 # Example function to play the audio (you can modify this part)
 
 def play_audio(filename):
     # Add your audio playing logic here
     print(f"Playing {filename}...")
-
-# Global variables to store the "You said" and "Bot" responses
-user_input_data = ""
-bot_reply_data = ""
 
 # Set the console to use UTF-8 encoding for Unicode characters
 sys.stdout.reconfigure(encoding='utf-8')
@@ -337,6 +348,12 @@ def get_data():
 def get_system_status():
     global system_status
     return jsonify({"status": system_status})
+
+@app.route("/set_system_status/<status>", methods=["POST"])
+def set_system_status(status):
+    global system_status
+    system_status = status
+    return jsonify({"status": "success"})
 
 if __name__ == "__main__":
     # Initialize pygame (important to do this before using mixer)

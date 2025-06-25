@@ -1,0 +1,1794 @@
+[
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "winreg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "winreg",
+        "description": "winreg",
+        "detail": "winreg",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "pyttsx3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyttsx3",
+        "description": "pyttsx3",
+        "detail": "pyttsx3",
+        "documentation": {}
+    },
+    {
+        "label": "gTTS",
+        "importPath": "gtts",
+        "description": "gtts",
+        "isExtraImport": true,
+        "detail": "gtts",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "NeuralNet",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "NeuralNet",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "NeuralNet",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "NeuralNet",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "bag_of_words",
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "isExtraImport": true,
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize",
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "isExtraImport": true,
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "bag_of_words",
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "isExtraImport": true,
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize",
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "isExtraImport": true,
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "bag_of_words",
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "isExtraImport": true,
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize",
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "isExtraImport": true,
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "bag_of_words",
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "isExtraImport": true,
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize",
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "isExtraImport": true,
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "stem",
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "isExtraImport": true,
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "WordNetLemmatizer",
+        "importPath": "nltk.stem",
+        "description": "nltk.stem",
+        "isExtraImport": true,
+        "detail": "nltk.stem",
+        "documentation": {}
+    },
+    {
+        "label": "PorterStemmer",
+        "importPath": "nltk.stem",
+        "description": "nltk.stem",
+        "isExtraImport": true,
+        "detail": "nltk.stem",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "fuzz",
+        "importPath": "fuzzywuzzy",
+        "description": "fuzzywuzzy",
+        "isExtraImport": true,
+        "detail": "fuzzywuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "gensim.downloader",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gensim.downloader",
+        "description": "gensim.downloader",
+        "detail": "gensim.downloader",
+        "documentation": {}
+    },
+    {
+        "label": "nltk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "ssl",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ssl",
+        "description": "ssl",
+        "detail": "ssl",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "recall_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "LogisticRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "SVC",
+        "importPath": "sklearn.svm",
+        "description": "sklearn.svm",
+        "isExtraImport": true,
+        "detail": "sklearn.svm",
+        "documentation": {}
+    },
+    {
+        "label": "KNeighborsClassifier",
+        "importPath": "sklearn.neighbors",
+        "description": "sklearn.neighbors",
+        "isExtraImport": true,
+        "detail": "sklearn.neighbors",
+        "documentation": {}
+    },
+    {
+        "label": "GaussianNB",
+        "importPath": "sklearn.naive_bayes",
+        "description": "sklearn.naive_bayes",
+        "isExtraImport": true,
+        "detail": "sklearn.naive_bayes",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "PorterStemmer",
+        "importPath": "nltk.stem.porter",
+        "description": "nltk.stem.porter",
+        "isExtraImport": true,
+        "detail": "nltk.stem.porter",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except OSError:\n                pass\n        tee_f.write(what)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_root_hkey",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU\n        return winreg.HKEY_CURRENT_USER",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "create_shortcut",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def create_shortcut(\n    path, description, filename, arguments=\"\", workdir=\"\", iconpath=\"\", iconindex=0\n):\n    import pythoncom\n    from win32com.shell import shell\n    ilink = pythoncom.CoCreateInstance(\n        shell.CLSID_ShellLink,\n        None,\n        pythoncom.CLSCTX_INPROC_SERVER,\n        shell.IID_IShellLink,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_special_folder_path",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_special_folder_path(path_name):\n    from win32com.shell import shell, shellcon\n    for maybe in \"\"\"\n        CSIDL_COMMON_STARTMENU CSIDL_STARTMENU CSIDL_COMMON_APPDATA\n        CSIDL_LOCAL_APPDATA CSIDL_APPDATA CSIDL_COMMON_DESKTOPDIRECTORY\n        CSIDL_DESKTOPDIRECTORY CSIDL_COMMON_STARTUP CSIDL_STARTUP\n        CSIDL_COMMON_PROGRAMS CSIDL_PROGRAMS CSIDL_PROGRAM_FILES_COMMON\n        CSIDL_PROGRAM_FILES CSIDL_FONTS\"\"\".split():\n        if maybe == path_name:\n            csidl = getattr(shellcon, maybe)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info.major,\n        sys.version_info.minor,\n        suffix,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(f\"-> {root_key_name}\\\\{key_name}[{value_name}]={value!r}\")\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(f\"-> DELETE {root_key_name}\\\\{key_name}[{value_name}]\")\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n    to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(f\"Failed to unregister COM objects: {why}\")\n    try:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location: str) -> str:\n    location = os.path.abspath(location)\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError(\n            f'Path \"{location}\" is not an existing directory!'\n        )\n    return location\ndef main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python -m pywin32_postinstall -install\n    * or (shorter but you don't have control over which python environment is used)\n    > pywin32_postinstall -install\n    You need to execute this script, with a '-install' parameter,\n    to ensure the environment is setup correctly to install COM objects, services, etc.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(\n    os.path.join(\n        tempfile.gettempdir(),  # Send output somewhere so it can be found if necessary...\n        \"pywin32_postinstall.log\",\n    ),\n    \"w\",\n)\nclass Tee:\n    def __init__(self, file):\n        self.f = file",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(f\"*** Test script '{script}' exited with {result.returncode}\")\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [project_root] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "project_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))\nsite_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "listen",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def listen():\n    \"\"\"Capture and recognize speech, returning the recognized text.\"\"\"\n    global language, use_gtts, speaking, user_input_data\n    # Wait until speaking is finished before listening\n    while speaking:\n        time.sleep(0.1)\n    with sr.Microphone() as source:\n        print(\"Listening...\")\n        recognizer.adjust_for_ambient_noise(source, duration=0.5)\n        try:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "reply",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def reply(response):\n    \"\"\"Use Google Text-to-Speech to reply with the first 10 lines of the given response.\"\"\"\n    global speaking, bot_reply_data\n    print(f\"Bot: {response}\")  # Display full response\n    bot_reply_data = response  # Store bot reply for Flask display\n    # Limit the response to 10 lines\n    limited_response = \"\\n\".join(response.splitlines()[:10])\n    # Remove or replace unwanted symbols using regex\n    sanitized_response = re.sub(r'[*\\-\\\\\\/]', '', limited_response)\n    speaking = True",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "play_audio",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def play_audio(filename):\n    # Add your audio playing logic here\n    print(f\"Playing {filename}...\")\n# Set the console to use UTF-8 encoding for Unicode characters\nsys.stdout.reconfigure(encoding='utf-8')\n# Load environment variables from .env file\nload_dotenv()\n# Check for available device (GPU or CPU)\ndevice = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n# Load the model",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_sentence",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def preprocess_sentence(sentence):\n    \"\"\"Tokenizes, stems, and lemmatizes the input sentence.\"\"\"\n    tokens = tokenize(sentence)\n    stemmed_words = [stemmer.stem(word.lower()) for word in tokens]\n    lemmatized_words = [lemmatizer.lemmatize(word.lower()) for word in tokens]\n    return set(stemmed_words), set(lemmatized_words)\ndef get_sentence_vector(sentence):\n    \"\"\"Get the average word vector for a sentence.\"\"\"\n    words = sentence.lower().split()\n    word_vectors_list = [word_vectors[word] for word in words if word in word_vectors]",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_sentence_vector",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_sentence_vector(sentence):\n    \"\"\"Get the average word vector for a sentence.\"\"\"\n    words = sentence.lower().split()\n    word_vectors_list = [word_vectors[word] for word in words if word in word_vectors]\n    if not word_vectors_list:\n        return None\n    return np.mean(word_vectors_list, axis=0)\ndef match_intent(user_input):\n    \"\"\"Match user input to the best intent using TF-IDF, cosine similarity, and word embeddings.\"\"\"\n    stemmed_input, lemmatized_input = preprocess_sentence(user_input)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "match_intent",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def match_intent(user_input):\n    \"\"\"Match user input to the best intent using TF-IDF, cosine similarity, and word embeddings.\"\"\"\n    stemmed_input, lemmatized_input = preprocess_sentence(user_input)\n    input_vector = tfidf_vectorizer.transform([user_input])\n    input_embedding = get_sentence_vector(user_input)\n    best_match_tag = None\n    best_match_score = 0\n    for intent in intents:\n        if isinstance(intent, dict):\n            tag = intent['tag']",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_model_response",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_model_response(user_input):\n    \"\"\"Get a response from the custom intent model.\"\"\"\n    # Get the predicted intent and probability\n    tag, prob = match_intent(user_input)\n    # Confidence threshold\n    if prob > 0.6:\n        for intent in intents:\n            if intent['tag'] == tag:\n                # Pick a random response from the intent's responses\n                model_response = random.choice(intent['responses'])",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "handle_special_cases",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def handle_special_cases(user_input):\n    \"\"\"Handle special cases like opening a specific location map or responding to a general map request.\"\"\"\n    # Mapping of keywords to dropdown values\n    location_mapping = {\n    'auditorium': 'auditorium',\n    'multipurpose': 'multipurposeHall',\n    'information': 'informationDesk',\n    'lobby': 'lobby',\n    'admission': 'admissionOffice',\n    'canteen': 'helloCenter',",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n    return render_template('index.html', user_input=user_input_data, bot_reply=bot_reply_data)\n@app.route(\"/map\")\ndef map():\n    return render_template('map.html')\n@app.route(\"/get_data\")\ndef get_data():\n    \"\"\"Endpoint to get the latest user input and bot response.\"\"\"\n    return jsonify({\n        'user_input': user_input_data,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "map",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def map():\n    return render_template('map.html')\n@app.route(\"/get_data\")\ndef get_data():\n    \"\"\"Endpoint to get the latest user input and bot response.\"\"\"\n    return jsonify({\n        'user_input': user_input_data,\n        'bot_reply': bot_reply_data\n    })\n@app.route(\"/get_system_status\", methods=[\"GET\"])",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_data",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_data():\n    \"\"\"Endpoint to get the latest user input and bot response.\"\"\"\n    return jsonify({\n        'user_input': user_input_data,\n        'bot_reply': bot_reply_data\n    })\n@app.route(\"/get_system_status\", methods=[\"GET\"])\ndef get_system_status():\n    global system_status\n    return jsonify({\"status\": system_status})",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_status",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_system_status():\n    global system_status\n    return jsonify({\"status\": system_status})\n@app.route(\"/set_system_status/<status>\", methods=[\"POST\"])\ndef set_system_status(status):\n    global system_status\n    system_status = status\n    return jsonify({\"status\": \"success\"})\nif __name__ == \"__main__\":\n    # Initialize pygame (important to do this before using mixer)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "set_system_status",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def set_system_status(status):\n    global system_status\n    system_status = status\n    return jsonify({\"status\": \"success\"})\nif __name__ == \"__main__\":\n    # Initialize pygame (important to do this before using mixer)\n    pygame.init()\n    # Run the Flask app in a separate thread\n    import threading\n    flask_thread = threading.Thread(target=lambda: app.run(debug=True, use_reloader=False))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\nlemmatizer = WordNetLemmatizer()\nstemmer = PorterStemmer()\nrecognizer = sr.Recognizer()\nengine = pyttsx3.init()\n# Set the initial language for recognition and response\nlanguage = 'en-US'  \nuse_gtts = False\n# Flag to manage whether the system is speaking\nspeaking = False",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "lemmatizer",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "lemmatizer = WordNetLemmatizer()\nstemmer = PorterStemmer()\nrecognizer = sr.Recognizer()\nengine = pyttsx3.init()\n# Set the initial language for recognition and response\nlanguage = 'en-US'  \nuse_gtts = False\n# Flag to manage whether the system is speaking\nspeaking = False\n# Load intents from both JSON files with utf-8 encoding",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "stemmer",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "stemmer = PorterStemmer()\nrecognizer = sr.Recognizer()\nengine = pyttsx3.init()\n# Set the initial language for recognition and response\nlanguage = 'en-US'  \nuse_gtts = False\n# Flag to manage whether the system is speaking\nspeaking = False\n# Load intents from both JSON files with utf-8 encoding\nintents = []",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "recognizer",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "recognizer = sr.Recognizer()\nengine = pyttsx3.init()\n# Set the initial language for recognition and response\nlanguage = 'en-US'  \nuse_gtts = False\n# Flag to manage whether the system is speaking\nspeaking = False\n# Load intents from both JSON files with utf-8 encoding\nintents = []\nwith open('intents.json', 'r', encoding='utf-8') as json_data:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "engine = pyttsx3.init()\n# Set the initial language for recognition and response\nlanguage = 'en-US'  \nuse_gtts = False\n# Flag to manage whether the system is speaking\nspeaking = False\n# Load intents from both JSON files with utf-8 encoding\nintents = []\nwith open('intents.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "language",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "language = 'en-US'  \nuse_gtts = False\n# Flag to manage whether the system is speaking\nspeaking = False\n# Load intents from both JSON files with utf-8 encoding\nintents = []\nwith open('intents.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\nwith open('intents_bengali.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "use_gtts",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "use_gtts = False\n# Flag to manage whether the system is speaking\nspeaking = False\n# Load intents from both JSON files with utf-8 encoding\nintents = []\nwith open('intents.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\nwith open('intents_bengali.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\n# Load pre-trained word embeddings",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "speaking",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "speaking = False\n# Load intents from both JSON files with utf-8 encoding\nintents = []\nwith open('intents.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\nwith open('intents_bengali.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\n# Load pre-trained word embeddings\nprint(\"Loading word embeddings...\")\nword_vectors = api.load(\"glove-wiki-gigaword-100\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "intents",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "intents = []\nwith open('intents.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\nwith open('intents_bengali.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\n# Load pre-trained word embeddings\nprint(\"Loading word embeddings...\")\nword_vectors = api.load(\"glove-wiki-gigaword-100\")\nprint(\"Word embeddings loaded.\")\n# Initialize TF-IDF vectorizer",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "word_vectors",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "word_vectors = api.load(\"glove-wiki-gigaword-100\")\nprint(\"Word embeddings loaded.\")\n# Initialize TF-IDF vectorizer\ntfidf_vectorizer = TfidfVectorizer()\n# Prepare corpus for TF-IDF\ncorpus = []\nfor intent in intents:\n    if isinstance(intent, dict):\n        corpus.extend(intent['patterns'])\n# Fit TF-IDF vectorizer",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "tfidf_vectorizer",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "tfidf_vectorizer = TfidfVectorizer()\n# Prepare corpus for TF-IDF\ncorpus = []\nfor intent in intents:\n    if isinstance(intent, dict):\n        corpus.extend(intent['patterns'])\n# Fit TF-IDF vectorizer\ntfidf_matrix = tfidf_vectorizer.fit_transform(corpus)\n# Set the initial language for recognition and response\nlanguage = 'en-US'  # Default to English",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "corpus",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "corpus = []\nfor intent in intents:\n    if isinstance(intent, dict):\n        corpus.extend(intent['patterns'])\n# Fit TF-IDF vectorizer\ntfidf_matrix = tfidf_vectorizer.fit_transform(corpus)\n# Set the initial language for recognition and response\nlanguage = 'en-US'  # Default to English\nuse_gtts = False  # Default to pyttsx3 for English responses\n# Flag to manage whether the system is speaking",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "tfidf_matrix",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "tfidf_matrix = tfidf_vectorizer.fit_transform(corpus)\n# Set the initial language for recognition and response\nlanguage = 'en-US'  # Default to English\nuse_gtts = False  # Default to pyttsx3 for English responses\n# Flag to manage whether the system is speaking\nspeaking = False\n# Global variables to store the \"You said\" and \"Bot\" responses\nuser_input_data = \"\"\nbot_reply_data = \"\"\nsystem_status = \"Ready\"  # Initialize system status",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "language",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "language = 'en-US'  # Default to English\nuse_gtts = False  # Default to pyttsx3 for English responses\n# Flag to manage whether the system is speaking\nspeaking = False\n# Global variables to store the \"You said\" and \"Bot\" responses\nuser_input_data = \"\"\nbot_reply_data = \"\"\nsystem_status = \"Ready\"  # Initialize system status\ndef listen():\n    \"\"\"Capture and recognize speech, returning the recognized text.\"\"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "use_gtts",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "use_gtts = False  # Default to pyttsx3 for English responses\n# Flag to manage whether the system is speaking\nspeaking = False\n# Global variables to store the \"You said\" and \"Bot\" responses\nuser_input_data = \"\"\nbot_reply_data = \"\"\nsystem_status = \"Ready\"  # Initialize system status\ndef listen():\n    \"\"\"Capture and recognize speech, returning the recognized text.\"\"\"\n    global language, use_gtts, speaking, user_input_data",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "speaking",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "speaking = False\n# Global variables to store the \"You said\" and \"Bot\" responses\nuser_input_data = \"\"\nbot_reply_data = \"\"\nsystem_status = \"Ready\"  # Initialize system status\ndef listen():\n    \"\"\"Capture and recognize speech, returning the recognized text.\"\"\"\n    global language, use_gtts, speaking, user_input_data\n    # Wait until speaking is finished before listening\n    while speaking:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "user_input_data",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "user_input_data = \"\"\nbot_reply_data = \"\"\nsystem_status = \"Ready\"  # Initialize system status\ndef listen():\n    \"\"\"Capture and recognize speech, returning the recognized text.\"\"\"\n    global language, use_gtts, speaking, user_input_data\n    # Wait until speaking is finished before listening\n    while speaking:\n        time.sleep(0.1)\n    with sr.Microphone() as source:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "bot_reply_data",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "bot_reply_data = \"\"\nsystem_status = \"Ready\"  # Initialize system status\ndef listen():\n    \"\"\"Capture and recognize speech, returning the recognized text.\"\"\"\n    global language, use_gtts, speaking, user_input_data\n    # Wait until speaking is finished before listening\n    while speaking:\n        time.sleep(0.1)\n    with sr.Microphone() as source:\n        print(\"Listening...\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "system_status",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "system_status = \"Ready\"  # Initialize system status\ndef listen():\n    \"\"\"Capture and recognize speech, returning the recognized text.\"\"\"\n    global language, use_gtts, speaking, user_input_data\n    # Wait until speaking is finished before listening\n    while speaking:\n        time.sleep(0.1)\n    with sr.Microphone() as source:\n        print(\"Listening...\")\n        recognizer.adjust_for_ambient_noise(source, duration=0.5)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n# Load the model\nFILE = \"data.pth\"\ndata = torch.load(FILE, weights_only=True)\ninput_size = data[\"input_size\"]\nhidden_size = data[\"hidden_size\"]\noutput_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "FILE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "FILE = \"data.pth\"\ndata = torch.load(FILE, weights_only=True)\ninput_size = data[\"input_size\"]\nhidden_size = data[\"hidden_size\"]\noutput_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "data = torch.load(FILE, weights_only=True)\ninput_size = data[\"input_size\"]\nhidden_size = data[\"hidden_size\"]\noutput_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "input_size",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "input_size = data[\"input_size\"]\nhidden_size = data[\"hidden_size\"]\noutput_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "hidden_size",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "hidden_size = data[\"hidden_size\"]\noutput_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "output_size",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "output_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "all_words",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "all_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable\ndef preprocess_sentence(sentence):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "tags",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "tags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable\ndef preprocess_sentence(sentence):\n    \"\"\"Tokenizes, stems, and lemmatizes the input sentence.\"\"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "model_state",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "model_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable\ndef preprocess_sentence(sentence):\n    \"\"\"Tokenizes, stems, and lemmatizes the input sentence.\"\"\"\n    tokens = tokenize(sentence)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "model = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable\ndef preprocess_sentence(sentence):\n    \"\"\"Tokenizes, stems, and lemmatizes the input sentence.\"\"\"\n    tokens = tokenize(sentence)\n    stemmed_words = [stemmer.stem(word.lower()) for word in tokens]\n    lemmatized_words = [lemmatizer.lemmatize(word.lower()) for word in tokens]",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "bot_name",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "bot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable\ndef preprocess_sentence(sentence):\n    \"\"\"Tokenizes, stems, and lemmatizes the input sentence.\"\"\"\n    tokens = tokenize(sentence)\n    stemmed_words = [stemmer.stem(word.lower()) for word in tokens]\n    lemmatized_words = [lemmatizer.lemmatize(word.lower()) for word in tokens]\n    return set(stemmed_words), set(lemmatized_words)\ndef get_sentence_vector(sentence):\n    \"\"\"Get the average word vector for a sentence.\"\"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "current_context",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "current_context = None  # Initialize current_context variable\ndef preprocess_sentence(sentence):\n    \"\"\"Tokenizes, stems, and lemmatizes the input sentence.\"\"\"\n    tokens = tokenize(sentence)\n    stemmed_words = [stemmer.stem(word.lower()) for word in tokens]\n    lemmatized_words = [lemmatizer.lemmatize(word.lower()) for word in tokens]\n    return set(stemmed_words), set(lemmatized_words)\ndef get_sentence_vector(sentence):\n    \"\"\"Get the average word vector for a sentence.\"\"\"\n    words = sentence.lower().split()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_classifier",
+        "kind": 2,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "def evaluate_classifier(clf, X, y, classifier_name):\n    if classifier_name == \"NeuralNet\":\n        # NeuralNet predictions\n        X_tensor = torch.from_numpy(X).float()\n        with torch.no_grad():\n            outputs = clf(X_tensor)\n            _, predicted = torch.max(outputs, 1)\n            predicted = predicted.numpy()\n    else:\n        # Fit and predict for sklearn models",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "FILE",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "FILE = \"data.pth\"\ndata = torch.load(FILE)\ninput_size = data['input_size']\nhidden_size = data['hidden_size']\noutput_size = data['output_size']\nall_words = data['all_words']\ntags = data['tags']\n# Load model\nmodel = NeuralNet(input_size, hidden_size, output_size)\nmodel.load_state_dict(data['model_state'])",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "data = torch.load(FILE)\ninput_size = data['input_size']\nhidden_size = data['hidden_size']\noutput_size = data['output_size']\nall_words = data['all_words']\ntags = data['tags']\n# Load model\nmodel = NeuralNet(input_size, hidden_size, output_size)\nmodel.load_state_dict(data['model_state'])\nmodel.eval()",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "input_size",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "input_size = data['input_size']\nhidden_size = data['hidden_size']\noutput_size = data['output_size']\nall_words = data['all_words']\ntags = data['tags']\n# Load model\nmodel = NeuralNet(input_size, hidden_size, output_size)\nmodel.load_state_dict(data['model_state'])\nmodel.eval()\n# Load intents",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "hidden_size",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "hidden_size = data['hidden_size']\noutput_size = data['output_size']\nall_words = data['all_words']\ntags = data['tags']\n# Load model\nmodel = NeuralNet(input_size, hidden_size, output_size)\nmodel.load_state_dict(data['model_state'])\nmodel.eval()\n# Load intents\nintents_files = ['intents.json', 'intents_bengali.json']",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "output_size",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "output_size = data['output_size']\nall_words = data['all_words']\ntags = data['tags']\n# Load model\nmodel = NeuralNet(input_size, hidden_size, output_size)\nmodel.load_state_dict(data['model_state'])\nmodel.eval()\n# Load intents\nintents_files = ['intents.json', 'intents_bengali.json']\nintents = []",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "all_words",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "all_words = data['all_words']\ntags = data['tags']\n# Load model\nmodel = NeuralNet(input_size, hidden_size, output_size)\nmodel.load_state_dict(data['model_state'])\nmodel.eval()\n# Load intents\nintents_files = ['intents.json', 'intents_bengali.json']\nintents = []\nfor file in intents_files:",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "tags",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "tags = data['tags']\n# Load model\nmodel = NeuralNet(input_size, hidden_size, output_size)\nmodel.load_state_dict(data['model_state'])\nmodel.eval()\n# Load intents\nintents_files = ['intents.json', 'intents_bengali.json']\nintents = []\nfor file in intents_files:\n    with open(file, 'r', encoding='utf-8') as f:",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "model = NeuralNet(input_size, hidden_size, output_size)\nmodel.load_state_dict(data['model_state'])\nmodel.eval()\n# Load intents\nintents_files = ['intents.json', 'intents_bengali.json']\nintents = []\nfor file in intents_files:\n    with open(file, 'r', encoding='utf-8') as f:\n        data = json.load(f)\n        intents.extend(data['intents'])",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "intents_files",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "intents_files = ['intents.json', 'intents_bengali.json']\nintents = []\nfor file in intents_files:\n    with open(file, 'r', encoding='utf-8') as f:\n        data = json.load(f)\n        intents.extend(data['intents'])\n# Prepare test data\ntest_sentences = []\ntest_labels = []\nfor intent in intents:",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "intents",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "intents = []\nfor file in intents_files:\n    with open(file, 'r', encoding='utf-8') as f:\n        data = json.load(f)\n        intents.extend(data['intents'])\n# Prepare test data\ntest_sentences = []\ntest_labels = []\nfor intent in intents:\n    for pattern in intent['patterns']:",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "test_sentences",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "test_sentences = []\ntest_labels = []\nfor intent in intents:\n    for pattern in intent['patterns']:\n        test_sentences.append(pattern)\n        test_labels.append(intent['tag'])\n# Tokenize and create bag of words for test data\nX_test = []\ny_test = []\nfor sentence, label in zip(test_sentences, test_labels):",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "test_labels",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "test_labels = []\nfor intent in intents:\n    for pattern in intent['patterns']:\n        test_sentences.append(pattern)\n        test_labels.append(intent['tag'])\n# Tokenize and create bag of words for test data\nX_test = []\ny_test = []\nfor sentence, label in zip(test_sentences, test_labels):\n    bag = bag_of_words(tokenize(sentence), all_words)",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "X_test",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "X_test = []\ny_test = []\nfor sentence, label in zip(test_sentences, test_labels):\n    bag = bag_of_words(tokenize(sentence), all_words)\n    X_test.append(bag)\n    y_test.append(tags.index(label))\nX_test = np.array(X_test)\ny_test = np.array(y_test)\n# Evaluation metrics storage\nmetrics = []",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "y_test",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "y_test = []\nfor sentence, label in zip(test_sentences, test_labels):\n    bag = bag_of_words(tokenize(sentence), all_words)\n    X_test.append(bag)\n    y_test.append(tags.index(label))\nX_test = np.array(X_test)\ny_test = np.array(y_test)\n# Evaluation metrics storage\nmetrics = []\n# Define classifiers",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "X_test",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "X_test = np.array(X_test)\ny_test = np.array(y_test)\n# Evaluation metrics storage\nmetrics = []\n# Define classifiers\nclassifiers = {\n    \"NeuralNet\": model,\n    \"LogisticRegression\": LogisticRegression(max_iter=1000),\n    \"RandomForest\": RandomForestClassifier(n_estimators=100),\n    \"SVM\": SVC(probability=True),",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "y_test",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "y_test = np.array(y_test)\n# Evaluation metrics storage\nmetrics = []\n# Define classifiers\nclassifiers = {\n    \"NeuralNet\": model,\n    \"LogisticRegression\": LogisticRegression(max_iter=1000),\n    \"RandomForest\": RandomForestClassifier(n_estimators=100),\n    \"SVM\": SVC(probability=True),\n    \"KNeighbors\": KNeighborsClassifier(),",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "metrics",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "metrics = []\n# Define classifiers\nclassifiers = {\n    \"NeuralNet\": model,\n    \"LogisticRegression\": LogisticRegression(max_iter=1000),\n    \"RandomForest\": RandomForestClassifier(n_estimators=100),\n    \"SVM\": SVC(probability=True),\n    \"KNeighbors\": KNeighborsClassifier(),\n    \"NaiveBayes\": GaussianNB()\n}",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "classifiers",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "classifiers = {\n    \"NeuralNet\": model,\n    \"LogisticRegression\": LogisticRegression(max_iter=1000),\n    \"RandomForest\": RandomForestClassifier(n_estimators=100),\n    \"SVM\": SVC(probability=True),\n    \"KNeighbors\": KNeighborsClassifier(),\n    \"NaiveBayes\": GaussianNB()\n}\n# Function to evaluate the classifier\ndef evaluate_classifier(clf, X, y, classifier_name):",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "metrics_df",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "metrics_df = pd.DataFrame(metrics)\noutput_dir = \"evaluation_metrics\"\nif not os.path.exists(output_dir):\n    os.makedirs(output_dir)\nexcel_path = os.path.join(output_dir, 'evaluation_metrics.xlsx')\nwith pd.ExcelWriter(excel_path) as writer:\n    metrics_df.to_excel(writer, index=False, sheet_name='Metrics')\nprint(\"Evaluation complete. Metrics saved in 'evaluation_metrics/evaluation_metrics.xlsx'.\")",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "output_dir",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "output_dir = \"evaluation_metrics\"\nif not os.path.exists(output_dir):\n    os.makedirs(output_dir)\nexcel_path = os.path.join(output_dir, 'evaluation_metrics.xlsx')\nwith pd.ExcelWriter(excel_path) as writer:\n    metrics_df.to_excel(writer, index=False, sheet_name='Metrics')\nprint(\"Evaluation complete. Metrics saved in 'evaluation_metrics/evaluation_metrics.xlsx'.\")",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "excel_path",
+        "kind": 5,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "excel_path = os.path.join(output_dir, 'evaluation_metrics.xlsx')\nwith pd.ExcelWriter(excel_path) as writer:\n    metrics_df.to_excel(writer, index=False, sheet_name='Metrics')\nprint(\"Evaluation complete. Metrics saved in 'evaluation_metrics/evaluation_metrics.xlsx'.\")",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "NeuralNet",
+        "kind": 6,
+        "importPath": "model",
+        "description": "model",
+        "peekOfCode": "class NeuralNet(nn.Module):\n    def __init__(self, input_size, hidden_size, num_classes):\n        super(NeuralNet, self).__init__()\n        self.l1 = nn.Linear(input_size, hidden_size)\n        self.l2 = nn.Linear(hidden_size, hidden_size)\n        self.l3 = nn.Linear(hidden_size, num_classes)\n        self.relu = nn.ReLU()\n    def forward(self, x):\n        out = self.l1(x)\n        out = self.relu(out)",
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize",
+        "kind": 2,
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "peekOfCode": "def tokenize(sentence):\n    \"\"\"\n    split sentence into array of words/tokens\n    a token can be a word or punctuation character, or number\n    \"\"\"\n    # Convert to lowercase and remove extra whitespace\n    sentence = sentence.lower().strip()\n    # Split on whitespace and punctuation\n    tokens = re.findall(r'\\b\\w+\\b|[.,!?;]', sentence)\n    return tokens",
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "stem",
+        "kind": 2,
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "peekOfCode": "def stem(word):\n    \"\"\"\n    stemming = find the root form of the word\n    examples:\n    words = [\"organize\", \"organizes\", \"organizing\"]\n    words = [stem(w) for w in words]\n    -> [\"organ\", \"organ\", \"organ\"]\n    \"\"\"\n    return stemmer.stem(word.lower())\ndef bag_of_words(tokenized_sentence, words):",
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "bag_of_words",
+        "kind": 2,
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "peekOfCode": "def bag_of_words(tokenized_sentence, words):\n    \"\"\"\n    return bag of words array:\n    1 for each known word that exists in the sentence, 0 otherwise\n    example:\n    sentence = [\"hello\", \"how\", \"are\", \"you\"]\n    words = [\"hi\", \"hello\", \"I\", \"you\", \"bye\", \"thank\", \"cool\"]\n    bog   = [  0 ,    1 ,    0 ,   1 ,    0 ,    0 ,      0]\n    \"\"\"\n    # stem each word",
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "stemmer",
+        "kind": 5,
+        "importPath": "nltk_utils",
+        "description": "nltk_utils",
+        "peekOfCode": "stemmer = PorterStemmer()\ndef tokenize(sentence):\n    \"\"\"\n    split sentence into array of words/tokens\n    a token can be a word or punctuation character, or number\n    \"\"\"\n    # Convert to lowercase and remove extra whitespace\n    sentence = sentence.lower().strip()\n    # Split on whitespace and punctuation\n    tokens = re.findall(r'\\b\\w+\\b|[.,!?;]', sentence)",
+        "detail": "nltk_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_response",
+        "kind": 2,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "def get_response(msg):\n    global current_context  # Use the global variable\n    # Check for context and update it\n    if current_context and not any(context in msg for context in current_context):\n        msg = f\"{current_context[0]} {msg}\"\n    sentence = tokenize(msg)\n    X = bag_of_words(sentence, all_words)\n    X = X.reshape(1, X.shape[0])\n    X = torch.from_numpy(X).to(device)\n    output = model(X)",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "run_chatbot",
+        "kind": 2,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "def run_chatbot():\n    print(f\"{bot_name}: Hello! I am here to assist you. Type 'exit' to quit the chat.\")\n    while True:\n        user_input = input(\"You: \")\n        if user_input.lower() == 'exit':\n            print(f\"{bot_name}: Goodbye!\")\n            break\n        response = get_response(user_input)\n        print(f\"{bot_name}: {response}\")\nif __name__ == \"__main__\":",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n# Load intents from both JSON files with utf-8 encoding\nintents = []\nwith open('intents.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\nwith open('intents_bengali.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\n# Debugging: Print the structure of loaded intents\nprint(f\"Loaded intents: {intents}\")  # Add this line to check structure\n# Load the model",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "intents",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "intents = []\nwith open('intents.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\nwith open('intents_bengali.json', 'r', encoding='utf-8') as json_data:\n    intents += json.load(json_data)['intents']  # Use += to add list elements\n# Debugging: Print the structure of loaded intents\nprint(f\"Loaded intents: {intents}\")  # Add this line to check structure\n# Load the model\nFILE = \"data.pth\"\ndata = torch.load(FILE, weights_only=True)",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "FILE",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "FILE = \"data.pth\"\ndata = torch.load(FILE, weights_only=True)\ninput_size = data[\"input_size\"]\nhidden_size = data[\"hidden_size\"]\noutput_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "data = torch.load(FILE, weights_only=True)\ninput_size = data[\"input_size\"]\nhidden_size = data[\"hidden_size\"]\noutput_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "input_size",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "input_size = data[\"input_size\"]\nhidden_size = data[\"hidden_size\"]\noutput_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "hidden_size",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "hidden_size = data[\"hidden_size\"]\noutput_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "output_size",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "output_size = data[\"output_size\"]\nall_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "all_words",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "all_words = data['all_words']\ntags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable\ndef get_response(msg):",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "tags",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "tags = data['tags']\nmodel_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable\ndef get_response(msg):\n    global current_context  # Use the global variable",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "model_state",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "model_state = data[\"model_state\"]\n# Initialize the neural network model\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable\ndef get_response(msg):\n    global current_context  # Use the global variable\n    # Check for context and update it",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "model = NeuralNet(input_size, hidden_size, output_size).to(device)\nmodel.load_state_dict(model_state)\nmodel.eval()\nbot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable\ndef get_response(msg):\n    global current_context  # Use the global variable\n    # Check for context and update it\n    if current_context and not any(context in msg for context in current_context):\n        msg = f\"{current_context[0]} {msg}\"",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "bot_name",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "bot_name = \"bili\"\ncurrent_context = None  # Initialize current_context variable\ndef get_response(msg):\n    global current_context  # Use the global variable\n    # Check for context and update it\n    if current_context and not any(context in msg for context in current_context):\n        msg = f\"{current_context[0]} {msg}\"\n    sentence = tokenize(msg)\n    X = bag_of_words(sentence, all_words)\n    X = X.reshape(1, X.shape[0])",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "current_context",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "current_context = None  # Initialize current_context variable\ndef get_response(msg):\n    global current_context  # Use the global variable\n    # Check for context and update it\n    if current_context and not any(context in msg for context in current_context):\n        msg = f\"{current_context[0]} {msg}\"\n    sentence = tokenize(msg)\n    X = bag_of_words(sentence, all_words)\n    X = X.reshape(1, X.shape[0])\n    X = torch.from_numpy(X).to(device)",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "ChatDataset",
+        "kind": 6,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "class ChatDataset(Dataset):\n    def __init__(self):\n        self.n_samples = len(X_train)\n        self.x_data = X_train\n        self.y_data = y_train\n    # Support indexing such that dataset[i] can be used to get i-th sample\n    def __getitem__(self, index):\n        return self.x_data[index], self.y_data[index]\n    # We can call len(dataset) to return the size\n    def __len__(self):",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "intents_files",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "intents_files = ['intents.json', 'intents_bengali.json']\nintents = []\nfor file in intents_files:\n    with open(file, 'r', encoding='utf-8') as f:\n        data = json.load(f)\n        print(f\"Loaded data from {file}:\", data)  # Debugging line\n        intents.extend(data['intents'])  # Ensure data['intents'] is a list of intents\n# Process each intent\nall_words = []\ntags = []",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "intents",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "intents = []\nfor file in intents_files:\n    with open(file, 'r', encoding='utf-8') as f:\n        data = json.load(f)\n        print(f\"Loaded data from {file}:\", data)  # Debugging line\n        intents.extend(data['intents'])  # Ensure data['intents'] is a list of intents\n# Process each intent\nall_words = []\ntags = []\nxy = []",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "all_words",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "all_words = []\ntags = []\nxy = []\nfor intent in intents:\n    if isinstance(intent, dict):  # Check if intent is a dict\n        tag = intent['tag']\n        tags.append(tag)\n        for pattern in intent['patterns']:\n            w = tokenize(pattern)  # Ensure tokenize function is defined\n            all_words.extend(w)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "tags",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "tags = []\nxy = []\nfor intent in intents:\n    if isinstance(intent, dict):  # Check if intent is a dict\n        tag = intent['tag']\n        tags.append(tag)\n        for pattern in intent['patterns']:\n            w = tokenize(pattern)  # Ensure tokenize function is defined\n            all_words.extend(w)\n            context_set = intent.get('context_set', [])",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "xy",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "xy = []\nfor intent in intents:\n    if isinstance(intent, dict):  # Check if intent is a dict\n        tag = intent['tag']\n        tags.append(tag)\n        for pattern in intent['patterns']:\n            w = tokenize(pattern)  # Ensure tokenize function is defined\n            all_words.extend(w)\n            context_set = intent.get('context_set', [])\n            xy.append((w, tag, context_set))",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "ignore_words",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "ignore_words = ['?', '.', '!']\nall_words = [stem(w) for w in all_words if w not in ignore_words]\n# Remove duplicates and sort\nall_words = sorted(set(all_words))\ntags = sorted(set(tags))\nprint(len(xy), \"patterns\")\nprint(len(tags), \"tags:\", tags)\nprint(len(all_words), \"unique stemmed words:\", all_words)\n# Create training data\nX_train = []",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "all_words",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "all_words = [stem(w) for w in all_words if w not in ignore_words]\n# Remove duplicates and sort\nall_words = sorted(set(all_words))\ntags = sorted(set(tags))\nprint(len(xy), \"patterns\")\nprint(len(tags), \"tags:\", tags)\nprint(len(all_words), \"unique stemmed words:\", all_words)\n# Create training data\nX_train = []\ny_train = []",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "all_words",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "all_words = sorted(set(all_words))\ntags = sorted(set(tags))\nprint(len(xy), \"patterns\")\nprint(len(tags), \"tags:\", tags)\nprint(len(all_words), \"unique stemmed words:\", all_words)\n# Create training data\nX_train = []\ny_train = []\nfor (pattern_sentence, tag, context_set) in xy:\n    # X: bag of words for each pattern_sentence",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "tags",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "tags = sorted(set(tags))\nprint(len(xy), \"patterns\")\nprint(len(tags), \"tags:\", tags)\nprint(len(all_words), \"unique stemmed words:\", all_words)\n# Create training data\nX_train = []\ny_train = []\nfor (pattern_sentence, tag, context_set) in xy:\n    # X: bag of words for each pattern_sentence\n    bag = bag_of_words(pattern_sentence, all_words)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "X_train",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "X_train = []\ny_train = []\nfor (pattern_sentence, tag, context_set) in xy:\n    # X: bag of words for each pattern_sentence\n    bag = bag_of_words(pattern_sentence, all_words)\n    X_train.append(bag)\n    # y: PyTorch CrossEntropyLoss needs only class labels, not one-hot\n    label = tags.index(tag)\n    y_train.append(label)\nX_train = np.array(X_train)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "y_train",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "y_train = []\nfor (pattern_sentence, tag, context_set) in xy:\n    # X: bag of words for each pattern_sentence\n    bag = bag_of_words(pattern_sentence, all_words)\n    X_train.append(bag)\n    # y: PyTorch CrossEntropyLoss needs only class labels, not one-hot\n    label = tags.index(tag)\n    y_train.append(label)\nX_train = np.array(X_train)\ny_train = np.array(y_train)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "X_train",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "X_train = np.array(X_train)\ny_train = np.array(y_train)\n# Hyper-parameters\nnum_epochs = 20000\nbatch_size = 32\nlearning_rate = 0.01\ninput_size = len(X_train[0])\nhidden_size = 64\noutput_size = len(tags)\nprint(input_size, output_size)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "y_train",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "y_train = np.array(y_train)\n# Hyper-parameters\nnum_epochs = 20000\nbatch_size = 32\nlearning_rate = 0.01\ninput_size = len(X_train[0])\nhidden_size = 64\noutput_size = len(tags)\nprint(input_size, output_size)\nclass ChatDataset(Dataset):",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "num_epochs",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "num_epochs = 20000\nbatch_size = 32\nlearning_rate = 0.01\ninput_size = len(X_train[0])\nhidden_size = 64\noutput_size = len(tags)\nprint(input_size, output_size)\nclass ChatDataset(Dataset):\n    def __init__(self):\n        self.n_samples = len(X_train)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "batch_size",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "batch_size = 32\nlearning_rate = 0.01\ninput_size = len(X_train[0])\nhidden_size = 64\noutput_size = len(tags)\nprint(input_size, output_size)\nclass ChatDataset(Dataset):\n    def __init__(self):\n        self.n_samples = len(X_train)\n        self.x_data = X_train",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "learning_rate",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "learning_rate = 0.01\ninput_size = len(X_train[0])\nhidden_size = 64\noutput_size = len(tags)\nprint(input_size, output_size)\nclass ChatDataset(Dataset):\n    def __init__(self):\n        self.n_samples = len(X_train)\n        self.x_data = X_train\n        self.y_data = y_train",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "input_size",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "input_size = len(X_train[0])\nhidden_size = 64\noutput_size = len(tags)\nprint(input_size, output_size)\nclass ChatDataset(Dataset):\n    def __init__(self):\n        self.n_samples = len(X_train)\n        self.x_data = X_train\n        self.y_data = y_train\n    # Support indexing such that dataset[i] can be used to get i-th sample",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "hidden_size",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "hidden_size = 64\noutput_size = len(tags)\nprint(input_size, output_size)\nclass ChatDataset(Dataset):\n    def __init__(self):\n        self.n_samples = len(X_train)\n        self.x_data = X_train\n        self.y_data = y_train\n    # Support indexing such that dataset[i] can be used to get i-th sample\n    def __getitem__(self, index):",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "output_size",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "output_size = len(tags)\nprint(input_size, output_size)\nclass ChatDataset(Dataset):\n    def __init__(self):\n        self.n_samples = len(X_train)\n        self.x_data = X_train\n        self.y_data = y_train\n    # Support indexing such that dataset[i] can be used to get i-th sample\n    def __getitem__(self, index):\n        return self.x_data[index], self.y_data[index]",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "dataset",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "dataset = ChatDataset()\ntrain_loader = DataLoader(dataset=dataset,\n                          batch_size=batch_size,\n                          shuffle=True,\n                          num_workers=0)\ndevice = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\n# Loss and optimizer\ncriterion = nn.CrossEntropyLoss()\noptimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "train_loader",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "train_loader = DataLoader(dataset=dataset,\n                          batch_size=batch_size,\n                          shuffle=True,\n                          num_workers=0)\ndevice = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\n# Loss and optimizer\ncriterion = nn.CrossEntropyLoss()\noptimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)\n# Train the model",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\nmodel = NeuralNet(input_size, hidden_size, output_size).to(device)\n# Loss and optimizer\ncriterion = nn.CrossEntropyLoss()\noptimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)\n# Train the model\nfor epoch in range(num_epochs):\n    for (words, labels) in train_loader:\n        words = words.to(device)\n        labels = labels.to(dtype=torch.long).to(device)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "model = NeuralNet(input_size, hidden_size, output_size).to(device)\n# Loss and optimizer\ncriterion = nn.CrossEntropyLoss()\noptimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)\n# Train the model\nfor epoch in range(num_epochs):\n    for (words, labels) in train_loader:\n        words = words.to(device)\n        labels = labels.to(dtype=torch.long).to(device)\n        # Forward pass",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "criterion",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "criterion = nn.CrossEntropyLoss()\noptimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)\n# Train the model\nfor epoch in range(num_epochs):\n    for (words, labels) in train_loader:\n        words = words.to(device)\n        labels = labels.to(dtype=torch.long).to(device)\n        # Forward pass\n        outputs = model(words)\n        loss = criterion(outputs, labels)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "optimizer",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)\n# Train the model\nfor epoch in range(num_epochs):\n    for (words, labels) in train_loader:\n        words = words.to(device)\n        labels = labels.to(dtype=torch.long).to(device)\n        # Forward pass\n        outputs = model(words)\n        loss = criterion(outputs, labels)\n        # Backward and optimize",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "data = {\n    \"model_state\": model.state_dict(),\n    \"input_size\": input_size,\n    \"hidden_size\": hidden_size,\n    \"output_size\": output_size,\n    \"all_words\": all_words,\n    \"tags\": tags\n}\nFILE = \"data.pth\"\ntorch.save(data, FILE)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "FILE",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "FILE = \"data.pth\"\ntorch.save(data, FILE)\nprint(f'training complete. file saved to {FILE}')",
+        "detail": "train",
+        "documentation": {}
+    }
+]
